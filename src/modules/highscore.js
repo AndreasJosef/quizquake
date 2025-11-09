@@ -1,36 +1,51 @@
-// OSMAN
+// ====================================================
+// Step 1: the key used in localStorage
+// ====================================================
+const STORAGE_KEY = "quiz_highscores";
 
-// save top ten scores in localstorage
-const highscores = [];
 
-
-// Public interface
-
-// checks if score is highscore and if yes adds to localstorage
+// ====================================================
+// Step 2: new score
+// ====================================================
 export function saveHighscore(score) {
+  // the score is a valid number
+  if (typeof score !== "number" || isNaN(score)) {
+    console.error("Score must be a number");
+    return;
+  }
 
-    // check is number
+  // Step 2.1: Load existing highscores
+  const highscores = loadFromLocalStorage(STORAGE_KEY);
 
-    // load highscores from local storage
+  // Step 2.2: the new score
+  highscores.push(score);
 
-    // check is highscore
+  // Step 2.3: Sort from highest to lowest
+  highscores.sort((a, b) => b - a);
 
-    // if yes add to highscore and save
+  // Step 2.4: Keep only top 10
+  const topTen = highscores.slice(0, 10);
 
+  // Step 2.5: Save back to localStorage
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(topTen));
+
+  console.log("✅ Highscore saved!");
 }
 
-// returns an array with the top 10 highscore
-export function getHighscores(){
 
-
-    return highscores
+// ====================================================
+// Step 3:  list of highscores
+// ====================================================
+export function getHighscores() {
+  return loadFromLocalStorage(STORAGE_KEY);
 }
 
 
-// privat modul
-
-function loadFromLocalStorag(key){
-
-    return localStorage.getItem(key);
-
+// ====================================================
+// Step 4: to load data from localStorage
+// ====================================================
+function loadFromLocalStorage(key) {
+  const data = localStorage.getItem(key);
+  return data ? JSON.parse(data) : [];
 }
+
