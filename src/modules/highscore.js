@@ -17,6 +17,10 @@ export function saveHighscore(score) {
   // Step 2.1: Load existing highscores
   const highscores = loadFromLocalStorage(STORAGE_KEY);
 
+  // check if score already exists
+  if (highscores.includes(score)) return 
+
+
   // Step 2.2: the new score
   highscores.push(score);
 
