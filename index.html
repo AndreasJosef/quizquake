@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Quiz App</title>
   <link rel="stylesheet" href="./src/css/app.css" />
-  <script src="./question.js" defer></script>
+  <script src="./src/modules/question.js" defer></script>
 </head>
 <body>
   <main class="layout-page">
@@ -17,12 +17,5 @@
     <!-- Start-knapp -->
     <button id="startBtn">Start Quiz</button>
   </main>
-
-  <script>
-    // Kör quizet när sidan laddats
-    document.getElementById("startBtn").addEventListener("click", () => {
-      getData();
-    });
-  </script>
 </body>
 </html>
