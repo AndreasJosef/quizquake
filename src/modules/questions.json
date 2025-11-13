@@ -1,0 +1,104 @@
+{
+  "quiz": [
+    {
+      "category": "Science",
+      "questions": [
+        {
+          "question": "Elektroner rör sig i fasta banor runt atomkärnan enligt modern kvantfysik.",
+          "answer": "false"
+        },
+        {
+          "question": "Ljud kan färdas genom vakuum.",
+          "answer": "false"
+        },
+        {
+          "question": "Den starka kärnkraften håller samman atomkärnan.",
+          "answer": "true"
+        },
+        {
+          "question": "Ett ljusår är en tidsenhet.",
+          "answer": "false"
+        },
+        {
+          "question": "Pluton räknas fortfarande officiellt som en planet i vårt solsystem.",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "category": "Geografi",
+      "questions": [
+        {
+          "question": "Den längsta floden i världen är Nilen.",
+          "answer": "true"
+        },
+        {
+          "question": "Grönland tillhör geografiskt Nordamerika men politiskt Europa.",
+          "answer": "true"
+        },
+        {
+          "question": "Australien är världens största ö.",
+          "answer": "false"
+        },
+        {
+          "question": "Tropiska regnskogar finns i både Sydamerika, Afrika och Asien.",
+          "answer": "true"
+        },
+        {
+          "question": "Det finns inga aktiva vulkaner i Europa.",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "category": "History",
+      "questions": [
+        {
+          "question": "Kalla kriget mellan USA och Sovjetunionen ledde aldrig till direkt militär konfrontation mellan de två länderna.",
+          "answer": "true"
+        },
+        {
+          "question": "Det första världskriget startade med mordet på den österrikiske ärkehertigen Franz Ferdinand.",
+          "answer": "true"
+        },
+        {
+          "question": "Det romerska riket delades permanent i två delar år 395 e.Kr.",
+          "answer": "true"
+        },
+        {
+          "question": "Renässansen började i Frankrike under 1500-talet.",
+          "answer": "false"
+        },
+        {
+          "question": "Napoleon Bonaparte dog i exil på ön Elba.",
+          "answer": "false"
+        }
+      ]
+    },
+    {
+      "category": "music",
+      "questions": [
+        {
+          "question": "Johann Sebastian Bach levde under romantiken.",
+          "answer": "false"
+        },
+        {
+          "question": "Wolfgang Amadeus Mozart föddes i Wien.",
+          "answer": "false"
+        },
+        {
+          "question": "Den musikaliska termen 'forte' betyder svagt.",
+          "answer": "false"
+        },
+        {
+          "question": "Ludwig van Beethoven och Franz Schubert levde under samma tidsepok.",
+          "answer": "true"
+        },
+        {
+          "question": "Musikformen 'fuga' används ofta i barockmusik.",
+          "answer": "true"
+        }
+      ]
+    }
+  ]
+}

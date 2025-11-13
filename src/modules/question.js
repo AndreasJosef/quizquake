@@ -1,122 +1,119 @@
-// functions first
-function buildQuiz() {}
-
-//Variables (DOM)
+// ===== DOM-referenser =====
 const quizDiv = document.getElementById("quiz");
-const questions = [];
+const startBtn = document.getElementById("startBtn");
+
+// ===== State =====
+let questions = [];
 let currentQuestionIndex = 0;
 
-async function getData() {
+// ===== Start quiz =====
+async function startQuiz() {
   try {
-    const res = await fetch('./src/modules/questions.json');
-    if (!res.ok) throw new Error('Kunde inte läsa in questions.json');
+    const data = await getData();
 
-    const data = await res.json();
-    questions.push(...data);
+    // data ser ut som { quiz: [ { category, questions: [...] }, ... ] }
+    // vi plattar ut alla questions till en lista
+    questions = data.quiz.flatMap((category) => category.questions);
 
+    currentQuestionIndex = 0;
+    renderCurrentQuestion();
   } catch (err) {
     console.error(err);
+    quizDiv.textContent = "Kunde inte ladda frågor 😢";
   }
 }
 
+// ===== fetch JSON =====
+async function getData() {
+  // Justera sökvägen så den matchar din riktiga struktur:
+  // om filen ligger i src/modules: './src/modules/questions.json'
+  const res = await fetch("./src/modules/questions.json");
 
+  if (!res.ok) {
+    throw new Error("Kunde inte läsa in questions.json");
+  }
 
-function checkAnswer(userAnswer, questionObj) {
-  //Compare userAnswer with the correct answer
-  const isCorrect =
-    userAnswer ===
-    (questionObj.correct_answer || questionObj.correct_answer === "True");
+  return res.json();
 }
-//Display feedback
-showFeedback(isCorrect);
-{
+
+// ===== Render question =====
+function renderCurrentQuestion() {
+  quizDiv.innerHTML = "";
+
+  if (currentQuestionIndex >= questions.length) {
+    quizDiv.textContent = "Quiz klart! 🎉";
+    return;
+  }
+
+  const questionObj = questions[currentQuestionIndex];
+  const questionEl = createQuestionEl(questionObj);
+  quizDiv.appendChild(questionEl);
+}
+
+// ===== Create HTML for question =====
+function createQuestionEl(questionObj) {
+  const container = document.createElement("div");
+
+  const p = document.createElement("p");
+  p.textContent = questionObj.question;
+  p.style.marginBlockEnd = ".5rem";
+  container.appendChild(p);
+
+  const btnWrapper = document.createElement("div");
+  btnWrapper.style.marginBottom = "1rem";
+
+  // true-Btn
+  const trueBtn = document.createElement("button");
+  trueBtn.textContent = "True";
+  trueBtn.addEventListener("click", () => {
+    handleAnswer("true", questionObj);
+  });
+
+  // false-Btn
+  const falseBtn = document.createElement("button");
+  falseBtn.textContent = "False";
+  falseBtn.addEventListener("click", () => {
+    handleAnswer("false", questionObj);
+  });
+
+  btnWrapper.appendChild(trueBtn);
+  btnWrapper.appendChild(falseBtn);
+  container.appendChild(btnWrapper);
+
+  return container;
+}
+
+// ===== When user answers =====
+function handleAnswer(userAnswer, questionObj) {
+  const correct = questionObj.answer.toLowerCase(); // "true" / "false"
+  const isCorrect = userAnswer === correct;
+
+  showFeedback(isCorrect);
+
+  // Stops ability to press button twice
+  const buttons = quizDiv.querySelectorAll("button");
+  buttons.forEach((btn) => (btn.disabled = true));
+
+  // gå vidare efter 0,5 sekunder
+  setTimeout(() => {
+    const msg = document.getElementById("message");
+    if (msg) msg.textContent = "";
+    currentQuestionIndex++;
+    renderCurrentQuestion();
+  }, 500);
+}
+
+// ===== show feedback =====
+function showFeedback(isCorrect) {
   let message = document.getElementById("message");
   if (!message) {
     message = document.createElement("div");
     message.id = "message";
-    document.getElementById("quiz").appendChild(message);
+    quizDiv.appendChild(message);
   }
-  message.textContent = isCorrect ? "Correct!" : "Incorrect.";
+  message.textContent = isCorrect ? "Rätt!" : "Fel";
   message.style.marginBottom = "1rem";
 }
 
-//Disables answer so the user can't click twice
-const answerButtons = document.querySelectorAll("button");
-answerButtons.forEach((btn) => (btn.disabled = true));
-
-//Delay for feedback, then move to the next question
-setTimeout(() => {}, 1000); //1 sec
-
-function renderNextQuestion() {
-  currentQuestionIndex++;
-  let message = document.getElementById("message");
-  if (message) message.textContent = "";
-  const quizDiv = document.getElementById("quiz");
-  quizDiv.innerHTML = "";
-  if (currentQuestionIndex < questions.length) {
-    quizDiv.appendChild(
-      createQuestionEl(
-        questions[currentQuestionIndex].question,
-        questions[currentQuestionIndex]
-      )
-    );
-  } else {
-    quizDiv.textContent = "Quiz finished";
-  }
-}
-
-
-
-    currentQuestionIndex = 0;
-    quizDiv.innerHTML = "";
-    quizDiv.appendChild(createQuestionEl(questions[0].question, questions[0]));
- 
-  
-
-
-function createQuestionEl(content, questionObj) {
-  //Create container for questions and answers
-  const container = document.createElement("div");
-  const p = document.createElement("p");
-  p.textContent = content;
-  p.style.marginBlockEnd = ".5rem";
-  container.appendChild(p);
-  //Create buttons true and false
-  const answerButtons = document.createElement("div");
-  answerButtons.style.marginBottom = "1rem";
-
-  const trueBtn = document.createElement("button");
-  trueBtn.textContent = "True";
-  trueBtn.addEventListener("click", function () {
-    checkAnswer(true, questionObj);
-  });
-
-  const falseBtn = document.createElement("button");
-  falseBtn.textContent = "False";
-  falseBtn.addEventListener("click", function () {
-    checkAnswer(false, questionObj);
-  });
-
-  answerButtons.appendChild(trueBtn);
-  answerButtons.appendChild(falseBtn);
-
-  container.appendChild(answerButtons);
-  return container;
-}
-
-document.addEventListener("click", (e) => {
-  e.preventDefault();
-
-  // read an Id attribute from the clicked element(adjust attribute name to your HTML)
-  const questionID = e.target.getAttribute("data-question-id") || e.target.id;
-  if (!questionID) return; // nothing to do if there is no Id
-
-  const question =
-    typeof getQuestionById === "function" ? getQuestionById(questionID) : null;
-
-  if (question) {
-    question.checkAnswer(questionID);
-  }
-});
-
-const render = function () {};
+// ===== connect button =====
+startBtn.addEventListener("click", startQuiz);
