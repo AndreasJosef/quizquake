@@ -1,6 +1,6 @@
 // ===== DOM-referenser =====
-const quizDiv = document.getElementById("quiz");
-const startBtn = document.getElementById("startBtn");
+const quizDiv = document.getElementById("question-text");
+const startBtn = document.getElementById("start-game-btn");
 
 // ===== State =====
 let questions = [];
