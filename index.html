@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz App</title>
-  <link rel="stylesheet" href="./src/css/app.css" />
-  <script src="./src/main.js" type="module" defer></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Quiz App</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/app.css" />
+
+    <script src="./src/main.js" type="module" defer></script>
+
 </head>
+
 <body>
-  <main class="layout-page">
-    
-    <!-- Start View  -->
-     <!-- Användaren skriver in sitt namn och får regler innan spelet startas med startknapp -->
-    <section id="start-view" class="view active-view">
+    <div class="layout-page">
+
+        <header>
+            <h1>QuizQuake</h1>
+        </header>
+
+
+        <main id="gameContainer">
+
+        </main>
+
+        <!-- Start View  -->
+        <!-- Användaren skriver in sitt namn och får regler innan spelet startas med startknapp -->
+        <!-- <section id="start-view" class="view active-view">
             <h1 class="view-title">QuizQuake</h1>
 
             <div class="input-area">
@@ -25,13 +44,13 @@
                 <p>Är det sant eller falskt? Du har en minut att svara på så många frågor du kan.</p>
                 </div>
 
-            <button id="start-game-btn" class="action-button">Starta spelet</button>
-        </section>
+            <button id="startGame" class="action-button">Starta spelet</button>
+        </section> -->
 
         <!-- Game View -->
-         <!-- Huvudvy efter Andreas Figma-skiss  -->
+        <!-- Huvudvy efter Andreas Figma-skiss  -->
 
-         <section id="game-view" class="view hidden-view">
+        <!-- <section id="game-view" class="view hidden-view">
 
             <header class="game-header">
 
@@ -64,12 +83,12 @@
 
             </main>
 
-        </section>
+        </section> -->
 
         <!-- Result View  -->
-         <!-- Detta visas när spelet är slut -->
+        <!-- Detta visas när spelet är slut -->
 
-        <section id="results-view" class="view hidden-view">
+        <!-- <section id="results-view" class="view hidden-view">
             <h1 class="view-title">GAME OVER</h1>
 
             <div class="final-score-area">
@@ -84,13 +103,14 @@
             </div>
 
             <button id="restart-game-button" class="action-button">Spela igen</button>
-        </section>
+        </section> -->
 
-    <!-- Här renderas frågorna dynamiskt -->
-    <!-- <section id="quiz"></section> -->
+        <!-- Här renderas frågorna dynamiskt -->
+        <!-- <section id="quiz"></section> -->
 
-    <!-- Start-knapp -->
-    
-  </main>
+        <!-- Start-knapp -->
+
+    </div>
 </body>
+
 </html>

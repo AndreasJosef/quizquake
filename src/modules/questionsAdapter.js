@@ -10,6 +10,9 @@ export async function fetchQuestions() {
 
   const rawData = await res.json();
 
+  // 50 random index
+  // filterar res p de
+
   return rawData.quiz.flatMap(item => item.questions)
 
 }

@@ -6,7 +6,7 @@ const STORAGE_KEY = "quiz_highscores";
 // ====================================================
 // Step 2: new score
 // ====================================================
-export function saveHighscore(score) {
+export function saveHighscore(name, score) {
   // the score is a valid number
   if (typeof score !== "number" || isNaN(score)) {
     console.error("Score must be a number");
@@ -42,6 +42,14 @@ export function getHighscores() {
   return loadFromLocalStorage(STORAGE_KEY);
 }
 
+export function getPlayers() {
+  
+}
+
+export function createPlayer(){
+
+}
+
 // ====================================================
 // Step 4: to load data from localStorage
 // ====================================================
@@ -50,3 +58,17 @@ function loadFromLocalStorage(key) {
   return data ? JSON.parse(data) : [];
 }
 
+
+
+// highscore shape
+// const highscores = [
+//   {
+//     name: 'Joakim',
+//     scores: [1,2,3]
+//   },
+//   {
+//     name: 'Andreas',
+//     scores: [1,2,3]
+//   },
+
+// ]
