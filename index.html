@@ -8,11 +8,21 @@
   <script src="./src/main.js" type="module" defer></script>
 </head>
 <body>
-  <main class="layout-page">
+  <div class="layout-page">
+
+    <header>
+        <h1>QuizQuake</h1>
+    </header>
+
+
+    <main id="gameContainer">
+
+            <button id="startGame" class="action-button">Starta spelet</button>
+    </main>
     
     <!-- Start View  -->
      <!-- Användaren skriver in sitt namn och får regler innan spelet startas med startknapp -->
-    <section id="start-view" class="view active-view">
+    <!-- <section id="start-view" class="view active-view">
             <h1 class="view-title">QuizQuake</h1>
 
             <div class="input-area">
@@ -25,13 +35,13 @@
                 <p>Är det sant eller falskt? Du har en minut att svara på så många frågor du kan.</p>
                 </div>
 
-            <button id="start-game-btn" class="action-button">Starta spelet</button>
-        </section>
+            <button id="startGame" class="action-button">Starta spelet</button>
+        </section> -->
 
         <!-- Game View -->
          <!-- Huvudvy efter Andreas Figma-skiss  -->
 
-         <section id="game-view" class="view hidden-view">
+         <!-- <section id="game-view" class="view hidden-view">
 
             <header class="game-header">
 
@@ -64,12 +74,12 @@
 
             </main>
 
-        </section>
+        </section> -->
 
         <!-- Result View  -->
          <!-- Detta visas när spelet är slut -->
 
-        <section id="results-view" class="view hidden-view">
+        <!-- <section id="results-view" class="view hidden-view">
             <h1 class="view-title">GAME OVER</h1>
 
             <div class="final-score-area">
@@ -84,13 +94,13 @@
             </div>
 
             <button id="restart-game-button" class="action-button">Spela igen</button>
-        </section>
+        </section> -->
 
     <!-- Här renderas frågorna dynamiskt -->
     <!-- <section id="quiz"></section> -->
 
     <!-- Start-knapp -->
     
-  </main>
+  </div>
 </body>
 </html>

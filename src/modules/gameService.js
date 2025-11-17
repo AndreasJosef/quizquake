@@ -37,8 +37,15 @@ export function createGameService() {
 
     }
 
+    function changeReadyState(){
+        state.gameReady = !state.gameReady
+
+        bus.emit('state', {...state})
+    }
+
     function makeMove(answer) {
 
+        bus.emit('state', { ...state })
     }
 
     function removeQuestion(i) {
@@ -47,5 +54,5 @@ export function createGameService() {
         bus.emit('state', {...state})
     }
 
-    return {start, makeMove}
+    return {start, makeMove, changeReadyState}
 }
