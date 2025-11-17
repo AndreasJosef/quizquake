@@ -3,7 +3,6 @@
 // ====================================================
 const STORAGE_KEY = "quiz_highscores";
 
-
 // ====================================================
 // Step 2: new score
 // ====================================================
@@ -16,6 +15,10 @@ export function saveHighscore(score) {
 
   // Step 2.1: Load existing highscores
   const highscores = loadFromLocalStorage(STORAGE_KEY);
+
+  // check if score already exists
+  if (highscores.includes(score)) return 
+
 
   // Step 2.2: the new score
   highscores.push(score);
@@ -32,14 +35,12 @@ export function saveHighscore(score) {
   console.log("✅ Highscore saved!");
 }
 
-
 // ====================================================
 // Step 3:  list of highscores
 // ====================================================
 export function getHighscores() {
   return loadFromLocalStorage(STORAGE_KEY);
 }
-
 
 // ====================================================
 // Step 4: to load data from localStorage
