@@ -1,10 +1,4 @@
-<<<<<<< HEAD:src/modules/question.js
-// ===== DOM-referenser =====
-const quizDiv = document.getElementById("question-text");
-const startBtn = document.getElementById("start-game-btn");
-=======
 const questionContainer = document.getElementById('quiz')
->>>>>>> c57d986a63a0b8de670e3bdd60aafed41994b74a:src/modules/ui.js
 
 // ===== Renderer =====
 export function renderUI(state){
