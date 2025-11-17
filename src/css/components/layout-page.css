@@ -7,7 +7,7 @@
 :where(.layout-page) {
     /* Tokens */
     --layout-gap: var(--space-5);
-    --layout-max: var(--content-wide);
+    --layout-max: var(--content-narrow);
 
     /* Layout */
     display: grid;
