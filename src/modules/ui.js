@@ -1,53 +1,21 @@
-// ===== DOM-referenser =====
-const quizDiv = document.getElementById("quiz");
-const startBtn = document.getElementById("startBtn");
+const questionContainer = document.getElementById('quiz')
 
-// ===== State =====
-let questions = [];
-let currentQuestionIndex = 0;
+// ===== Renderer =====
+export function renderUI(state){
 
-// ===== Start quiz =====
-async function startQuiz() {
-  try {
-    const data = await getData();
-
-    // data ser ut som { quiz: [ { category, questions: [...] }, ... ] }
-    // vi plattar ut alla questions till en lista
-    questions = data.quiz.flatMap((category) => category.questions);
-
-    currentQuestionIndex = 0;
-    renderCurrentQuestion();
-  } catch (err) {
-    console.error(err);
-    quizDiv.textContent = "Kunde inte ladda frågor 😢";
-  }
+  renderCurrentQuestion(questionContainer, state.questions[state.currentQuestion]);
 }
 
-// ===== fetch JSON =====
-async function getData() {
-  // Justera sökvägen så den matchar din riktiga struktur:
-  // om filen ligger i src/modules: './src/modules/questions.json'
-  const res = await fetch("./src/modules/questions.json");
 
-  if (!res.ok) {
-    throw new Error("Kunde inte läsa in questions.json");
-  }
-
-  return res.json();
-}
+// UI Components
 
 // ===== Render question =====
-function renderCurrentQuestion() {
-  quizDiv.innerHTML = "";
+function renderCurrentQuestion(root, question) {
+  console.log(question);
+  root.innerHTML = "";
 
-  if (currentQuestionIndex >= questions.length) {
-    quizDiv.textContent = "Quiz klart! 🎉";
-    return;
-  }
-
-  const questionObj = questions[currentQuestionIndex];
-  const questionEl = createQuestionEl(questionObj);
-  quizDiv.appendChild(questionEl);
+  const questionEl = createQuestionEl(question);
+  root.appendChild(questionEl);
 }
 
 // ===== Create HTML for question =====
@@ -94,7 +62,7 @@ function handleAnswer(userAnswer, questionObj) {
   const buttons = quizDiv.querySelectorAll("button");
   buttons.forEach((btn) => (btn.disabled = true));
 
-  // gå vidare efter 0,5 sekunder
+  // debounce gå vidare efter 0,5 sekunder
   setTimeout(() => {
     const msg = document.getElementById("message");
     if (msg) msg.textContent = "";
@@ -115,5 +83,3 @@ function showFeedback(isCorrect) {
   message.style.marginBottom = "1rem";
 }
 
-// ===== connect button =====
-startBtn.addEventListener("click", startQuiz);
