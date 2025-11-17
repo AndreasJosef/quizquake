@@ -1,5 +1,6 @@
 import { fetchQuestions } from "./questionsAdapter.js";
 import { bus  } from "./eventBus.js";
+import { startTimer } from "./timerService.js";
 
 export function createGameService() {
 
@@ -7,12 +8,20 @@ export function createGameService() {
         questions: null,
         gameReady: false,
         currentQuestion: null,
+        timeRemaining: null,
         nextIndex: 0,
         player: {
             name: '',
             points: 0
         }
     };
+
+    bus.on('tick', (seconds) => {
+
+        state.timeRemaining = seconds
+
+        publishState();
+    })
 
     // returns a random question within questions range
     function getRandomQuestion() {
@@ -31,6 +40,8 @@ export function createGameService() {
         state.currentQuestion = state.questions[state.nextIndex].question;
 
         state.nextIndex++
+
+        startTimer()
 
         console.log('Current game state: ',state);
 
