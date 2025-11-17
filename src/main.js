@@ -5,11 +5,8 @@ import { createRenderer } from "./modules/renderer.js";
 import { bus } from "./modules/eventBus.js";
 
 import { RulesComponent } from "./components/RulesComponent.js";
-
-// DOM 
-const startBtn = document.getElementById("startGame");
-
-const rulesComponent = RulesComponent();
+import { StartButton } from "./components/StartButton.js";
+import { QuestionComponent } from "./components/QuestionComponent.js";
 
 // Setup
 const game = createGameService();
@@ -18,18 +15,29 @@ const renderer = createRenderer({
     bus,
     children: [
        {
-        component: rulesComponent,
+        component: RulesComponent(),
         slice: (state) => ({ ready: state.gameReady }),
         childRoot: '#gameContainer'
-       } 
+       },
+       {
+        component: StartButton({ onClick: game.start }),
+        slice: (state) => ({ ready: state.gameReady }),
+        childRoot: '#gameContainer'
+       },
+       {
+        component: QuestionComponent(),
+        slice: (state) => ({ready: state.gameReady, question: state.currentQuestion }),
+        childRoot: '#gameContainer'
+       }
     ]
 })
 
-// Wiring DOM Events
-startBtn.addEventListener('click', game.changeReadyState);
-gameControls.add('click', game.makeMove)
+bus.on('state', (message) => {
+    console.log(message);
+})
 
 // Start App
 renderer.mount();
+
 
 

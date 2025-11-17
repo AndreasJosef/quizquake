@@ -1,15 +1,17 @@
-export function createRenderer({bus, children}){
+export function createRenderer({ bus, children }) {
 
-    function render(state){
+    function render(state) {
 
         children.forEach(child => {
-           let propsUpdate = child.slice(state);
+            let propsUpdate = child.slice(state);
 
-           child.component.update(propsUpdate);
+            if (child.component.update) {
+                child.component.update(propsUpdate);
+            }
         });
     }
 
-    function mount(){
+    function mount() {
 
         children.forEach(child => {
             const childContainer = document.querySelector(child.childRoot);

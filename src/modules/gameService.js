@@ -1,14 +1,13 @@
 import { fetchQuestions } from "./questionsAdapter.js";
 import { bus  } from "./eventBus.js";
 
-import { renderUI } from "./ui.js";
-
 export function createGameService() {
 
     let state = {
         questions: null,
         gameReady: false,
-        currentQuestion: 0,
+        currentQuestion: null,
+        nextIndex: 0,
         player: {
             name: '',
             points: 0
@@ -29,18 +28,14 @@ export function createGameService() {
         state.questions = await fetchQuestions()
         state.gameReady = true;
 
+        state.currentQuestion = state.questions[state.nextIndex].question;
+
+        state.nextIndex++
+
         console.log('Current game state: ',state);
 
-        renderUI({ ...state });
+        publishState();
 
-        removeQuestion(3);
-
-    }
-
-    function changeReadyState(){
-        state.gameReady = !state.gameReady
-
-        bus.emit('state', {...state})
     }
 
     function makeMove(answer) {
@@ -54,5 +49,9 @@ export function createGameService() {
         bus.emit('state', {...state})
     }
 
-    return {start, makeMove, changeReadyState}
+    function publishState(){
+        bus.emit('state', { ...state });
+    }
+
+    return {start, makeMove}
 }
