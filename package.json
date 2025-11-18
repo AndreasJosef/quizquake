@@ -1,14 +1,11 @@
 {
-  "name": "modern-css-starter",
+  "name": "quizquake",
   "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "new": "node tools/new-block.mjs",
-    "new:layout": "node tools/new-block.mjs layout",
-    "new:component": "node tools/new-block.mjs component"
+    "preview": "vite preview"
   },
   "devDependencies": {
     "vite": "^7.1.7"
