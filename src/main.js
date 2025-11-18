@@ -1,49 +1,53 @@
 // Dependencies
-import { createGameService } from "./modules/gameService.js";
-import { createRenderer } from "./modules/renderer.js";
+import { quizQuake } from "./modules/gameService.js"
+import { createRendererSingleRoot } from './core/singleRootRenderer.js';
 
-import { bus } from "./modules/eventBus.js";
-
+// Components
 import { RulesComponent } from "./components/RulesComponent.js";
 import { StartButton } from "./components/StartButton.js";
-import { QuestionComponent } from "./components/QuestionComponent.js";
+import { Question } from './components/Question.js'
 import { Clock } from "./components/Clock.js";
+import { App } from "./components/App.js";
 
-// Setup
-const game = createGameService();
+// Create components
+const app = App();
+const question = Question()
 
-const renderer = createRenderer({
-    bus,
-    children: [
-       {
+// Register children
+const children = [
+    {
         component: RulesComponent(),
-        slice: (state) => ({ ready: state.gameReady }),
-        childRoot: '#gameContainer'
-       },
-       {
-        component: StartButton({ onClick: game.start }),
-        slice: (state) => ({ ready: state.gameReady }),
-        childRoot: '#gameContainer'
-       },
-       {
-        component: QuestionComponent(),
-        slice: (state) => ({ready: state.gameReady, question: state.currentQuestion }),
-        childRoot: '#gameContainer'
-       },
-       {
+        childRoot: () => app.el.querySelector('.slot-rules'),
+        slice: state => ({ ready: state.gameReady }),
+    },
+    {
+        component: StartButton({ onClick: quizQuake.start }),
+        childRoot: () => app.el.querySelector('.slot-button-start'),
+        slice: state => ({ ready: state.gameReady })
+    },
+    {
+        component: question,
+        childRoot: app.el,
+        slice: state => ({ ready: state.gameReady, question: state.currentQuestion })
+    },
+    {
         component: Clock(),
-        slice: (state) => ({time: state.timeRemaining}),
-        childRoot: '#gameContainer'
-       }
-    ]
+        childRoot: () => question.el.querySelector('.slot-clock'),
+        slice: state => ({ time: state.timeRemaining })
+    }
+]
+
+// Create the renderer
+const renderer = createRendererSingleRoot({
+    rootComponent: app,
+    children: children
 })
 
-bus.on('state', (message) => {
-    console.log(message);
-})
+// Mount the app
+renderer.mount('#gameContainer');
 
-// Start App
-renderer.mount();
+
+
 
 
 
