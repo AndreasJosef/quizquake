@@ -6,12 +6,5 @@ export function App(){
         <div class="slot-rules"></div>
         <div class="slot-button-start"></div>
     `
-
-    return {
-        el,
-        update(next = {}){
-
-        }
-    }
-
+    return { el }
 }
