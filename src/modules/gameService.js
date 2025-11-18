@@ -8,7 +8,7 @@ export function createGameService() {
         questions: null,
         gameReady: false,
         currentQuestion: null,
-        timeRemaining: null,
+        timeRemaining: 60,
         nextIndex: 0,
         player: {
             name: '',
@@ -22,13 +22,6 @@ export function createGameService() {
 
         publishState();
     })
-
-    // returns a random question within questions range
-    function getRandomQuestion() {
-
-        // return Math.floor(Math.random() * state.questions.length);
-        return 2
-    }
 
     async function start() {
 
@@ -52,12 +45,6 @@ export function createGameService() {
     function makeMove(answer) {
 
         bus.emit('state', { ...state })
-    }
-
-    function removeQuestion(i) {
-        state.questions.splice(i, 1);
-
-        bus.emit('state', {...state})
     }
 
     function publishState(){
