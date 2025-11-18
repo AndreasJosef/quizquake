@@ -27,7 +27,7 @@ function createGameService() {
 
         if (state.gameReady) return;
 
-        state.questions = await fetchQuestions()
+        state.questions = await fetchQuestions('questions')
         state.gameReady = true;
 
         state.currentQuestion = state.questions[state.nextIndex].question;

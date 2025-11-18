@@ -1,8 +1,9 @@
 
 // ===== fetch JSON =====
-export async function fetchQuestions() {
+export async function fetchQuestions(category) {
 
-  const res = await fetch('/src/assets/questions.json');
+  const res = await fetch(`/src/assets/${category}.json`);
+  // const res = await fetch('/src/assets/questions.json');
 
   if (!res.ok) {
     throw new Error("Kunde inte läsa in questions.json");
