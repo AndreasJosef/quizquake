@@ -1,4 +1,4 @@
-import { bus } from './eventBus.js'
+import { bus } from '../core/eventBus.js'
 
 // Timer
 const TOTAL_TIME = 60;
@@ -16,7 +16,6 @@ export function tick() {
 
     bus.emit('tick', secondsRemaining)
 }
-
 
 //when time is up call callback
 export function startTimer(){ 

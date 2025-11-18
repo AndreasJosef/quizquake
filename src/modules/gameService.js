@@ -1,8 +1,8 @@
 import { fetchQuestions } from "./questionsAdapter.js";
-import { bus  } from "./eventBus.js";
+import { bus  } from "../core/eventBus.js";
 import { startTimer } from "./timerService.js";
 
-export function createGameService() {
+function createGameService() {
 
     let state = {
         questions: null,
@@ -44,6 +44,9 @@ export function createGameService() {
 
     function makeMove(answer) {
 
+        // check answer
+        // move question index
+
         bus.emit('state', { ...state })
     }
 
@@ -53,3 +56,6 @@ export function createGameService() {
 
     return {start, makeMove}
 }
+
+
+export const quizQuake = createGameService();

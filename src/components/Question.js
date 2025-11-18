@@ -1,11 +1,14 @@
-export function QuestionComponent() {
+export function Question() {
 
     const root = document.createElement('div')
     root.style.display = 'none'
 
     const questionElement = document.createElement('h2');
+    const clockSlot = document.createElement('div')
 
-    root.append(questionElement)
+    clockSlot.className = 'slot-clock'
+
+    root.append(questionElement, clockSlot)
 
     // DOM HTML
     const trueButton = document.createElement('button');
