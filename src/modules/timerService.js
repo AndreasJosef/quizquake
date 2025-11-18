@@ -1,4 +1,4 @@
-import { bus } from './eventBus.js'
+import { bus } from '../core/eventBus.js'
 
 // Timer
 const TOTAL_TIME = 60;
@@ -15,9 +15,7 @@ export function tick() {
     }
 
     bus.emit('tick', secondsRemaining)
-
 }
-
 
 //when time is up call callback
 export function startTimer(){ 
@@ -36,20 +34,14 @@ export function resetTimer() {
     timerId = null;
 
     secondsRemaining = TOTAL_TIME;
-
 }
-
-
 
 // privat
 // Turns the page gradually from green to red as time ticking. 
 
 function updateVisuals() {
-
-    const percentage = secondRemaining / TOTAL_TIME;
-
+    const percentage = secondsRemaining / TOTAL_TIME;
     const hue = percentage * 120;
-
     document.body.style.backgroundColor = `hsl(${hue}, 100%. 50%)`;
 }
 

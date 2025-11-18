@@ -1,14 +1,14 @@
 import { fetchQuestions } from "./questionsAdapter.js";
-import { bus  } from "./eventBus.js";
+import { bus  } from "../core/eventBus.js";
 import { startTimer } from "./timerService.js";
 
-export function createGameService() {
+function createGameService() {
 
     let state = {
         questions: null,
         gameReady: false,
         currentQuestion: null,
-        timeRemaining: null,
+        timeRemaining: 60,
         nextIndex: 0,
         player: {
             name: '',
@@ -22,13 +22,6 @@ export function createGameService() {
 
         publishState();
     })
-
-    // returns a random question within questions range
-    function getRandomQuestion() {
-
-        // return Math.floor(Math.random() * state.questions.length);
-        return 2
-    }
 
     async function start() {
 
@@ -51,13 +44,10 @@ export function createGameService() {
 
     function makeMove(answer) {
 
+        // check answer
+        // move question index
+
         bus.emit('state', { ...state })
-    }
-
-    function removeQuestion(i) {
-        state.questions.splice(i, 1);
-
-        bus.emit('state', {...state})
     }
 
     function publishState(){
@@ -66,3 +56,6 @@ export function createGameService() {
 
     return {start, makeMove}
 }
+
+
+export const quizQuake = createGameService();
