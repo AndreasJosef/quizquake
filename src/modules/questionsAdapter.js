@@ -1,9 +1,7 @@
-
 // ===== fetch JSON =====
 export async function fetchQuestions(category) {
 
-  const res = await fetch(`/src/assets/${category}.json`);
-  // const res = await fetch('/src/assets/questions.json');
+  const res = await fetch(`/data/${category}.json`);
 
   if (!res.ok) {
     throw new Error("Kunde inte läsa in questions.json");
@@ -11,28 +9,21 @@ export async function fetchQuestions(category) {
 
   const rawData = await res.json();
 
-  const allQuestions = rawData.quiz.flatMap(item => item.questions)
+  console.log(rawData);
 
-  return getRandomQuestions(allQuestions, 50);
+  return getRandomQuestions(rawData, 50);
+}
 
- function getRandomQuestions(questions, count){
+// private helper 
+function getRandomQuestions(questions, count) {
 
   const shuffled = [...questions];
 
   // Fisher-Yates shuffle algoritm (bäst enligt internet)
-  for (let i = shuffled.length - 1; i > 0; i--){
+  for (let i = shuffled.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
-
-    
   }
 
   return shuffled.slice(0, Math.min(count, shuffled.length));
-
-
- }
-
-  // return rawData.quiz.flatMap(item => item.questions)
-
 }
-
