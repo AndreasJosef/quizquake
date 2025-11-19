@@ -1,0 +1,7 @@
+.view[data-state="visible"] {
+    display: block;
+}
+
+.view[data-state="hidden"] {
+    display: none;
+}
