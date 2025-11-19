@@ -6,11 +6,11 @@ export function ScoreDisplay(){
     root.append(p);
 
     function init({ score }){
-        p.textContent = score
+        p.textContent = `Score: ${score}` 
     }
 
     function update({ score }) {
-        p.textContent = score
+        p.textContent = `Score: ${score}` 
     }
 
     return {

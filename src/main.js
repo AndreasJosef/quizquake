@@ -43,7 +43,7 @@ const children = [
     },
     {
         component: ScoreDisplay(),
-        childRoot: () => app.el,
+        childRoot: () => app.el.querySelector('.slot-score'),
         slice: state => ({score: state.score})
 
     }
@@ -58,6 +58,7 @@ const renderer = createRendererSingleRoot({
 
 // Mount the app
 renderer.mount('#gameContainer');
+quizQuake.init();
 
 
 

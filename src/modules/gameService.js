@@ -25,6 +25,10 @@ function createGameService() {
         publishState();
     })
 
+    function init(){
+        publishState();
+    }
+
     async function start() {
 
         if (state.gameReady) return;
@@ -75,7 +79,7 @@ function createGameService() {
         bus.emit('state', { ...safeState });
     }
 
-    return { start, makeMove }
+    return { init, start, makeMove }
 }
 
 
