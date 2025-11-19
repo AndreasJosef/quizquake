@@ -5,19 +5,12 @@ export function Question() {
 
     const questionElement = document.createElement('h2');
     const clockSlot = document.createElement('div')
+    const controlsSlot = document.createElement('div');
 
     clockSlot.className = 'slot-clock'
+    controlsSlot.className = 'slot-controls'
 
-    root.append(questionElement, clockSlot)
-
-    // DOM HTML
-    const trueButton = document.createElement('button');
-    trueButton.textContent = 'True'
-
-    const falseButton = document.createElement('button');
-    falseButton.textContent = 'False'
-
-    root.append(trueButton, falseButton)
+    root.append(questionElement, clockSlot, controlsSlot)
 
     // update
     function update({ question, ready }) {
