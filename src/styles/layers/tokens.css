@@ -1,0 +1,63 @@
+@layer tokens {
+  :root {
+    --neutral-100: #F2F2F2;
+    --neutral-200: #E0E0E0;
+    --neutral-300: #C8C8C8;
+    --neutral-400: #A8A8A8;
+    --neutral-500: #8C8C8C;
+    --neutral-600: #5E5E5E;
+    --neutral-700: #3A3A3A;
+    --neutral-800: #1E1E1E;
+    --neutral-900: #121212;
+
+    --surface-page: var(--neutral-200);
+    --surface-card: var(--neutral-600);
+    --ink-primary: var(--neutral-800);
+    --ink-muted: #334155;
+
+    /* Brand */
+    --brand-600: #27547d;
+    --brand-500: #2f6aa0;
+    --accent-500: #26c793;
+
+    /* Links */
+    --link: var(--brand-600);
+    --link-hover: var(--brand-500);
+
+    /* Type scale (just enough) */
+    --step-0: clamp(1rem, .9rem + .5vw, 1.125rem);
+    --step-1: clamp(1.25rem, 1.1rem + .8vw, 1.5rem);
+    --step-3: clamp(2rem, 1.6rem + 1.5vw, 2.8rem);
+
+    /* Radius */
+    --radius-md: .75rem;
+
+    /* Spacing Scale; use for gaps/margins */
+    --space-1: 0.5rem;
+    --space-2: 0.75rem;
+    --space-3: 1rem;
+    --space-4: 1.5rem;
+    --space-5: 2rem;
+    --space-6: 3rem;
+
+    /* Layout Rails: gutters + max-widths (page frame)*/
+    --gutter: clamp(1rem, 1rem + 1vw, 5rem);
+
+    --content: 64rem;
+    --content-wide: 80rem;
+    --content-narrow: 48rem;
+
+    /* Grid/Column Defaults */
+    --grid-gap: var(--space-3);
+    --grid-min: 16rem;
+    --columns-gap: var(--space-4);
+    --sidebar: 18rem;
+
+    /* Column/Row Switcher */
+    --switcher-gap: var(--space-4);
+    --switcher-text-min: 28rem;
+    --switcher-text-max: 60ch;
+    --switcher-media-min: 22rem;
+    --switcher-media-max-single: 20rem;
+  }
+}
