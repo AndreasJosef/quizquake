@@ -29,7 +29,8 @@ function createGameService() {
 
         if (state.gameReady) return;
 
-        state.questions = await fetchQuestions('barnfragor')
+        state.questions = await fetchQuestions('internet_trivia')
+
         state.gameReady = true;
 
         state.currentQuestion = state.questions[state.nextIndex].question;
@@ -38,17 +39,13 @@ function createGameService() {
         state.nextIndex++
 
         startTimer()
-
-        console.log('Current game state: ', state);
-
         publishState();
 
     }
 
     function makeMove(answer) {
 
-        let answeredQuestion = state.questions
-            .find(question => question.id === state.currentQuestionID);
+        let answeredQuestion = state.questions.find(question => question.id === state.currentQuestionID);
 
 
         if (answeredQuestion.answer === answer) {
@@ -56,15 +53,26 @@ function createGameService() {
         }
 
         state.currentQuestion = state.questions[state.nextIndex].question;
+        state.currentQuestionID = state.questions[state.nextIndex].id;
 
-        state.nextIndex++;
+        state.nextIndex++
 
+        console.log(state.currentQuestion)
 
-        bus.emit('state', { ...state });
+        publishState();
     }
 
     function publishState() {
-        bus.emit('state', { ...state });
+
+        const safeState = {
+            gameReady: state.gameReady,
+            score: state.score,
+            currentQuestion: state.currentQuestion,
+            currentQuestionID: state.currentQuestionID,
+            timeRemaining: state.timeRemaining,
+        };
+
+        bus.emit('state', { ...safeState });
     }
 
     return { start, makeMove }
