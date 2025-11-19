@@ -2,11 +2,18 @@ import { fetchQuestions } from "./questionsAdapter.js";
 import { bus } from "../core/eventBus.js";
 import { startTimer } from "./timerService.js";
 
+export const GAME_PHASES = {
+    start: 'start',
+    settings: 'settings',
+    playing: 'playing',
+    finished: 'finished'
+}
+
 function createGameService() {
 
     let state = {
         questions: null,
-        gameReady: false,
+        gamePhase: GAME_PHASES.start,
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
@@ -21,7 +28,6 @@ function createGameService() {
     bus.on('tick', (seconds) => {
 
         state.timeRemaining = seconds
-
         publishState();
     })
 
@@ -35,7 +41,7 @@ function createGameService() {
 
         state.questions = await fetchQuestions('internet_trivia')
 
-        state.gameReady = true;
+        state.gamePhase = GAME_PHASES.playing;
 
         state.currentQuestion = state.questions[state.nextIndex].question;
         state.currentQuestionID = state.questions[state.nextIndex].id;
@@ -70,6 +76,7 @@ function createGameService() {
 
         const safeState = {
             gameReady: state.gameReady,
+            gamePhase: state.gamePhase,
             score: state.score,
             currentQuestion: state.currentQuestion,
             currentQuestionID: state.currentQuestionID,

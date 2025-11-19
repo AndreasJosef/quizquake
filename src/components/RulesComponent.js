@@ -14,9 +14,9 @@ export function RulesComponent() {
     }
 
     // On State Change
-    function update({ ready }) {
+    function update({ phase}) {
 
-        ready ? root.classList.add('u-hidden') : root.classList.remove('u-hidden')
+        phase !== 'start' ? root.classList.add('u-hidden') : root.classList.remove('u-hidden')
     }
 
     // API

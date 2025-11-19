@@ -20,32 +20,35 @@ const children = [
     {
         component: RulesComponent(),
         childRoot: () => app.el.querySelector('.slot-rules'),
-        slice: state => ({ ready: state.gameReady }),
+        slice: state => ({ phase: state.gamePhase }),
     },
     {
         component: StartButton({ onClick: quizQuake.start }),
         childRoot: () => app.el.querySelector('.slot-button-start'),
-        slice: state => ({ ready: state.gameReady })
+        slice: state => ({ phase: state.gamePhase }),
+        visibleWhen: (state) =>  state.gamePhase === 'start'
     },
     {
         component: question,
         childRoot: app.el,
-        slice: state => ({ ready: state.gameReady, question: state.currentQuestion })
+        slice: state => ({ phase: state.gamePhase, question: state.currentQuestion })
     },
     {
         component: Clock(),
         childRoot: () => question.el.querySelector('.slot-clock'),
-        slice: state => ({ time: state.timeRemaining })
+        slice: state => ({ time: state.timeRemaining }),
+        visibleWhen: (state) =>  state.gamePhase === 'playing'
     },
     {
         component: GameControls({onClick: quizQuake.makeMove }),
         childRoot: () => question.el.querySelector('.slot-controls'),
+        visibleWhen: (state) =>  state.gamePhase === 'playing'
     },
     {
         component: ScoreDisplay(),
         childRoot: () => app.el.querySelector('.slot-score'),
-        slice: state => ({score: state.score})
-
+        slice: state => ({score: state.score}),
+        visibleWhen: (state) =>  state.gamePhase === 'playing'
     }
 ]
 
@@ -55,13 +58,6 @@ const renderer = createRendererSingleRoot({
     children: children
 })
 
-
 // Mount the app
 renderer.mount('#gameContainer');
 quizQuake.init();
-
-
-
-
-
-

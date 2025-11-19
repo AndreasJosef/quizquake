@@ -13,8 +13,8 @@ export function Question() {
     root.append(questionElement, clockSlot, controlsSlot)
 
     // update
-    function update({ question, ready }) {
-        if (ready) {
+    function update({ question, phase}) {
+        if (phase === 'playing') {
             root.style.display = 'block';
             questionElement.textContent = question
         }
