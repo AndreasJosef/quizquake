@@ -27,7 +27,7 @@ function createGameService() {
 
         if (state.gameReady) return;
 
-        state.questions = await fetchQuestions('questions')
+        state.questions = await fetchQuestions('internet_trivia')
         state.gameReady = true;
 
         state.currentQuestion = state.questions[state.nextIndex].question;
@@ -46,8 +46,9 @@ function createGameService() {
 
         // check answer
         // move question index
+        console.log(answer);
 
-        bus.emit('state', { ...state })
+        // bus.emit('state', { ...state })
     }
 
     function publishState(){

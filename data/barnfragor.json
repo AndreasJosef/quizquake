@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "question": "Solen är en planet.",
-    "answer": false
+    "answer": false,
+    "question": "Solen är en planet."
   },
   {
     "id": 2,

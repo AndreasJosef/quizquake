@@ -3,6 +3,7 @@ import { quizQuake } from "./modules/gameService.js"
 import { createRendererSingleRoot } from './core/singleRootRenderer.js';
 
 // Components
+import { GameControls } from  './components/GameControls.js'
 import { RulesComponent } from "./components/RulesComponent.js";
 import { StartButton } from "./components/StartButton.js";
 import { Question } from './components/Question.js'
@@ -34,6 +35,10 @@ const children = [
         component: Clock(),
         childRoot: () => question.el.querySelector('.slot-clock'),
         slice: state => ({ time: state.timeRemaining })
+    },
+    {
+        component: GameControls({onClick: quizQuake.makeMove }),
+        childRoot: () => question.el.querySelector('.slot-controls'),
     }
 ]
 
