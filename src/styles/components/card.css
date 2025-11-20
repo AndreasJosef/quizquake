@@ -8,3 +8,26 @@
 .card button {
     padding-block: var(--space-2);
 }
+
+.category-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+    justify-items: center;
+}
+
+.card__category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15rem;
+    width: 25rem;
+    background-size: cover;
+    background-position: center;
+    border-radius: 0.5rem;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+}
+
