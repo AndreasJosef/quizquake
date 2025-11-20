@@ -17,7 +17,7 @@ export function saveHighscore(score) {
   // Step 2.1: Load existing highscores
   const highscores = loadFromLocalStorage(STORAGE_KEY);
 
-  // Step 2.2: the new score
+  // S the new score
   highscores.push(score);
 
   // Step 2.3: Sort from highest to lowest
@@ -40,9 +40,37 @@ export function getHighscores() {
   return loadFromLocalStorage(STORAGE_KEY);
 }
 
+export function getPlayers() {
+  const highscores = loadFromLocalStorage(STORAGE_KEY);
+  return highscores.map(player => player.name);
+}
+
+export function createPlayer(name) {
+  if (!name) return console.error("Name is required");
+
+  const highscores = loadFromLocalStorage(STORAGE_KEY);
+
+  // check om spelaren redan finns 
+
+  if (highscores.some(player => player.name === name)) {
+    console.warn("Player already exists");
+    return;
+  }
+
+  // skapa ny spelare
+
+
+  highscores.push({ name, scores: [] });
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(highscores));
+
+  console.log(`Player ${name} created`);
+  
+}
+  
+
 
 // ====================================================
-// Step 4: to load data from localStorage
+// Step 4: to load data from localStorage ( ? istället if eller else )
 // ====================================================
 function loadFromLocalStorage(key) {
   const data = localStorage.getItem(key);
