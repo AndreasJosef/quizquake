@@ -1,4 +1,4 @@
-export function RulesComponent() {
+export function RulesComponent({ onClick }) {
 
     // Creating the components single root element
     const root = document.createElement('div');
@@ -15,6 +15,8 @@ export function RulesComponent() {
         rulesHeading.textContent = 'Regler:'
         rulesText.textContent = 'Är det sant eller falskt? Du har en minut att svara på så många frågor du kan.'
         readyButton.textContent = 'I am ready!'
+
+        readyButton.addEventListener('click', onClick);
 
     }
 

@@ -22,7 +22,7 @@ const question = Question()
 // Register children
 const children = [
     {
-        component: RulesComponent(),
+        component: RulesComponent({ onClick: quizQuake.ready }),
         childRoot: () => app.el.querySelector('.slot-main'),
         slice: state => ({ phase: state.gamePhase }),
         visibleWhen: state => state.gamePhase === 'start'
@@ -34,7 +34,7 @@ const children = [
     //     visibleWhen: (state) =>  state.gamePhase === 'settings'
     // },
     {
-        component: restartButton({ onClick: console.log }),
+        component: restartButton({ onClick: quizQuake.ready }),
         childRoot: () => app.el.querySelector('.slot-controls'),
         visibleWhen: (state) =>  state.gamePhase === 'finished'
     },

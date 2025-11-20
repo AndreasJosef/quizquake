@@ -21,7 +21,7 @@ function createGameService() {
 
     let state = {
         questions: null,
-        gamePhase: GAME_PHASES.settings,
+        gamePhase: GAME_PHASES.start,
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
@@ -45,6 +45,11 @@ function createGameService() {
     })
 
     function init(){
+        publishState();
+    }
+
+    function ready(){
+        state.gamePhase = GAME_PHASES.settings;
         publishState();
     }
 
@@ -97,7 +102,7 @@ function createGameService() {
         bus.emit('state', { ...safeState });
     }
 
-    return { init, start, makeMove }
+    return { init, ready, start, makeMove }
 }
 
 
