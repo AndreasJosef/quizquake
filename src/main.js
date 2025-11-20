@@ -13,6 +13,7 @@ import { Clock } from "./components/Clock.js";
 import { App } from "./components/App.js";
 import { Results } from "./components/Results.js";
 import { Categories } from "./components/Categories.js";
+import { NameInput } from "./components/NameInput.js";
 
 // Create components
 const app = App();
@@ -26,16 +27,16 @@ const children = [
         slice: state => ({ phase: state.gamePhase }),
         visibleWhen: state => state.gamePhase === 'start'
     },
-    {
-        component: StartButton({ onClick: quizQuake.start }),
-        childRoot: () => app.el.querySelector('.slot-controls'),
-        slice: state => ({ phase: state.gamePhase }),
-        visibleWhen: (state) =>  state.gamePhase === 'start'
-    },
+    // {
+    //     component: StartButton({ onClick: quizQuake.start }),
+    //     childRoot: () => app.el.querySelector('.slot-controls'),
+    //     slice: state => ({ phase: state.gamePhase }),
+    //     visibleWhen: (state) =>  state.gamePhase === 'settings'
+    // },
     {
         component: restartButton({ onClick: console.log }),
         childRoot: () => app.el.querySelector('.slot-controls'),
-        visibleWhen: (state) =>  state.gamePhase === 'start'
+        visibleWhen: (state) =>  state.gamePhase === 'finished'
     },
     {
         component: question,
@@ -66,12 +67,16 @@ const children = [
         slice: state => ({score: state.score}),
         visibleWhen: (state) =>  state.gamePhase === 'finished'
     },
-        {
+    {
         component: Categories(),
         childRoot: () => app.el.querySelector('.slot-main'),
         visibleWhen: (state) =>  state.gamePhase === 'settings'
+    },
+    {
+        component: NameInput(),
+        childRoot: () => app.el.querySelector('.slot-main'),
+        visibleWhen: (state) =>  state.gamePhase === 'finished'
     }
-
 ]
 
 // Create the renderer

@@ -1,7 +1,7 @@
 import { bus } from '../core/eventBus.js'
 
 // Timer
-const TOTAL_TIME = 10;
+const TOTAL_TIME = 60;
 let secondsRemaining = TOTAL_TIME;
 let timerId = null;
 

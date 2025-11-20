@@ -1,15 +1,16 @@
 export function restartButton({onClick}) {
+
     const root = document.createElement ('button'); 
-    root.textContent = 'Spela om'
+    root.textContent = 'Börja om';
 
     function init() {
         root.addEventListener('click', ()=> {
-            onClick('hallo')
+            onClick('hallo');
         })
     }
+
     return {
         el: root,
         init
     }
-
 }

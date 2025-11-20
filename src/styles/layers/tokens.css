@@ -10,9 +10,9 @@
     --neutral-800: #1E1E1E;
     --neutral-900: #121212;
 
-    --surface-page: var(--neutral-200);
+    --surface-page: var(--neutral-800);
     --surface-card: var(--neutral-600);
-    --ink-primary: var(--neutral-800);
+    --ink-primary: var(--neutral-200);
     --ink-muted: #334155;
 
     /* Brand */
