@@ -1,9 +1,0 @@
-/* Blocks Index
-   - Import all layout blocks (prefix: layout-)
-   - Import all component blocks (semantic names)
-*/
-
-@import "../components/layout-page.css";
-@import "../components/layout-section.css";
-
-@import "../components/card.css";

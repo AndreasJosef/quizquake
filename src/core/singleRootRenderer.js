@@ -31,8 +31,7 @@ export function createRendererSingleRoot({ rootComponent, children }) {
       if (!child._mounted) return
 
       const isVisible = child.visibleWhen ? child.visibleWhen(state) : true;
-
-      child.component.el.style.display = isVisible ? '' : 'none';
+      child.component.el.setAttribute('data-hidden', isVisible ? 'false' : 'true');
     })
   }
 
@@ -73,13 +72,18 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
       }
 
-      const container = resolveContainer(child);
+      // store a reference of the container
+      if (!child._container) {
+        child._container = resolveContainer(child);
+      }
+
+      const container = child._container;
 
       if (container && child.component.el && !child._mounted) {
 
         // mount child in DOM
         container.appendChild(child.component.el);
-        
+
         if (child.component.mount) child.component.mount(container);
         child._mounted = true;
 
@@ -123,8 +127,8 @@ export function createRendererSingleRoot({ rootComponent, children }) {
       if (child._mounted && child.component.update) {
 
         // only update visible children
-        const isVisible = child.component.el.style.display !== 'none';
-        if (!isVisible) return
+        const hidden = child.component.el.getAttribute('data-hidden') === 'true';
+        if (child.skipWhenHidden && hidden) return;
 
         // makes the it more flexible for components that do not need any state
         const propsUpdate = child.slice ? child.slice(updatedState) : {};

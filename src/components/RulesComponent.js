@@ -13,16 +13,10 @@ export function RulesComponent() {
         `
     }
 
-    // On State Change
-    function update({ phase}) {
-
-        phase !== 'start' ? root.classList.add('u-hidden') : root.classList.remove('u-hidden')
-    }
 
     // API
     return {
         el: root,
-        init,
-        update
+        init
     }
 }
