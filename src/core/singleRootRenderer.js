@@ -26,6 +26,15 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
   }
 
+  function updateVisibility(state) {
+    children.forEach(child => {
+      if (!child._mounted) return
+
+      const isVisible = child.visibleWhen ? child.visibleWhen(state) : true;
+      child.component.el.setAttribute('data-hidden', isVisible ? 'false' : 'true');
+    })
+  }
+
   // mount root app to DOM (call init, append, mount, update)
   function mountRoot(rootSelector) {
 
@@ -46,7 +55,7 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
   }
 
-  // try to init+mount nested children (deferred until their slot exists)
+  // only mount if slot exist
   function tryMountingChildren(state) {
 
     children.forEach(child => {
@@ -63,12 +72,18 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
       }
 
-      const container = resolveContainer(child);
+      // store a reference of the container
+      if (!child._container) {
+        child._container = resolveContainer(child);
+      }
+
+      const container = child._container;
 
       if (container && child.component.el && !child._mounted) {
 
         // mount child in DOM
         container.appendChild(child.component.el);
+
         if (child.component.mount) child.component.mount(container);
         child._mounted = true;
 
@@ -97,17 +112,24 @@ export function createRendererSingleRoot({ rootComponent, children }) {
     // keep copy of the new state inside renderer
     lastState = updatedState;
 
+    // update root component if it wants to be updated
     if (rootComponent.update) rootComponent.update(updatedState);
 
-    // try mounting children if their slots now exist now
+    // try mounting children in their slots if the slot exist
     tryMountingChildren(updatedState);
+
+    // update visibility based on child setting
+    updateVisibility(updatedState);
 
     // finally update children with new state
     children.forEach(child => {
 
       if (child._mounted && child.component.update) {
 
-        // if now slice defined just pass an empty object.
+        // only update visible children
+        const hidden = child.component.el.getAttribute('data-hidden') === 'true';
+        if (child.skipWhenHidden && hidden) return;
+
         // makes the it more flexible for components that do not need any state
         const propsUpdate = child.slice ? child.slice(updatedState) : {};
 
