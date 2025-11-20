@@ -27,12 +27,6 @@ const children = [
         slice: state => ({ phase: state.gamePhase }),
         visibleWhen: state => state.gamePhase === 'start'
     },
-    // {
-    //     component: StartButton({ onClick: quizQuake.start }),
-    //     childRoot: () => app.el.querySelector('.slot-controls'),
-    //     slice: state => ({ phase: state.gamePhase }),
-    //     visibleWhen: (state) =>  state.gamePhase === 'settings'
-    // },
     {
         component: restartButton({ onClick: quizQuake.ready }),
         childRoot: () => app.el.querySelector('.slot-controls'),
