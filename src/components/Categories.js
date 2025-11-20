@@ -5,30 +5,38 @@ export function Categories() {
 
   // Category Science
   const scienceCard = document.createElement('div');
-  scienceCard.textContent = 'Science';
+  const scienceText = document.createElement('span');
+  scienceText.textContent = 'Science';
   scienceCard.className = 'card__category';
   scienceCard.style.backgroundImage = "url('assets/SCIENCE.jpg')";
+  scienceCard.appendChild(scienceText);
   root.appendChild(scienceCard);
-
+ 
   // Category Sport
   const sportCard = document.createElement('div');
-  sportCard.textContent = 'Sport';
+  const sportText = document.createElement('span');
+  sportText.textContent = 'Sport';
   sportCard.className = 'card__category';
   sportCard.style.backgroundImage = "url('assets/SPORT.jpg')";
+  sportCard.appendChild(sportText);
   root.appendChild(sportCard);
 
   // Category Internet
   const internetCard = document.createElement('div');
-  internetCard.textContent = 'Internet';
+  const internetText = document.createElement('span');
+  internetText.textContent = 'Internet';
   internetCard.className = 'card__category';
   internetCard.style.backgroundImage = "url('assets/INTERNET.png')";
+  internetCard.appendChild(internetText);
   root.appendChild(internetCard);
 
   // Category Barn
   const barnCard = document.createElement('div');
-  barnCard.textContent ='Barn';
+  const barnText = document.createElement('span');
+  barnText.textContent ='Barn';
   barnCard.classList = 'card__category';
   barnCard.style.backgroundImage = "url('assets/KIDS.jpg')";
+  barnCard.appendChild(barnText);
   root.appendChild(barnCard);
   
 
