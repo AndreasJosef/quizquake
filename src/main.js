@@ -10,6 +10,7 @@ import { StartButton } from "./components/StartButton.js";
 import { Question } from './components/Question.js';
 import { Clock } from "./components/Clock.js";
 import { App } from "./components/App.js";
+import { Results } from "./components/Results.js";
 
 // Create components
 const app = App();
@@ -51,6 +52,12 @@ const children = [
         childRoot: () => app.el.querySelector('.slot-header'),
         slice: state => ({score: state.score}),
         visibleWhen: (state) =>  state.gamePhase === 'playing'
+    },
+    {
+        component: Results(),
+        childRoot: () => app.el.querySelector('.slot-main'),
+        slice: state => ({score: state.score}),
+        visibleWhen: (state) =>  state.gamePhase === 'finished'
     }
 ]
 

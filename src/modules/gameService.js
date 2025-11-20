@@ -17,7 +17,7 @@ function createGameService() {
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
-        timeRemaining: 60,
+        timeRemaining: 10,
         nextIndex: 0,
         player: {
             name: '',
@@ -28,6 +28,11 @@ function createGameService() {
     bus.on('tick', (seconds) => {
 
         state.timeRemaining = seconds
+
+        if (seconds === 0) {
+            state.gamePhase = 'finished'
+        }
+
         publishState();
     })
 
@@ -48,7 +53,7 @@ function createGameService() {
 
         state.nextIndex++
 
-        startTimer()
+        startTimer(state.timeRemaining)
         publishState();
 
     }
