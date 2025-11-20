@@ -1,0 +1,11 @@
+.slot {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: block;
+}
+
+/* Hidden state */
+.slot>*[data-hidden="true"] {
+    display: none;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+}

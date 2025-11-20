@@ -1,12 +1,25 @@
 /* Utilities: small, explicit helpers. No :where() here on purpose. */
 @layer utilities {
-  .u-hidden, [hidden] { display: none !important; }
 
-  .u-center { margin-inline: auto; }
+  /* .u-hidden, [hidden] { display: none !important; } */
+  .u-hidden {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity .3s ease;
+  }
+
+  .u-center {
+    margin-inline: auto;
+  }
 
   /* Vertical rhythm inside a container (use instead of component margins) */
-  .u-flow > * + * { margin-block-start: var(--space-4); }
+  .u-flow>*+* {
+    margin-block-start: var(--space-4);
+  }
 
   /* Quick debug outline */
-  .u-debug * { outline: 1px dashed rgb(0 0 0 / .25); outline-offset: 2px; }
+  .u-debug * {
+    outline: 1px dashed rgb(0 0 0 / .25);
+    outline-offset: 2px;
+  }
 }

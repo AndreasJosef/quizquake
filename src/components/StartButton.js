@@ -8,12 +8,8 @@ export function StartButton({ onClick }) {
         root.addEventListener('click', onClick);
     }
 
-    function hide() {
-        root.style.display = 'none';
-    }
+    function update({ phase }) {
 
-    function update({ ready }) {
-        if (ready) hide();
     }
 
     return {
