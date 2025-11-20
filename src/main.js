@@ -11,6 +11,7 @@ import { Question } from './components/Question.js';
 import { Clock } from "./components/Clock.js";
 import { App } from "./components/App.js";
 import { Results } from "./components/Results.js";
+import { Categories } from "./components/Categories.js";
 
 // Create components
 const app = App();
@@ -58,7 +59,13 @@ const children = [
         childRoot: () => app.el.querySelector('.slot-main'),
         slice: state => ({score: state.score}),
         visibleWhen: (state) =>  state.gamePhase === 'finished'
+    },
+        {
+        component: Categories(),
+        childRoot: () => app.el.querySelector('.slot-main'),
+        visibleWhen: (state) =>  state.gamePhase === 'settings'
     }
+
 ]
 
 // Create the renderer

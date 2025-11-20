@@ -13,7 +13,7 @@ function createGameService() {
 
     let state = {
         questions: null,
-        gamePhase: GAME_PHASES.start,
+        gamePhase: GAME_PHASES.settings,
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,

@@ -2,1401 +2,1005 @@
   {
     "id": 1,
     "question": "Vatten kokar vid exakt 100°C vid havsnivå.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 2,
     "question": "Människokroppen har fyra lungor.",
-    "answer": [
-      "false"
-    ]
+    "answer": false
   },
   {
     "id": 3,
     "question": "Jordens största organ är huden.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 4,
     "question": "Ett proton är negativt laddat.",
-    "answer": [
-      "false"
-    ]
+    "answer": false
   },
   {
     "id": 5,
     "question": "Planeten Mars har två månar.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 6,
     "question": "Röntgenstrålar kan tränga igenom ben.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 7,
     "question": "DNA finns endast i ryggradsdjur.",
-    "answer": [
-      "false"
-    ]
+    "answer": false
   },
   {
     "id": 8,
     "question": "Ljud färdas snabbare genom vatten än luft.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 9,
     "question": "Fotosyntes kräver koldioxid.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 10,
     "question": "Elektroner kretsar kring atomkärnan.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 11,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 12,
     "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "answer": false
   },
   {
     "id": 13,
     "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 14,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 15,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 16,
-    "question": "Vulkaner bildas av smält bergart under jordytan.",
-    "answer": [
-      "true"
-    ]
+    "question": "Järn rostar inte när det är torrt.",
+    "answer": true
   },
   {
     "id": 17,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 18,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 19,
-    "question": "Vulkaner bildas av smält bergart under jordytan.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 20,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 21,
-    "question": "Solenergi är en förnybar energikälla.",
-    "answer": [
-      "true"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 22,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 23,
-    "question": "Tyngdkraften på månen är svagare än på Jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 24,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 25,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
   {
     "id": 26,
-    "question": "Fåglar är ryggradsdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 27,
-    "question": "Kväve är det vanligaste grundämnet i luft.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 28,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 29,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 30,
-    "question": "Syre behövs för att eld ska brinna.",
-    "answer": [
-      "true"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 31,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
+    "answer": true
   },
   {
     "id": 32,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 33,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 34,
-    "question": "Växter behöver syre för fotosyntes.",
-    "answer": [
-      "false"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 35,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Plast tillverkas av råolja.",
+    "answer": true
   },
   {
     "id": 36,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 37,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 38,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 39,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 40,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 41,
     "question": "Järn rostar inte när det är torrt.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 42,
-    "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 43,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 44,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 45,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 46,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 47,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 48,
-    "question": "Kväve är det vanligaste grundämnet i luft.",
-    "answer": [
-      "true"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 49,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 50,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
   {
     "id": 51,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 52,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 53,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 54,
-    "question": "Järn rostar inte när det är torrt.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 55,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 56,
-    "question": "Tyngdkraften på månen är svagare än på Jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
+    "answer": true
   },
   {
     "id": 57,
-    "question": "Fåglar är ryggradsdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 58,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 59,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 60,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Plast tillverkas av råolja.",
+    "answer": true
   },
   {
     "id": 61,
-    "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 62,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 63,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 64,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 65,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 66,
     "question": "Järn rostar inte när det är torrt.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 67,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 68,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 69,
-    "question": "Tyngdkraften på månen är svagare än på Jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 70,
-    "question": "Solenergi är en förnybar energikälla.",
-    "answer": [
-      "true"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 71,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 72,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 73,
-    "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 74,
-    "question": "Växter behöver syre för fotosyntes.",
-    "answer": [
-      "false"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 75,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
   {
     "id": 76,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 77,
-    "question": "Tyngdkraften på månen är svagare än på Jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 78,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 79,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 80,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 81,
-    "question": "Fladdermöss är däggdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
+    "answer": true
   },
   {
     "id": 82,
-    "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 83,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 84,
-    "question": "Kväve är det vanligaste grundämnet i luft.",
-    "answer": [
-      "true"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 85,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Plast tillverkas av råolja.",
+    "answer": true
   },
   {
     "id": 86,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 87,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 88,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 89,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 90,
-    "question": "Fladdermöss är däggdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 91,
-    "question": "Fladdermöss är däggdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Järn rostar inte när det är torrt.",
+    "answer": true
   },
   {
     "id": 92,
-    "question": "Växter behöver syre för fotosyntes.",
-    "answer": [
-      "false"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 93,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 94,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 95,
-    "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 96,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 97,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 98,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 99,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 100,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
+
   {
     "id": 101,
-    "question": "Fladdermöss är däggdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 102,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 103,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 104,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 105,
-    "question": "Fåglar är ryggradsdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 106,
     "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
-  {
+  { 
     "id": 107,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 108,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 109,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 110,
     "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 111,
     "question": "Solenergi är en förnybar energikälla.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 112,
-    "question": "Syre behövs för att eld ska brinna.",
-    "answer": [
-      "true"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 113,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 114,
-    "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 115,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 116,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Järn rostar inte när det är torrt.",
+    "answer": true
   },
   {
     "id": 117,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 118,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 119,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 120,
-    "question": "Syre behövs för att eld ska brinna.",
-    "answer": [
-      "true"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 121,
-    "question": "Fladdermöss är däggdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 122,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 123,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 124,
-    "question": "Fladdermöss är däggdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 125,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
+
   {
     "id": 126,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 127,
-    "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 128,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 129,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 130,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 131,
-    "question": "Järn rostar inte när det är torrt.",
-    "answer": [
-      "true"
-    ]
+    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
+    "answer": true
   },
   {
     "id": 132,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 133,
-    "question": "Syre behövs för att eld ska brinna.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 134,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 135,
-    "question": "Växter behöver syre för fotosyntes.",
-    "answer": [
-      "false"
-    ]
+    "question": "Plast tillverkas av råolja.",
+    "answer": true
   },
   {
     "id": 136,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 137,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 138,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 139,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 140,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 141,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Järn rostar inte när det är torrt.",
+    "answer": true
   },
   {
     "id": 142,
     "question": "Kväve är det vanligaste grundämnet i luft.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 143,
-    "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 144,
-    "question": "Fåglar är ryggradsdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 145,
-    "question": "Solenergi är en förnybar energikälla.",
-    "answer": [
-      "true"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 146,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 147,
-    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 148,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 149,
     "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "answer": true
   },
   {
     "id": 150,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
+
   {
     "id": 151,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 152,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 153,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 154,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 155,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 156,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
+    "answer": true
   },
   {
     "id": 157,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 158,
-    "question": "Kväve är det vanligaste grundämnet i luft.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 159,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 160,
-    "question": "Järn rostar inte när det är torrt.",
-    "answer": [
-      "true"
-    ]
+    "question": "Plast tillverkas av råolja.",
+    "answer": true
   },
   {
     "id": 161,
-    "question": "Fåglar är ryggradsdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 162,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 163,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 164,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 165,
-    "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 166,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "Järn rostar inte när det är torrt.",
+    "answer": true
   },
   {
     "id": 167,
-    "question": "Tyngdkraften på månen är svagare än på Jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 168,
-    "question": "Is flyter på vatten.",
-    "answer": [
-      "true"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 169,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 170,
-    "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 171,
-    "question": "Biologi handlar om studiet av liv.",
-    "answer": [
-      "true"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 172,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 173,
-    "question": "Fåglar är ryggradsdjur.",
-    "answer": [
-      "true"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 174,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 175,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   },
+
   {
     "id": 176,
-    "question": "Solenergi är en förnybar energikälla.",
-    "answer": [
-      "true"
-    ]
+    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
+    "answer": true
   },
   {
     "id": 177,
-    "question": "Solenergi är en förnybar energikälla.",
-    "answer": [
-      "true"
-    ]
+    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
+    "answer": true
   },
   {
     "id": 178,
-    "question": "Månen är en planet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Svampar är växter.",
+    "answer": false
   },
   {
     "id": 179,
-    "question": "Det tar ljuset ungefär 8 minuter att nå jorden från solen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Fladdermöss är däggdjur.",
+    "answer": true
   },
   {
     "id": 180,
-    "question": "Svampar är växter.",
-    "answer": [
-      "false"
-    ]
+    "question": "Vulkaner bildas av smält bergart under jordytan.",
+    "answer": true
   },
   {
     "id": 181,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Ekvatorn är den längsta cirkeln runt jorden.",
+    "answer": true
   },
   {
     "id": 182,
-    "question": "Syre behövs för att eld ska brinna.",
-    "answer": [
-      "true"
-    ]
+    "question": "Biologi handlar om studiet av liv.",
+    "answer": true
   },
   {
     "id": 183,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Kameleonter kan ändra färg för att kommunicera.",
+    "answer": true
   },
   {
     "id": 184,
-    "question": "Kameleonter kan ändra färg för att kommunicera.",
-    "answer": [
-      "true"
-    ]
+    "question": "Elektricitet uppfanns av Thomas Edison.",
+    "answer": false
   },
   {
     "id": 185,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Plast tillverkas av råolja.",
+    "answer": true
   },
   {
     "id": 186,
-    "question": "Järn rostar inte när det är torrt.",
-    "answer": [
-      "true"
-    ]
+    "question": "Solenergi är en förnybar energikälla.",
+    "answer": true
   },
   {
     "id": 187,
-    "question": "Alla metaller leder elektricitet.",
-    "answer": [
-      "true"
-    ]
+    "question": "Månen är en planet.",
+    "answer": false
   },
   {
     "id": 188,
-    "question": "Syre behövs för att eld ska brinna.",
-    "answer": [
-      "true"
-    ]
+    "question": "Alla metaller leder elektricitet.",
+    "answer": true
   },
   {
     "id": 189,
-    "question": "Batterier lagrar energi i form av elektricitet.",
-    "answer": [
-      "false"
-    ]
+    "question": "Växter behöver syre för fotosyntes.",
+    "answer": false
   },
   {
     "id": 190,
-    "question": "Elektricitet uppfanns av Thomas Edison.",
-    "answer": [
-      "false"
-    ]
+    "question": "Tyngdkraften på månen är svagare än på Jorden.",
+    "answer": true
   },
   {
     "id": 191,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Järn rostar inte när det är torrt.",
+    "answer": true
   },
   {
     "id": 192,
-    "question": "Dinosaurier och människor levde samtidigt.",
-    "answer": [
-      "false"
-    ]
+    "question": "Kväve är det vanligaste grundämnet i luft.",
+    "answer": true
   },
   {
     "id": 193,
-    "question": "Atomer består av protoner, neutroner och elektroner.",
-    "answer": [
-      "true"
-    ]
+    "question": "Eld är en form av materia.",
+    "answer": false
   },
   {
     "id": 194,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Människan har fem sinnen.",
+    "answer": true
   },
   {
     "id": 195,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Is flyter på vatten.",
+    "answer": true
   },
   {
     "id": 196,
-    "question": "I universum finns fler stjärnor än sandkorn på jorden.",
-    "answer": [
-      "true"
-    ]
+    "question": "Dinosaurier och människor levde samtidigt.",
+    "answer": false
   },
   {
     "id": 197,
-    "question": "Människan har fem sinnen.",
-    "answer": [
-      "true"
-    ]
+    "question": "Syre behövs för att eld ska brinna.",
+    "answer": true
   },
   {
     "id": 198,
-    "question": "Plast tillverkas av råolja.",
-    "answer": [
-      "true"
-    ]
+    "question": "Batterier lagrar energi i form av elektricitet.",
+    "answer": false
   },
   {
     "id": 199,
-    "question": "Kväve är det vanligaste grundämnet i luft.",
-    "answer": [
-      "true"
-    ]
+    "question": "Atomer består av protoner, neutroner och elektroner.",
+    "answer": true
   },
   {
     "id": 200,
-    "question": "Eld är en form av materia.",
-    "answer": [
-      "false"
-    ]
+    "question": "Fåglar är ryggradsdjur.",
+    "answer": true
   }
 ]
