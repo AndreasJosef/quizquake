@@ -1,0 +1,1001 @@
+[
+  {
+    "id": 1,
+    "question": "Fotboll spelas med 11 spelare på varje lag.",
+    "answer": true
+  },
+  {
+    "id": 2,
+    "question": "Basketboll uppfanns i Sverige.",
+    "answer": false
+  },
+  {
+    "id": 3,
+    "question": "En maraton är längre än ett halvmaraton.",
+    "answer": true
+  },
+  {
+    "id": 4,
+    "question": "Tennis spelas alltid utomhus.",
+    "answer": false
+  },
+  {
+    "id": 5,
+    "question": "Simning är en olympisk sport.",
+    "answer": true
+  },
+  {
+    "id": 6,
+    "question": "I ishockey får målvakten använda sin klubba överallt på isen.",
+    "answer": false
+  },
+  {
+    "id": 7,
+    "question": "Golf spelas med en boll och klubbor.",
+    "answer": true
+  },
+  {
+    "id": 8,
+    "question": "Rugby tillåter användning av händer för att passa bollen framåt.",
+    "answer": false
+  },
+  {
+    "id": 9,
+    "question": "Boxning är en sport som har viktklasser.",
+    "answer": true
+  },
+  {
+    "id": 10,
+    "question": "Friidrott inkluderar grenar som diskus och spjutkastning.",
+    "answer": true
+  },
+  {
+    "id": 11,
+    "question": "Snooker och biljard är samma sport.",
+    "answer": false
+  },
+  {
+    "id": 12,
+    "question": "Handboll spelas på en plan som är ungefär lika stor som en fotbollsplan.",
+    "answer": false
+  },
+  {
+    "id": 13,
+    "question": "Volleyboll spelas vanligtvis med sex spelare per lag på planen.",
+    "answer": true
+  },
+  {
+    "id": 14,
+    "question": "Cricket är mest populärt i USA.",
+    "answer": false
+  },
+  {
+    "id": 15,
+    "question": "Skidåkning kan vara både en sommar- och vintersport.",
+    "answer": true
+  },
+  {
+    "id": 16,
+    "question": "Badminton spelas med en tung boll som kallas puck.",
+    "answer": false
+  },
+  {
+    "id": 17,
+    "question": "Fäktning har tre olika vapen: florett, värja och sabel.",
+    "answer": true
+  },
+  {
+    "id": 18,
+    "question": "I curling använder spelarna sina händer för att kasta stenen.",
+    "answer": false
+  },
+  {
+    "id": 19,
+    "question": "Baseboll spelas med 9 spelare per lag.",
+    "answer": true
+  },
+  {
+    "id": 20,
+    "question": "Motorsport inkluderar tävlingar som Formel 1 och MotoGP.",
+    "answer": true
+  },
+  {
+    "id": 21,
+    "question": "I gymnastik bedöms endast styrka, inte form och teknik.",
+    "answer": false
+  },
+  {
+    "id": 22,
+    "question": "Triathlon inkluderar simning, cykling och löpning.",
+    "answer": true
+  },
+  {
+    "id": 23,
+    "question": "I badminton kan bollen studsa på marken innan den slås tillbaka.",
+    "answer": false
+  },
+  {
+    "id": 24,
+    "question": "Lacrosse spelas med en boll och en klubba med nät.",
+    "answer": true
+  },
+  {
+    "id": 25,
+    "question": "I fotboll kan en spelare kasta bollen med händerna när som helst.",
+    "answer": false
+  },
+  {
+    "id": 26,
+    "question": "Skytte är en olympisk sport.",
+    "answer": true
+  },
+  {
+    "id": 27,
+    "question": "I basket får man bara dribbla bollen med händerna.",
+    "answer": true
+  },
+  {
+    "id": 28,
+    "question": "I ishockey används en puck istället för en boll.",
+    "answer": true
+  },
+  {
+    "id": 29,
+    "question": "I rugby kan spelare tackla motståndare under knähöjd endast.",
+    "answer": false
+  },
+  {
+    "id": 30,
+    "question": "I bordtennis används små, lätta paddlar.",
+    "answer": true
+  },
+  {
+    "id": 31,
+    "question": "Futsal spelas inomhus med en mindre boll än vanlig fotboll.",
+    "answer": true
+  },
+  {
+    "id": 32,
+    "question": "I brottning är poängsystemet inte viktigt, endast vinster räknas.",
+    "answer": false
+  },
+  {
+    "id": 33,
+    "question": "I krocket används en boll och klubbor för att slå bollen genom bågar.",
+    "answer": true
+  },
+  {
+    "id": 34,
+    "question": "I snowboard tävlar man bara på hastighet, inte stil.",
+    "answer": false
+  },
+  {
+    "id": 35,
+    "question": "I orientering används karta och kompass för navigering.",
+    "answer": true
+  },
+  {
+    "id": 36,
+    "question": "I volleyboll kan bollen studsa på marken innan ett slag.",
+    "answer": false
+  },
+  {
+    "id": 37,
+    "question": "I amerikansk fotboll används en oval boll.",
+    "answer": true
+  },
+  {
+    "id": 38,
+    "question": "I hockey kan man använda händerna för att skjuta pucken in i mål.",
+    "answer": false
+  },
+  {
+    "id": 39,
+    "question": "I gymnastik tävlas både individuellt och i lag.",
+    "answer": true
+  },
+  {
+    "id": 40,
+    "question": "I speedskating tävlar man på skridskor på långbana.",
+    "answer": true
+  },
+  {
+    "id": 41,
+    "question": "I simning får simmare vila när de vill under loppet.",
+    "answer": false
+  },
+  {
+    "id": 42,
+    "question": "I rodd används åror för att förflytta båten framåt.",
+    "answer": true
+  },
+  {
+    "id": 43,
+    "question": "I kajakpolo används en boll och paddlar för att göra mål.",
+    "answer": true
+  },
+  {
+    "id": 44,
+    "question": "I gymnastik är det förbjudet att göra volter.",
+    "answer": false
+  },
+  {
+    "id": 45,
+    "question": "I bowling får man poäng för att välta käglor.",
+    "answer": true
+  },
+  {
+    "id": 46,
+    "question": "I golf måste bollen alltid landa på greenen för att poäng ska räknas.",
+    "answer": false
+  },
+  {
+    "id": 47,
+    "question": "I boxning används handskar för skydd av händerna.",
+    "answer": true
+  },
+  {
+    "id": 48,
+    "question": "I tyngdlyftning tävlar man i flera olika viktklasser.",
+    "answer": true
+  },
+  {
+    "id": 49,
+    "question": "I fotboll är offside-regeln frivillig att följa.",
+    "answer": false
+  },
+  {
+    "id": 50,
+    "question": "I curling används sopar för att påverka stenens hastighet och riktning.",
+    "answer": true
+  },
+  {
+    "id": 51,
+    "question": "I rugby får man inte passa bollen framåt med händerna.",
+    "answer": true
+  },
+  {
+    "id": 52,
+    "question": "I friidrott ingår löpning, hopp och kast.",
+    "answer": true
+  },
+  {
+    "id": 53,
+    "question": "I basketboll är trepoängslinjen längre bort än straffkastlinjen.",
+    "answer": true
+  },
+  {
+    "id": 54,
+    "question": "I simhopp bedöms endast längden på hoppet.",
+    "answer": false
+  },
+  {
+    "id": 55,
+    "question": "I motocross tävlar man på motorcyklar över hinderbanor.",
+    "answer": true
+  },
+  {
+    "id": 56,
+    "question": "I fotboll kan målvakten spela bollen med händerna när som helst på planen.",
+    "answer": false
+  },
+  {
+    "id": 57,
+    "question": "I tennis kan bollen slå i nätet och ändå vara i spel om den går över.",
+    "answer": true
+  },
+  {
+    "id": 58,
+    "question": "I bordtennis spelar man bäst med en stor tung racket.",
+    "answer": false
+  },
+  {
+    "id": 59,
+    "question": "I cricket kan man slå bollen med foten.",
+    "answer": false
+  },
+  {
+    "id": 60,
+    "question": "I ishockey används skridskor för att röra sig på isen.",
+    "answer": true
+  },
+  {
+    "id": 61,
+    "question": "I fotboll kan en spelare bli utvisad med rött kort.",
+    "answer": true
+  },
+  {
+    "id": 62,
+    "question": "I handboll är målet mycket mindre än i fotboll.",
+    "answer": true
+  },
+  {
+    "id": 63,
+    "question": "I basketboll får man bara dribbla bollen med fötterna.",
+    "answer": false
+  },
+  {
+    "id": 64,
+    "question": "I friidrott finns grenarna 100m, 200m och 400m sprint.",
+    "answer": true
+  },
+  {
+    "id": 65,
+    "question": "I curling kan spelarna påverka stenens riktning med sopar.",
+    "answer": true
+  },
+  {
+    "id": 66,
+    "question": "I volleyboll används nätet för att hindra bollen från att gå över.",
+    "answer": false
+  },
+  {
+    "id": 67,
+    "question": "I orientering är det viktigt att kunna läsa karta och kompass.",
+    "answer": true
+  },
+  {
+    "id": 68,
+    "question": "I boxning används benskydd.",
+    "answer": false
+  },
+  {
+    "id": 69,
+    "question": "I maraton springer deltagarna 42,195 km.",
+    "answer": true
+  },
+  {
+    "id": 70,
+    "question": "I golf är bunkrar områden med sand som man ska undvika.",
+    "answer": true
+  },
+  {
+    "id": 71,
+    "question": "I badminton används en boll som är tung och studsar mycket.",
+    "answer": false
+  },
+  {
+    "id": 72,
+    "question": "I tyngdlyftning lyfter man skivstänger med olika vikter.",
+    "answer": true
+  },
+  {
+    "id": 73,
+    "question": "I amerikansk fotboll kan man sparka bollen för att göra poäng.",
+    "answer": true
+  },
+  {
+    "id": 74,
+    "question": "I simning tävlar man aldrig på tid.",
+    "answer": false
+  },
+  {
+    "id": 75,
+    "question": "I handboll kan man dribbla bollen som i basket.",
+    "answer": true
+  },
+  {
+    "id": 76,
+    "question": "I snowboard ingår både hastighet och tricks i tävlingar.",
+    "answer": true
+  },
+  {
+    "id": 77,
+    "question": "I rodd används ingen teknik, bara styrka.",
+    "answer": false
+  },
+  {
+    "id": 78,
+    "question": "I fotboll kan straffspark ges vid fouls i straffområdet.",
+    "answer": true
+  },
+  {
+    "id": 79,
+    "question": "I friidrott är diskuskastning en gren för att kasta så långt som möjligt.",
+    "answer": true
+  },
+  {
+    "id": 80,
+    "question": "I basket kan man göra trepoängskast om man står bakom trepoängslinjen.",
+    "answer": true
+  },
+  {
+    "id": 81,
+    "question": "I motorsport tävlar man alltid med bil.",
+    "answer": false
+  },
+  {
+    "id": 82,
+    "question": "I rugby används en oval boll.",
+    "answer": true
+  },
+  {
+    "id": 83,
+    "question": "I cricket används både bat och boll.",
+    "answer": true
+  },
+  {
+    "id": 84,
+    "question": "I boxning kan man använda armbågar för att träffa motståndaren.",
+    "answer": false
+  },
+  {
+    "id": 85,
+    "question": "I bowling försöker man välta tio käglor.",
+    "answer": true
+  },
+  {
+    "id": 86,
+    "question": "I bordtennis spelar man med små lätta bollar.",
+    "answer": true
+  },
+  {
+    "id": 87,
+    "question": "I basketboll kan man hoppa utan att dribbla för att göra poäng.",
+    "answer": true
+  },
+  {
+    "id": 88,
+    "question": "I simning måste simmare alltid andas med huvudet under vattnet.",
+    "answer": false
+  },
+  {
+    "id": 89,
+    "question": "I handboll är planen mindre än en fotbollsplan.",
+    "answer": true
+  },
+  {
+    "id": 90,
+    "question": "I volleyboll måste bollen alltid träffa marken innan den går över nätet.",
+    "answer": false
+  },
+  {
+    "id": 91,
+    "question": "I ishockey kan spelare använda klubban för att passa bollen.",
+    "answer": false
+  },
+  {
+    "id": 92,
+    "question": "I golf kan man använda flera olika klubbor under en runda.",
+    "answer": true
+  },
+  {
+    "id": 93,
+    "question": "I maraton kan man springa vilken sträcka man vill.",
+    "answer": false
+  },
+  {
+    "id": 94,
+    "question": "I rugby kan man sparka bollen för att göra poäng.",
+    "answer": true
+  },
+  {
+    "id": 95,
+    "question": "I badminton kan bollen slå i nätet och fortfarande vara giltig om den går över.",
+    "answer": true
+  },
+  {
+    "id": 96,
+    "question": "I boxning får man sparka motståndaren.",
+    "answer": false
+  },
+  {
+    "id": 97,
+    "question": "I friidrott är spjutkastning en gren.",
+    "answer": true
+  },
+  {
+    "id": 98,
+    "question": "I speedskating tävlar man på skridskor på kortbana och långbana.",
+    "answer": true
+  },
+  {
+    "id": 99,
+    "question": "I simning tävlar man alltid individuellt.",
+    "answer": false
+  },
+  {
+    "id": 100,
+    "question": "I motorsport används ibland motorcyklar.",
+    "answer": true
+  },
+  {
+    "id": 101,
+    "question": "I fotboll måste bollen passera hela mållinjen för att mål ska räknas.",
+    "answer": true
+  },
+  {
+    "id": 102,
+    "question": "I handboll kan man kasta bollen bakåt men inte framåt.",
+    "answer": false
+  },
+  {
+    "id": 103,
+    "question": "I ishockey kan målvakten fånga pucken med händerna i sitt målområde.",
+    "answer": true
+  },
+  {
+    "id": 104,
+    "question": "I basketboll kan man få poäng utan att träffa korgen.",
+    "answer": false
+  },
+  {
+    "id": 105,
+    "question": "I rugby är tacklingar tillåtna för att stoppa motståndaren.",
+    "answer": true
+  },
+  {
+    "id": 106,
+    "question": "I badminton får bollen studsa på marken innan du slår den.",
+    "answer": false
+  },
+  {
+    "id": 107,
+    "question": "I friidrott används startingblocks i korta lopp.",
+    "answer": true
+  },
+  {
+    "id": 108,
+    "question": "I boxning kan man använda handsken för att blockera slag.",
+    "answer": true
+  },
+  {
+    "id": 109,
+    "question": "I curling kan stenen stanna utan att sopas.",
+    "answer": true
+  },
+  {
+    "id": 110,
+    "question": "I tyngdlyftning används inga vikter.",
+    "answer": false
+  },
+  {
+    "id": 111,
+    "question": "I maraton deltar endast elitlöpare.",
+    "answer": false
+  },
+  {
+    "id": 112,
+    "question": "I rodd tävlar man både individuellt och i lag.",
+    "answer": true
+  },
+  {
+    "id": 113,
+    "question": "I amerikansk fotboll används hjälm och axelskydd.",
+    "answer": true
+  },
+  {
+    "id": 114,
+    "question": "I basketboll används alltid fyra poäng per korg.",
+    "answer": false
+  },
+  {
+    "id": 115,
+    "question": "I golf gäller det att slå bollen i hål med så få slag som möjligt.",
+    "answer": true
+  },
+  {
+    "id": 116,
+    "question": "I handboll får man dribbla bollen hela tiden utan begränsning.",
+    "answer": false
+  },
+  {
+    "id": 117,
+    "question": "I volleyboll spelar man vanligtvis tre set i en match.",
+    "answer": true
+  },
+  {
+    "id": 118,
+    "question": "I ishockey finns inga utvisningar.",
+    "answer": false
+  },
+  {
+    "id": 119,
+    "question": "I simning används olika simsätt som bröstsim, ryggsim och frisim.",
+    "answer": true
+  },
+  {
+    "id": 120,
+    "question": "I motorsport tävlar man endast på asfaltbanor.",
+    "answer": false
+  },
+  {
+    "id": 121,
+    "question": "I rugby kan man poängsätta genom att springa över mållinjen med bollen.",
+    "answer": true
+  },
+  {
+    "id": 122,
+    "question": "I basketboll är dribbling valfri, man kan bära bollen.",
+    "answer": false
+  },
+  {
+    "id": 123,
+    "question": "I friidrott ingår höjdhopp och längdhopp.",
+    "answer": true
+  },
+  {
+    "id": 124,
+    "question": "I badminton används fjäderbollar som alltid är tunga.",
+    "answer": false
+  },
+  {
+    "id": 125,
+    "question": "I fotboll kan målvakten använda händerna inom straffområdet.",
+    "answer": true
+  },
+  {
+    "id": 126,
+    "question": "I ishockey kan spelare skjuta pucken med fötterna.",
+    "answer": false
+  },
+  {
+    "id": 127,
+    "question": "I maraton kan löpare delta i lag.",
+    "answer": false
+  },
+  {
+    "id": 128,
+    "question": "I rodd är det viktigt att synkronisera med laget.",
+    "answer": true
+  },
+  {
+    "id": 129,
+    "question": "I boxning används röd och blå ringhörn för att skilja lagen.",
+    "answer": true
+  },
+  {
+    "id": 130,
+    "question": "I tyngdlyftning används alltid samma vikt för alla deltagare.",
+    "answer": false
+  },
+  {
+    "id": 131,
+    "question": "I basketboll finns positioner som point guard och center.",
+    "answer": true
+  },
+  {
+    "id": 132,
+    "question": "I simning kan man använda paddlar för att få extra poäng.",
+    "answer": false
+  },
+  {
+    "id": 133,
+    "question": "I rugby är maul och ruck vanliga situationer i spelet.",
+    "answer": true
+  },
+  {
+    "id": 134,
+    "question": "I friidrott är stafettlöpning inte en gren.",
+    "answer": false
+  },
+  {
+    "id": 135,
+    "question": "I curling används sopar för att påverka stenens bana.",
+    "answer": true
+  },
+  {
+    "id": 136,
+    "question": "I ishockey kan man göra mål direkt från ett frislag.",
+    "answer": true
+  },
+  {
+    "id": 137,
+    "question": "I basketboll används alltid korgar som är 5 meter höga.",
+    "answer": false
+  },
+  {
+    "id": 138,
+    "question": "I handboll används en boll som är mindre än en fotboll.",
+    "answer": true
+  },
+  {
+    "id": 139,
+    "question": "I maraton tävlar man på skidspår.",
+    "answer": false
+  },
+  {
+    "id": 140,
+    "question": "I badminton kan man vinna poäng genom att motståndaren missar bollen.",
+    "answer": true
+  },
+  {
+    "id": 141,
+    "question": "I rugby får man bara passa bollen framåt.",
+    "answer": false
+  },
+  {
+    "id": 142,
+    "question": "I motorsport kan man tävla på både bilar och motorcyklar.",
+    "answer": true
+  },
+  {
+    "id": 143,
+    "question": "I fotboll finns inget offside.",
+    "answer": false
+  },
+  {
+    "id": 144,
+    "question": "I boxning måste matcherna alltid ha tre ronder.",
+    "answer": false
+  },
+  {
+    "id": 145,
+    "question": "I tyngdlyftning kan man tävla i snatch och clean & jerk.",
+    "answer": true
+  },
+  {
+    "id": 146,
+    "question": "I basketboll kan man inte hoppa för att skjuta korgen.",
+    "answer": false
+  },
+  {
+    "id": 147,
+    "question": "I simning kan man tävla på kortbana eller långbana.",
+    "answer": true
+  },
+  {
+    "id": 148,
+    "question": "I handboll är det tillåtet att stå i målgården utan boll.",
+    "answer": false
+  },
+  {
+    "id": 149,
+    "question": "I ishockey används målvaktens utrustning för att skydda mot pucken.",
+    "answer": true
+  },
+  {
+    "id": 150,
+    "question": "I maraton är loppet alltid kortare än 10 km.",
+    "answer": false
+  },
+  {
+    "id": 151,
+    "question": "I rodd används både sculling och sweeping tekniker.",
+    "answer": true
+  },
+  {
+    "id": 152,
+    "question": "I rugby kan man poängsätta med straffspark.",
+    "answer": true
+  },
+  {
+    "id": 153,
+    "question": "I friidrott finns inga hoppgrenar.",
+    "answer": false
+  },
+  {
+    "id": 154,
+    "question": "I golf gäller det att undvika vattenhinder.",
+    "answer": true
+  },
+  {
+    "id": 155,
+    "question": "I basketboll är det tillåtet att hålla bollen för länge utan att dribbla.",
+    "answer": false
+  },
+  {
+    "id": 156,
+    "question": "I badminton är dubbelspel en vanlig spelform.",
+    "answer": true
+  },
+  {
+    "id": 157,
+    "question": "I ishockey kan målvakten spela pucken med fötterna inom målområdet.",
+    "answer": true
+  },
+  {
+    "id": 158,
+    "question": "I fotboll kan en spelare göra mål genom att kasta bollen direkt.",
+    "answer": false
+  },
+  {
+    "id": 159,
+    "question": "I motorsport används ibland bankörning för högre hastighet.",
+    "answer": true
+  },
+  {
+    "id": 160,
+    "question": "I tyngdlyftning är det förbjudet att använda skor.",
+    "answer": false
+  },
+  {
+    "id": 161,
+    "question": "I boxning finns olika viktklasser för tävlande."
+  },
+  {
+    "id": 162,
+    "question": "I amerikansk fotboll får man poäng genom touchdown eller field goal.",
+    "answer": true
+  },
+  {
+    "id": 163,
+    "question": "I simning kan man använda flytväst under tävling.",
+    "answer": false
+  },
+  {
+    "id": 164,
+    "question": "I handboll är målet 3 meter högt och 2 meter brett.",
+    "answer": true
+  },
+  {
+    "id": 165,
+    "question": "I basketboll kan man dribbla bollen med knäna.",
+    "answer": false
+  },
+  {
+    "id": 166,
+    "question": "I friidrott är längdhopp en gren där man hoppar horisontellt.",
+    "answer": true
+  },
+  {
+    "id": 167,
+    "question": "I rugby måste alla spelare vara över 18 år.",
+    "answer": false
+  },
+  {
+    "id": 168,
+    "question": "I ishockey kan matchen gå till förlängning om det står lika efter ordinarie tid.",
+    "answer": true
+  },
+  {
+    "id": 169,
+    "question": "I boxning kan man använda hjälm i professionella matcher.",
+    "answer": false
+  },
+  {
+    "id": 170,
+    "question": "I badminton används fjäderbollar.",
+    "answer": true
+  },
+  {
+    "id": 171,
+    "question": "I golf måste bollen alltid träffa fairway för att slaget ska gälla.",
+    "answer": false
+  },
+  {
+    "id": 172,
+    "question": "I motorsport kan man tävla på både asfalt och grusbanor.",
+    "answer": true
+  },
+  {
+    "id": 173,
+    "question": "I friidrott kan man kasta spjut både kortare och längre sträckor beroende på teknik.",
+    "answer": true
+  },
+  {
+    "id": 174,
+    "question": "I rugby används endast händer för att driva bollen framåt.",
+    "answer": false
+  },
+  {
+    "id": 175,
+    "question": "I ishockey används målvakten särskilda benskydd.",
+    "answer": true
+  },
+  {
+    "id": 176,
+    "question": "I bordtennis kan man använda händerna för att slå bollen.",
+    "answer": false
+  },
+  {
+    "id": 177,
+    "question": "I maraton kan både kvinnor och män delta.",
+    "answer": true
+  },
+  {
+    "id": 178,
+    "question": "I handboll får målvakten använda händerna inom målgården.",
+    "answer": true
+  },
+  {
+    "id": 179,
+    "question": "I basketboll är trepoängsskott alltid belönade med två poäng.",
+    "answer": false
+  },
+  {
+    "id": 180,
+    "question": "I simning finns både bröstsim och ryggsim som tävlingsgrenar.",
+    "answer": true
+  },
+  {
+    "id": 181,
+    "question": "I boxning får man slå under bältet.",
+    "answer": false
+  },
+  {
+    "id": 182,
+    "question": "I curling används sopar för att påverka stenens fart och riktning.",
+    "answer": true
+  },
+  {
+    "id": 183,
+    "question": "I tyngdlyftning tävlar man i snatch och clean & jerk.",
+    "answer": true
+  },
+  {
+    "id": 184,
+    "question": "I friidrott är 100 meter sprint alltid längre än 400 meter sprint.",
+    "answer": false
+  },
+  {
+    "id": 185,
+    "question": "I badminton får bollen studsa på marken innan man slår den.",
+    "answer": false
+  },
+  {
+    "id": 186,
+    "question": "I rugby kan man sparka bollen över motståndarnas mållinje.",
+    "answer": true
+  },
+  {
+    "id": 187,
+    "question": "I basketboll är det tillåtet att hålla bollen utan att dribbla hur länge som helst.",
+    "answer": false
+  },
+  {
+    "id": 188,
+    "question": "I ishockey får man tackla motståndare med kroppen.",
+    "answer": true
+  },
+  {
+    "id": 189,
+    "question": "I maraton används inga mellantider under loppet.",
+    "answer": false
+  },
+  {
+    "id": 190,
+    "question": "I simning tävlar man i bassäng och öppet vatten.",
+    "answer": true
+  },
+  {
+    "id": 191,
+    "question": "I handboll kan bollen slås med foten.",
+    "answer": false
+  },
+  {
+    "id": 192,
+    "question": "I friidrott är diskuskastning och spjutkastning tekniska grenar.",
+    "answer": true
+  },
+  {
+    "id": 193,
+    "question": "I boxning används alltid hjälm vid alla tävlingar.",
+    "answer": false
+  },
+  {
+    "id": 194,
+    "question": "I rugby används offside-regeln för att hålla spelet rättvist.",
+    "answer": true
+  },
+  {
+    "id": 195,
+    "question": "I motorsport måste alla fordon ha samma hastighet.",
+    "answer": false
+  },
+  {
+    "id": 196,
+    "question": "I basketboll kan man vinna på sudden death om det blir oavgjort.",
+    "answer": false
+  },
+  {
+    "id": 197,
+    "question": "I handboll finns regler för hur länge man får hålla bollen utan att dribbla.",
+    "answer": true
+  },
+  {
+    "id": 198,
+    "question": "I ishockey är icing tillåtet när pucken skjuts från egen planhalva och passerar motståndarnas mållinje utan att någon rör den.",
+    "answer": false
+  },
+  {
+    "id": 199,
+    "question": "I maraton är mållinjen alltid densamma som startlinjen.",
+    "answer": false
+  },
+  {
+    "id": 200,
+    "question": "I simning tävlar man både individuellt och i stafettlag.",
+    "answer": true
+  }
+]
