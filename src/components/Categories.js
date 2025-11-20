@@ -1,6 +1,6 @@
 import { CATEGORIES } from "../modules/gameService.js";
 
-export function Categories() {
+export function Categories({ onClick }) {
   // Create the parent container
   const root = document.createElement('div');
   root.className = 'category-container';
@@ -22,7 +22,7 @@ export function Categories() {
     categories.forEach(cat => {
 
       cat.addEventListener('click', (e) => {
-        console.log(e.target.textContent)
+        onClick(cat.textContent);
       })
 
       root.append(cat);

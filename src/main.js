@@ -68,7 +68,7 @@ const children = [
         visibleWhen: (state) =>  state.gamePhase === 'finished'
     },
     {
-        component: Categories(),
+        component: Categories({ onClick: quizQuake.start }),
         childRoot: () => app.el.querySelector('.slot-main'),
         visibleWhen: (state) =>  state.gamePhase === 'settings'
     },
