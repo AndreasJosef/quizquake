@@ -37,13 +37,50 @@ export function resetTimer() {
     secondsRemaining = TOTAL_TIME;
 }
 
+
+
 // privat
+
+// Put tick-tack sound to timer
+
+const tickSound = new Audio(); //tick.mp3 ligger i assets
+const tackSound = new Audio(); //tack.mp3 ligger i assets
+
+function tickTack(){
+
+    if (secondsRemaining % 2 === 1) {
+
+        tickSound.currentTime = 0;
+        tickSound.play().catch(e => console.log(e));
+    }else {
+        tackSound.currentTime = 0;
+        tackSound.play().catch(e => console.log(e));
+    }
+
+    if (secondsRemaining === 0) { 
+        clearInterval(timerId);
+        timerId = null;
+    }
+
+}
+ 
+
+
+
 // Turns the page gradually from green to red as time ticking. 
 
 function updateVisuals() {
     const percentage = secondsRemaining / TOTAL_TIME;
+
+    const curveFactor = 1.7; //exponenten. 1 är linjär kurva som vi hade tidigare.
+
+    const adjustedPercentage = Math.pow(percentage, curveFactor); // pow() är potens
+
     const hue = percentage * 120;
-    document.body.style.backgroundColor = `hsl(${hue}, 100%. 50%)`;
+
+    document.body.style.backgroundColor = `hsl(${hue}, 100%, 50%)`;
 }
+
+
 
 
