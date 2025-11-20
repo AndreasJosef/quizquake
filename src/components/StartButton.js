@@ -1,7 +1,5 @@
 export function StartButton({ onClick }) {
     const root = document.createElement('button');
-
-    root.id = 'startGame';
     root.textContent = 'Starta spelet'
 
     function init() {
