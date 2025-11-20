@@ -7,6 +7,7 @@ import { GameControls } from  './components/GameControls.js';
 import { ScoreDisplay } from './components/ScoreDisplay.js';
 import { RulesComponent } from "./components/RulesComponent.js";
 import { StartButton } from "./components/StartButton.js";
+import { restartButton } from "./components/RestartButton.js";
 import { Question } from './components/Question.js';
 import { Clock } from "./components/Clock.js";
 import { App } from "./components/App.js";
@@ -29,6 +30,11 @@ const children = [
         component: StartButton({ onClick: quizQuake.start }),
         childRoot: () => app.el.querySelector('.slot-controls'),
         slice: state => ({ phase: state.gamePhase }),
+        visibleWhen: (state) =>  state.gamePhase === 'start'
+    },
+    {
+        component: restartButton({ onClick: console.log }),
+        childRoot: () => app.el.querySelector('.slot-controls'),
         visibleWhen: (state) =>  state.gamePhase === 'start'
     },
     {
