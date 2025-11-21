@@ -46,7 +46,15 @@ export function resetTimer() {
 const tickSound = new Audio(); //tick.mp3 ligger i assets
 const tackSound = new Audio(); //tack.mp3 ligger i assets
 
+
 function tickTack(){
+
+    let progress = 1 - (secondsRemaining / TOTAL_TIME);
+
+    let currentVolume = Math.max(0.1, progress);     
+
+    tickSound.volume = currentVolume; 
+    tackSound.volume = currentVolume;
 
     if (secondsRemaining % 2 === 1) {
 
@@ -72,11 +80,11 @@ function tickTack(){
 function updateVisuals() {
     const percentage = secondsRemaining / TOTAL_TIME;
 
-    const curveFactor = 1.7; //exponenten. 1 är linjär kurva som vi hade tidigare.
+    const curveFactor = 1.5; //exponenten. 1 är linjär kurva som vi hade tidigare.
 
     const adjustedPercentage = Math.pow(percentage, curveFactor); // pow() är potens
 
-    const hue = percentage * 120;
+    const hue = adjustedPercentage * 120;
 
     document.body.style.backgroundColor = `hsl(${hue}, 100%, 50%)`;
 }

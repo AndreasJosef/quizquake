@@ -499,5 +499,507 @@
     "id": 100,
     "question": "Alfabetet slutar på bokstaven Ö.",
     "answer": true
+  },
+
+  
+  {
+    "id": 101,
+    "question": "En fladdermus är en fågel.",
+    "answer": false
+  },
+  {
+    "id": 102,
+    "question": "Vatten blir till is när det är noll grader eller kallare.",
+    "answer": true
+  },
+  {
+    "id": 103,
+    "question": "Sverige är ett land i världsdelen Europa.",
+    "answer": true
+  },
+  {
+    "id": 104,
+    "question": "En kvadrat har tre hörn.",
+    "answer": false
+  },
+  {
+    "id": 105,
+    "question": "Bananer är raka.",
+    "answer": false
+  },
+  {
+    "id": 106,
+    "question": "Hjärtat pumpar runt blodet i kroppen.",
+    "answer": true
+  },
+  {
+    "id": 107,
+    "question": "Astrid Lindgren har skrivit böckerna om Harry Potter.",
+    "answer": false
+  },
+  {
+    "id": 108,
+    "question": "En fotbollsplan är formad som en rektangel.",
+    "answer": true
+  },
+  {
+    "id": 109,
+    "question": "Människor andas med gälar.",
+    "answer": false
+  },
+  {
+    "id": 110,
+    "question": "6 plus 4 är lika med 10.",
+    "answer": true
+  },
+  {
+    "id": 111,
+    "question": "En tomat är röd när den är mogen.",
+    "answer": true
+  },
+  {
+    "id": 112,
+    "question": "Danmark sitter ihop med Sverige via Öresundsbron.",
+    "answer": true
+  },
+  {
+    "id": 113,
+    "question": "Moln är gjorda av bomull.",
+    "answer": false
+  },
+  {
+    "id": 114,
+    "question": "Engelska är ett språk.",
+    "answer": true
+  },
+  {
+    "id": 115,
+    "question": "Fiskar kan blunda.",
+    "answer": false
+  },
+  {
+    "id": 116,
+    "question": "En meter är 100 centimeter.",
+    "answer": true
+  },
+  {
+    "id": 117,
+    "question": "Skåne ligger längst norrut i Sverige.",
+    "answer": false
+  },
+  {
+    "id": 118,
+    "question": "En uggla kan vrida på huvudet.",
+    "answer": true
+  },
+  {
+    "id": 119,
+    "question": "Guld är en metall.",
+    "answer": true
+  },
+  {
+    "id": 120,
+    "question": "Pingviner lever på Nordpolen.",
+    "answer": false
+  },
+  {
+    "id": 121,
+    "question": "Om man blandar rött och vitt får man färgen rosa.",
+    "answer": true
+  },
+  {
+    "id": 122,
+    "question": "En bil har vanligtvis två hjul.",
+    "answer": false
+  },
+  {
+    "id": 123,
+    "question": "Solen är en stjärna.",
+    "answer": true
+  },
+  {
+    "id": 124,
+    "question": "Tandfen samlar på gamla skor.",
+    "answer": false
+  },
+  {
+    "id": 125,
+    "question": "Ett piano har svarta och vita tangenter.",
+    "answer": true
+  },
+  {
+    "id": 126,
+    "question": "Det finns vilda tigrar i Sverige.",
+    "answer": false
+  },
+  {
+    "id": 127,
+    "question": "USA ligger i Nordamerika.",
+    "answer": true
+  },
+  {
+    "id": 128,
+    "question": "En liter vatten väger ungefär ett kilo.",
+    "answer": true
+  },
+  {
+    "id": 129,
+    "question": "Alla fåglar kan sjunga.",
+    "answer": false
+  },
+  {
+    "id": 130,
+    "question": "Februari är årets kortaste månad.",
+    "answer": true
+  },
+  {
+    "id": 131,
+    "question": "Man spelar ishockey på gräs.",
+    "answer": false
+  },
+  {
+    "id": 132,
+    "question": "Diamant är ett väldigt hårt material.",
+    "answer": true
+  },
+  {
+    "id": 133,
+    "question": "En kameleont kan byta färg.",
+    "answer": true
+  },
+  {
+    "id": 134,
+    "question": "En cirkel har fyra sidor.",
+    "answer": false
+  },
+  {
+    "id": 135,
+    "question": "Kebnekaise är Sveriges högsta berg.",
+    "answer": true
+  },
+  {
+    "id": 136,
+    "question": "Telefonnummer består av bokstäver.",
+    "answer": false
+  },
+  {
+    "id": 137,
+    "question": "Biet samlar nektar från blommor.",
+    "answer": true
+  },
+  {
+    "id": 138,
+    "question": "Halloween firas på våren.",
+    "answer": false
+  },
+  {
+    "id": 139,
+    "question": "Det finns sju dagar på en vecka.",
+    "answer": true
+  },
+  {
+    "id": 140,
+    "question": "Titanic var ett flygplan.",
+    "answer": false
+  },
+  {
+    "id": 141,
+    "question": "Öronen fortsätter växa hela livet.",
+    "answer": true
+  },
+  {
+    "id": 142,
+    "question": "Mjölk är oftast grönt.",
+    "answer": false
+  },
+  {
+    "id": 143,
+    "question": "En triangel har alltid tre sidor.",
+    "answer": true
+  },
+  {
+    "id": 144,
+    "question": "1000 är mindre än 100.",
+    "answer": false
+  },
+  {
+    "id": 145,
+    "question": "Gotland är Sveriges största ö.",
+    "answer": true
+  },
+  {
+    "id": 146,
+    "question": "Zlatan Ibrahimović är en känd kock.",
+    "answer": false
+  },
+  {
+    "id": 147,
+    "question": "Träd tappar sina löv på hösten (lövträd).",
+    "answer": true
+  },
+  {
+    "id": 148,
+    "question": "Månen lyser av sig själv.",
+    "answer": false
+  },
+  {
+    "id": 149,
+    "question": "En tandläkare lagar tänder.",
+    "answer": true
+  },
+  {
+    "id": 150,
+    "question": "Ketchup görs av gurka.",
+    "answer": false
+  },
+  {
+    "id": 151,
+    "question": "Björnen är Härjedalens landskapsdjur.",
+    "answer": true
+  },
+  {
+    "id": 152,
+    "question": "En minut har 100 sekunder.",
+    "answer": false
+  },
+  {
+    "id": 153,
+    "question": "Gustav Vasa har varit kung i Sverige.",
+    "answer": true
+  },
+  {
+    "id": 154,
+    "question": "En helikopter har vingar som ett flygplan.",
+    "answer": false
+  },
+  {
+    "id": 155,
+    "question": "Svampar är växter.",
+    "answer": false
+  },
+  {
+    "id": 156,
+    "question": "En kompass pekar mot norr.",
+    "answer": true
+  },
+  {
+    "id": 157,
+    "question": "Choklad kommer från kakaobönan.",
+    "answer": true
+  },
+  {
+    "id": 158,
+    "question": "Hundar jamar.",
+    "answer": false
+  },
+  {
+    "id": 159,
+    "question": "Internet och webben är exakt samma sak.",
+    "answer": false
+  },
+  {
+    "id": 160,
+    "question": "En fotboll är rund.",
+    "answer": true
+  },
+  {
+    "id": 161,
+    "question": "Det finns pyramider i Egypten.",
+    "answer": true
+  },
+  {
+    "id": 162,
+    "question": "Man ska borsta tänderna med tvål.",
+    "answer": false
+  },
+  {
+    "id": 163,
+    "question": "20 är ett jämnt tal.",
+    "answer": true
+  },
+  {
+    "id": 164,
+    "question": "En regnbåge har bara färgen grå.",
+    "answer": false
+  },
+  {
+    "id": 165,
+    "question": "Huden är kroppens största organ.",
+    "answer": true
+  },
+  {
+    "id": 166,
+    "question": "Drottning Silvia kommer från Tyskland.",
+    "answer": true
+  },
+  {
+    "id": 167,
+    "question": "Vänern är en flod.",
+    "answer": false
+  },
+  {
+    "id": 168,
+    "question": "En struts kan springa snabbt.",
+    "answer": true
+  },
+  {
+    "id": 169,
+    "question": "Åska låter före blixten syns.",
+    "answer": false
+  },
+  {
+    "id": 170,
+    "question": "Ett sekel är 100 år.",
+    "answer": true
+  },
+  {
+    "id": 171,
+    "question": "Mars kallas för den röda planeten.",
+    "answer": true
+  },
+  {
+    "id": 172,
+    "question": "Spagetti växer på buskar.",
+    "answer": false
+  },
+  {
+    "id": 173,
+    "question": "Räven är ett däggdjur.",
+    "answer": true
+  },
+  {
+    "id": 174,
+    "question": "En basketkorg sitter på marken.",
+    "answer": false
+  },
+  {
+    "id": 175,
+    "question": "Vatten släcker eld.",
+    "answer": true
+  },
+  {
+    "id": 176,
+    "question": "Lilla My är alltid glad.",
+    "answer": false
+  },
+  {
+    "id": 177,
+    "question": "Nilen är en lång flod.",
+    "answer": true
+  },
+  {
+    "id": 178,
+    "question": "En tärning har 8 sidor (vanligtvis).",
+    "answer": false
+  },
+  {
+    "id": 179,
+    "question": "Solen går ner i väster.",
+    "answer": true
+  },
+  {
+    "id": 180,
+    "question": "Kaniner lägger ägg.",
+    "answer": false
+  },
+  {
+    "id": 181,
+    "question": "Helsingfors är huvudstad i Finland.",
+    "answer": true
+  },
+  {
+    "id": 182,
+    "question": "En såg används för att spika.",
+    "answer": false
+  },
+  {
+    "id": 183,
+    "question": "Datorer behöver ström för att fungera.",
+    "answer": true
+  },
+  {
+    "id": 184,
+    "question": "Bokstaven 'A' är sista bokstaven i alfabetet.",
+    "answer": false
+  },
+  {
+    "id": 185,
+    "question": "En orkester spelar musik.",
+    "answer": true
+  },
+  {
+    "id": 186,
+    "question": "Kakor är nyttigare än grönsaker.",
+    "answer": false
+  },
+  {
+    "id": 187,
+    "question": "Vi har två lungor.",
+    "answer": true
+  },
+  {
+    "id": 188,
+    "question": "En krabba går baklänges eller i sidled.",
+    "answer": true
+  },
+  {
+    "id": 189,
+    "question": "Trollhättan är en stad i Sverige.",
+    "answer": true
+  },
+  {
+    "id": 190,
+    "question": "Frihetsgudinnan står i Paris.",
+    "answer": false
+  },
+  {
+    "id": 191,
+    "question": "En ekorre äter nötter.",
+    "answer": true
+  },
+  {
+    "id": 192,
+    "question": "9 gånger 9 är 81.",
+    "answer": true
+  },
+  {
+    "id": 193,
+    "question": "Världen är platt.",
+    "answer": false
+  },
+  {
+    "id": 194,
+    "question": "Man använder ögonen för att höra.",
+    "answer": false
+  },
+  {
+    "id": 195,
+    "question": "En vulkan kan spruta lava.",
+    "answer": true
+  },
+  {
+    "id": 196,
+    "question": "Sommarlovet är på vintern.",
+    "answer": false
+  },
+  {
+    "id": 197,
+    "question": "Mona Lisa är en känd tavla.",
+    "answer": true
+  },
+  {
+    "id": 198,
+    "question": "Fiskar andas luft.",
+    "answer": false
+  },
+  {
+    "id": 199,
+    "question": "En hammare är ett verktyg.",
+    "answer": true
+  },
+  {
+    "id": 200,
+    "question": "Det är mörkt på natten.",
+    "answer": true
   }
 ]
