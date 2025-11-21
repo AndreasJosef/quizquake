@@ -8,12 +8,18 @@ export function Question() {
 
     // update
     function update({ question, phase }) {
+        if (question === questionElement.textContent) return;
+
         questionElement.textContent = question
+    }
+
+    function mount() {
     }
 
     return {
         el: root,
-        update
+        update,
+        mount
     }
 }
 

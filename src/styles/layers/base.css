@@ -25,7 +25,7 @@
     text-rendering: optimizeLegibility;
     color: var(--ink-primary);
     background: var(--surface-page);
-    /* background-image: url('../../../assets/bg-page.png'); */
+    background-image: url('../../../assets/bg-page.png');
     background-size: cover;
   }
 

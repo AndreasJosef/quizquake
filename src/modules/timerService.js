@@ -1,12 +1,11 @@
 import { bus } from '../core/eventBus.js'
 
 // Timer
-const TOTAL_TIME = 60;
-let secondsRemaining = TOTAL_TIME;
+let secondsRemaining = null
 let timerId = null;
 
 export function tick() {
-
+    
     secondsRemaining--;
 
     if (secondsRemaining === 0) {
@@ -18,13 +17,12 @@ export function tick() {
 }
 
 //when time is up call callback
-export function startTimer(){ 
+export function startTimer(seconds){ 
 
+    secondsRemaining = seconds;
 
-    if (timerId !== null) {
-        return;
-    }
-    
+    if (timerId !== null) return 
+
     timerId = setInterval(tick, 1000);
 }
 
@@ -33,8 +31,6 @@ export function resetTimer() {
     clearInterval(timerId);
 
     timerId = null;
-
-    secondsRemaining = TOTAL_TIME;
 }
 
 
