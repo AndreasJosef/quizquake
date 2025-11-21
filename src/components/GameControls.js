@@ -9,7 +9,7 @@ export function GameControls({ onClick }) {
     trueButton.textContent = 'True';
     falseButton.textContent = 'False';
 
-    root.append(trueButton, falseButton)
+    root.append(falseButton, trueButton)
 
     function onKey(e){
 
