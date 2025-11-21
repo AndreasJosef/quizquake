@@ -1,7 +1,7 @@
 import { bus } from '../core/eventBus.js'
 
 // Timer
-const TOTAL_TIME = 10;
+const TOTAL_TIME = 60;
 let secondsRemaining = TOTAL_TIME;
 let timerId = null;
 
@@ -38,15 +38,20 @@ export function resetTimer() {
 }
 
 
-
-// privat
-
 // Put tick-tack sound to timer
 
 const tickSound = new Audio(); //tick.mp3 ligger i assets
 const tackSound = new Audio(); //tack.mp3 ligger i assets
 
+
 function tickTack(){
+
+    let progress = 1 - (secondsRemaining / TOTAL_TIME);
+
+    let currentVolume = Math.max(0.1, progress);     
+
+    tickSound.volume = currentVolume; 
+    tackSound.volume = currentVolume;
 
     if (secondsRemaining % 2 === 1) {
 
@@ -64,22 +69,9 @@ function tickTack(){
 
 }
  
-
-
-
 // Turns the page gradually from green to red as time ticking. 
 
-function updateVisuals() {
-    const percentage = secondsRemaining / TOTAL_TIME;
 
-    const curveFactor = 1.7; //exponenten. 1 är linjär kurva som vi hade tidigare.
-
-    const adjustedPercentage = Math.pow(percentage, curveFactor); // pow() är potens
-
-    const hue = percentage * 120;
-
-    document.body.style.backgroundColor = `hsl(${hue}, 100%, 50%)`;
-}
 
 
 

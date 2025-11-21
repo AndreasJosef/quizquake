@@ -9,6 +9,14 @@ export const GAME_PHASES = {
     finished: 'finished'
 }
 
+export const CATEGORIES = [
+    'barnfragor',
+    'internet',
+    'sport',
+    'kultur'
+]
+
+
 function createGameService() {
 
     let state = {
@@ -17,7 +25,7 @@ function createGameService() {
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
-        timeRemaining: 10,
+        timeRemaining: 60,
         nextIndex: 0,
         player: {
             name: '',
@@ -40,11 +48,14 @@ function createGameService() {
         publishState();
     }
 
-    async function start() {
+    function ready(){
+        state.gamePhase = GAME_PHASES.settings;
+        publishState();
+    }
 
-        if (state.gameReady) return;
+    async function start(category) {
 
-        state.questions = await fetchQuestions('internet_trivia')
+        state.questions = await fetchQuestions(category)
 
         state.gamePhase = GAME_PHASES.playing;
 
@@ -91,7 +102,7 @@ function createGameService() {
         bus.emit('state', { ...safeState });
     }
 
-    return { init, start, makeMove }
+    return { init, ready, start, makeMove }
 }
 
 
