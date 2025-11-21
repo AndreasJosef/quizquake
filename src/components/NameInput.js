@@ -1,7 +1,7 @@
-export function NameInput(){
+export function NameInput() {
 
     const root = document.createElement('div');
-    let nameInput =  document.createElement('input');
+    let nameInput = document.createElement('input');
     let submitButton = document.createElement('button');
 
     nameInput.type = 'text';
@@ -11,7 +11,16 @@ export function NameInput(){
 
     root.append(nameInput, submitButton);
 
+    function mount() {
+
+        requestAnimationFrame(() => {
+            console.log(nameInput.focus)
+            nameInput.focus();
+        });
+    }
+
     return {
-        el: root
+        el: root,
+        mount
     }
 }

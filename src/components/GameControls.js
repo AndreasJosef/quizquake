@@ -9,10 +9,30 @@ export function GameControls({ onClick }) {
     trueButton.textContent = 'True';
     falseButton.textContent = 'False';
 
-    root.append(trueButton, falseButton)
+    root.append(falseButton, trueButton)
+
+    function onKey(e){
+
+        if (e.key === 'ArrowRight') {
+            onClick(true);
+        }
+
+        if (e.key === 'ArrowLeft') {
+            onClick(false);
+        }
+
+    }
+
+    function mount() {
+        
+        window.addEventListener('keydown', onKey);
+
+    }
 
     function init() {
+
         root.addEventListener('click', (e) => {
+            
 
             if (e.target.tagName === 'BUTTON'){
                 onClick(toBool(e.target.textContent));
@@ -23,7 +43,8 @@ export function GameControls({ onClick }) {
 
     return {
         el: root,
-        init
+        init,
+        mount
     }
 
 }
