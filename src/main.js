@@ -1,6 +1,6 @@
 // Dependencies
 import { quizQuake } from "./modules/gameService.js"
-import { createRendererSingleRoot } from './core/singleRootRenderer.js';
+import { createRenderer } from './core/renderer.js';
 
 // Components
 import { GameControls } from  './components/GameControls.js';
