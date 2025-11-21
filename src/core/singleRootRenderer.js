@@ -14,7 +14,7 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
   });
 
-  function resolveContainer(child) {
+  function getChildContainer(child) {
 
     const root = child.childRoot;
 
@@ -26,13 +26,59 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
   }
 
-  function updateVisibility(state) {
-    children.forEach(child => {
-      if (!child._mounted) return
+  async function renderChild(child, state) {
 
-      const isVisible = child.visibleWhen ? child.visibleWhen(state) : true;
-      child.component.el.setAttribute('data-hidden', isVisible ? 'false' : 'true');
-    })
+    // check if the child has a route otherwise always visible
+    const isVisible = child.visibleWhen ? child.visibleWhen(state) : true;
+
+    // get container for the child
+    const container = child._container || (child._container = getChildContainer(child));
+
+    if (!container || !child.component.el) return
+
+    // if visible but not yet mounted we mount
+    if (isVisible && !child._mounted) {
+
+      // if child has init and it has not been called yet -> call it
+      if (!child._initialized) {
+        child.component.init?.(child.slice ? child.slice(state) : {});
+        child._initialized = true;
+      }
+
+      // then append to dom
+      container.appendChild(child.component.el)
+
+      // then call mount and await promisses
+      try {
+
+        // call and wait for async mounts on the component finish
+        await Promise.resolve(child.component.mount?.(container));
+
+      } catch (e) {
+
+        // don't stop rendering when a components mount fails
+        console.error('Error mounting component', e)
+
+      }
+
+      // update child mounted status
+      child._mounted = true;
+
+      // if all that worked out we update with latest state
+      child.component.update?.(child.slice ? child.slice(state) : {});
+
+    } else if (!isVisible && child._mounted) { // should not be visible but is mounted
+
+      // remove from DOM
+      container.removeChild(child.component.el);
+      child._mounted = false;
+    }
+
+    // finally update mounted components
+    if (child._mounted && child.component.update) {
+      const propsUpdate = child.slice ? child.slice(state) : {};
+      child.component.update(propsUpdate);
+    }
   }
 
   // mount root app to DOM (call init, append, mount, update)
@@ -55,59 +101,16 @@ export function createRendererSingleRoot({ rootComponent, children }) {
 
   }
 
-  // only mount if slot exist
-  function tryMountingChildren(state) {
-
-    children.forEach(child => {
-
-      if (child._mounted) return;
-
-      if (!child._initialized) {
-
-        const initialProps = child.slice ? child.slice(state) : {};
-
-        if (child.component.init) child.component.init(initialProps);
-
-        child._initialized = true;
-
-      }
-
-      // store a reference of the container
-      if (!child._container) {
-        child._container = resolveContainer(child);
-      }
-
-      const container = child._container;
-
-      if (container && child.component.el && !child._mounted) {
-
-        // mount child in DOM
-        container.appendChild(child.component.el);
-
-        if (child.component.mount) child.component.mount(container);
-        child._mounted = true;
-
-        const propsUpdate = child.slice ? child.slice(state) : {};
-
-        // and immediatley update with latest state
-        if (child.component.update) child.component.update(propsUpdate);
-
-      }
-    });
-  }
-
   // mount root and children whoose slot already exists
-  function mount(rootSelector) {
+  async function mount(rootSelector) {
 
     mountRoot(rootSelector);
 
-    // in case state already emitted before mount, attempt to mount children now
-    tryMountingChildren(lastState);
-
+    await Promise.all(children.map(child => renderChild(child, lastState)));
   }
 
-  // on every state change: try mounting children then update root and mounted children
-  bus.on('state', (updatedState) => {
+  // make the render reactive to state changes
+  bus.on('state', async (updatedState) => {
 
     // keep copy of the new state inside renderer
     lastState = updatedState;
@@ -115,29 +118,9 @@ export function createRendererSingleRoot({ rootComponent, children }) {
     // update root component if it wants to be updated
     if (rootComponent.update) rootComponent.update(updatedState);
 
-    // try mounting children in their slots if the slot exist
-    tryMountingChildren(updatedState);
-
-    // update visibility based on child setting
-    updateVisibility(updatedState);
-
-    // finally update children with new state
-    children.forEach(child => {
-
-      if (child._mounted && child.component.update) {
-
-        // only update visible children
-        const hidden = child.component.el.getAttribute('data-hidden') === 'true';
-        if (child.skipWhenHidden && hidden) return;
-
-        // makes the it more flexible for components that do not need any state
-        const propsUpdate = child.slice ? child.slice(updatedState) : {};
-
-        child.component.update(propsUpdate);
-      }
-    });
+    await Promise.all(children.map(child => renderChild(child, updatedState)))
   });
 
-  // Public API starts mounts everything 
+  // Public API: attaches the app to the DOM and hooks up rendering
   return { mount };
 }
