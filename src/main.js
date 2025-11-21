@@ -3,7 +3,7 @@ import { quizQuake } from "./modules/gameService.js"
 import { createRenderer } from './core/renderer.js';
 
 // Components
-import { GameControls } from  './components/GameControls.js';
+import { GameControls } from './components/GameControls.js';
 import { ScoreDisplay } from './components/ScoreDisplay.js';
 import { RulesComponent } from "./components/RulesComponent.js";
 import { StartButton } from "./components/StartButton.js";
@@ -14,6 +14,8 @@ import { App } from "./components/App.js";
 import { Results } from "./components/Results.js";
 import { Categories } from "./components/Categories.js";
 import { NameInput } from "./components/NameInput.js";
+import { HighscoresList } from "./components/HighscoresList.js";
+import { saveHighscore } from "./modules/highscoreAdapter.js";
 
 // Create components
 const app = App();
@@ -30,46 +32,53 @@ const children = [
     {
         component: restartButton({ onClick: quizQuake.ready }),
         childRoot: () => app.el.querySelector('.slot-controls'),
-        visibleWhen: (state) =>  state.gamePhase === 'finished'
+        visibleWhen: (state) => state.gamePhase === 'finished'
     },
     {
         component: question,
         childRoot: () => app.el.querySelector('.slot-main'),
         slice: state => ({ phase: state.gamePhase, question: state.currentQuestion }),
-        visibleWhen: (state) =>  state.gamePhase === 'playing'
+        visibleWhen: (state) => state.gamePhase === 'playing'
     },
     {
         component: Clock(),
         childRoot: () => app.el.querySelector('.slot-header'),
         slice: state => ({ time: state.timeRemaining }),
-        visibleWhen: (state) =>  state.gamePhase === 'playing'
+        visibleWhen: (state) => state.gamePhase === 'playing'
     },
     {
-        component: GameControls({onClick: quizQuake.makeMove }),
+        component: GameControls({ onClick: quizQuake.makeMove }),
         childRoot: () => app.el.querySelector('.slot-controls'),
-        visibleWhen: (state) =>  state.gamePhase === 'playing'
+        visibleWhen: (state) => state.gamePhase === 'playing'
     },
     {
         component: ScoreDisplay(),
         childRoot: () => app.el.querySelector('.slot-header'),
-        slice: state => ({score: state.score}),
-        visibleWhen: (state) =>  state.gamePhase === 'playing'
+        slice: state => ({ score: state.score }),
+        visibleWhen: (state) => state.gamePhase === 'playing'
     },
     {
         component: Results(),
         childRoot: () => app.el.querySelector('.slot-main'),
-        slice: state => ({score: state.score}),
-        visibleWhen: (state) =>  state.gamePhase === 'finished'
+        slice: state => ({ score: state.score }),
+        visibleWhen: (state) => state.gamePhase === 'finished'
     },
     {
         component: Categories({ onClick: quizQuake.start }),
         childRoot: () => app.el.querySelector('.slot-main'),
-        visibleWhen: (state) =>  state.gamePhase === 'settings'
+        visibleWhen: (state) => state.gamePhase === 'settings'
     },
     {
-        component: NameInput(),
+        component: NameInput({ onSubmit: saveHighscore }),
         childRoot: () => app.el.querySelector('.slot-main'),
-        visibleWhen: (state) =>  state.gamePhase === 'finished'
+        slice: state => ({ score: state.score }),
+        visibleWhen: (state) => state.gamePhase === 'finished'
+    },
+    {
+        component: HighscoresList(),
+        childRoot: () => app.el.querySelector('.slot-main'),
+        visibleWhen: (state) => state.gamePhase === 'finished',
+        slice: (state) => ({ highscores: state.highscores })
     }
 ]
 

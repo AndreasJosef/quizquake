@@ -1,0 +1,7 @@
+.game {
+    background-color: var(--neutral-700);
+    padding: var(--space-5);
+    border-radius: var(--radius-md);
+    border: 1px solid var(--neutral-600);
+    min-height: 50vh;
+}

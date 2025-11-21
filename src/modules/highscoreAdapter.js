@@ -1,96 +1,39 @@
-// ====================================================
-// Step 1: the key used in localStorage
-// ====================================================
 const STORAGE_KEY = "quiz_highscores";
 
-// ====================================================
-// Step 2: new score
-// ====================================================
-export function saveHighscore(name, score) {
-  // the score is a valid number
-  if (typeof score !== "number" || isNaN(score)) {
-    console.error("Score must be a number");
-    return;
+export function saveHighscore(score, name) {
+
+  const highscores = getHighscores(STORAGE_KEY);
+
+  const entry = {
+    player: name,
+    score: score
   }
 
-  // Step 2.1: Load existing highscores
-  const highscores = loadFromLocalStorage(STORAGE_KEY);
+  const scoreExists = highscores
+    .find( highscore => highscore.score === entry.score)
 
-  // check if score already exists
-  if (highscores.includes(score)) return 
+  if (scoreExists) return 
 
+  if (highscores.includes(entry.score)) return
 
-  // Step 2.2: the new score
-  highscores.push(score);
+  highscores.push(entry);
 
-  // Step 2.3: Sort from highest to lowest
-  highscores.sort((a, b) => b - a);
+  // Sort from highest to lowest
+  highscores.sort((a, b) => b.score - a.score);
 
-  // Step 2.4: Keep only top 10
   const topTen = highscores.slice(0, 10);
 
-  // Step 2.5: Save back to localStorage
   localStorage.setItem(STORAGE_KEY, JSON.stringify(topTen));
 
-  console.log("✅ Highscore saved!");
+  console.log("Highscore saved!", entry.player, entry.score);
 }
-
-// ====================================================
-// Step 3:  list of highscores
-// ====================================================
 
 export function getHighscores() {
-  return loadFromLocalStorage(STORAGE_KEY);
-}
-
-export function getPlayers() {
-  const highscores = loadFromLocalStorage(STORAGE_KEY);
-  return highscores.map(player => player.name);
-}
-
-export function createPlayer(name) {
-  if (!name) return console.error("Name is required");
-
-  const highscores = loadFromLocalStorage(STORAGE_KEY);
-
-  // check om spelaren redan finns 
-
-  if (highscores.some(player => player.name === name)) {
-    console.warn("Player already exists");
-    return;
-  }
-
-  // skapa ny spelare
-
-
-  highscores.push({ name, scores: [] });
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(highscores));
-
-  console.log(`Player ${name} created`);
-  
-}
-  
-
-
-// ====================================================
-// Step 4: to load data from localStorage
-// ====================================================
-function loadFromLocalStorage(key) {
-  const data = localStorage.getItem(key);
+  const data = localStorage.getItem(STORAGE_KEY);
   return data ? JSON.parse(data) : [];
 }
 
-
-
-// highscore shape
-// const highscores = [
-//   {
-//     name: 'Joakim',
-//     scores: [1,2,3]
-//   },
-//   {
-//     name: 'Andreas',
-//     scores: [1,2,3]
-//   },
-
-// ]
+export function clearStorage() {
+  localStorage.setItem(STORAGE_KEY, [])
+  console.log("Cleared Highscores!", localStorage.getItem(STORAGE_KEY));
+}

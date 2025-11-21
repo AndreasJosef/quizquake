@@ -13,12 +13,12 @@ export function GameControls({ onClick }) {
 
     function onKey(e){
 
-        if (e.key === 'ArrowRight') {
-            onClick(true);
+        if (e.key === 'f') {
+            onClick(false);
         }
 
-        if (e.key === 'ArrowLeft') {
-            onClick(false);
+        if (e.key === 'j') {
+            onClick(true);
         }
 
     }

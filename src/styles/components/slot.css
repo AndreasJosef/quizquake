@@ -2,15 +2,6 @@
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 1;
     display: block;
-    padding-block: var(--space-2);
-}
-
-/* Hidden state */
-.slot>*[data-hidden="true"] {
-    display: none;
-    opacity: 1;
-    pointer-events: none;
-    transition: opacity 0.3s ease;
 }
 
 .slot-header {
@@ -25,8 +16,6 @@
 
 }
 
-.slot-controls button {
-    margin-inline: var(--space-2);
-    padding-inline: var(--space-5);
-    padding-block: var(--space-3);
+.slot__item {
+    padding: var(--space-3);
 }
