@@ -16,3 +16,16 @@ export function Question() {
         update
     }
 }
+
+// Effects
+function updateVisuals() {
+    const percentage = secondsRemaining / TOTAL_TIME;
+
+    const curveFactor = 1.5; //exponenten. 1 är linjär kurva som vi hade tidigare.
+
+    const adjustedPercentage = Math.pow(percentage, curveFactor); // pow() är potens
+
+    const hue = adjustedPercentage * 120;
+
+    document.body.style.backgroundColor = `hsl(${hue}, 100%, 50%)`;
+}

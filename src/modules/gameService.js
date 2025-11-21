@@ -13,7 +13,7 @@ export const CATEGORIES = [
     'barnfragor',
     'internet',
     'sport',
-    'vetenskap'
+    'kultur'
 ]
 
 
