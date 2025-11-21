@@ -74,7 +74,7 @@ const children = [
 ]
 
 // Create the renderer
-const renderer = createRendererSingleRoot({
+const renderer = createRenderer({
     rootComponent: app,
     children: children
 })
