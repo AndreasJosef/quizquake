@@ -2,19 +2,20 @@ export function NameInput({ onSubmit }) {
 
     const root = document.createElement('div');
 
-    let nameInput = document.createElement('input');
-    let submitButton = document.createElement('button');
-
-    let playerScore = null;
-
+    const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.placeholder = 'Enter your Name';
 
+    const submitButton = document.createElement('button');
     submitButton.textContent = 'Confirm'
+
+    let playerScore = null;
 
     root.append(nameInput, submitButton);
 
     function submitHighscore(playerName) {
+
+
         if (
             nameInput.value === '' ||
             nameInput.value.length < 3 ||
@@ -26,15 +27,21 @@ export function NameInput({ onSubmit }) {
         nameInput.value = '';
     }
 
+    // handle button click and enter in destroy friendly way
+    const submitClick = () => submitHighscore(nameInput.value);
+    const enterPress = (e) => {
+        if (e.key === 'Enter') submitHighscore(nameInput.value);
+    }
+
     function mount() {
 
         requestAnimationFrame(() => {
             nameInput.focus();
         });
 
-        submitButton.addEventListener('click', e => {
-            submitHighscore(nameInput.value)
-        })
+        submitButton.addEventListener('click', submitClick);
+
+        window.addEventListener('keypress', enterPress);
 
     }
 
@@ -42,9 +49,15 @@ export function NameInput({ onSubmit }) {
         playerScore = score
     }
 
+    function destroy(){
+        submitButton.removeEventListener('click', submitClick);
+        window.removeEventListener('click', enterPress);
+    }
+
     return {
         el: root,
         mount,
-        update
+        update,
+        destroy
     }
 }

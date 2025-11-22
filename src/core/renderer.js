@@ -71,6 +71,14 @@ export function createRenderer({ rootComponent, children }) {
 
       // remove from DOM
       container.removeChild(child.component.el);
+
+      // if child exposes destroy lifecycle hook call it now
+      try {
+        child.component.destroy?.()
+      } catch (e) {
+        console.error('Error during destruction:', e);
+      }
+      
       child._mounted = false;
     }
 

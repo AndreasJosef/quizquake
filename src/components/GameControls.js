@@ -41,10 +41,16 @@ export function GameControls({ onClick }) {
         })
     }
 
+    function destroy() {
+
+        window.removeEventListener('keydown', onKey);
+    }
+
     return {
         el: root,
         init,
-        mount
+        mount,
+        destroy
     }
 
 }
