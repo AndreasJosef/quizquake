@@ -1,3 +1,5 @@
+import { bus } from "../core/eventBus";
+
 const STORAGE_KEY = "quiz_highscores";
 
 export function saveHighscore(score, name) {
@@ -24,6 +26,8 @@ export function saveHighscore(score, name) {
   const topTen = highscores.slice(0, 10);
 
   localStorage.setItem(STORAGE_KEY, JSON.stringify(topTen));
+
+  bus.emit('storage', topTen);
 
   console.log("Highscore saved!", entry.player, entry.score);
 }

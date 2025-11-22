@@ -44,6 +44,12 @@ function createGameService() {
         publishState();
     })
 
+    bus.on('storage', (items) => {
+        state.highscores = items;
+
+        publishState();
+    })
+
     // works as long as we do not have any nested properties on state.
     // Will break when we do and then need build a more robust solution
     // and do a deep merge
