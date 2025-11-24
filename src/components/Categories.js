@@ -9,7 +9,7 @@ export function Categories({ onClick }) {
 
   CATEGORIES.forEach(category => {
     const card = document.createElement('div');
-    card.textContent = category;
+    // card.textContent = category;
     card.className = 'gallery__card';
     card.style.backgroundImage = `url('assets/${category}.jpg')`;
     // card.style.backgroundImage = `url('assets/cat-test.png')`;
