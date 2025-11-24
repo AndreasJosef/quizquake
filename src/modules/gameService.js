@@ -2,6 +2,7 @@ import { fetchQuestions } from "./questionsAdapter.js";
 import { bus } from "../core/eventBus.js";
 import { startTimer } from "./timerService.js";
 import { clearStorage, getHighscores, saveHighscore } from "./highscoreAdapter.js"
+import { audioEngine } from "./audioEngine.js"
 
 export const GAME_SECONDS = 2;
 
@@ -27,7 +28,7 @@ function createGameService() {
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
-        timeRemaining: 5,
+        timeRemaining: 30,
         nextIndex: 0,
         highscores: null,
     };
@@ -75,6 +76,7 @@ function createGameService() {
         state.score = 0;
         state.gamePhase = GAME_PHASES.settings;
         state.highscores = getHighscores();
+        audioEngine.play('background-track');
 
         publishState();
     }
