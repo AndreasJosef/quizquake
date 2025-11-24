@@ -9,10 +9,9 @@ export function Categories({ onClick }) {
 
   CATEGORIES.forEach(category => {
     const card = document.createElement('div');
-    // card.textContent = category;
+    card.dataset.category = category;
     card.className = 'gallery__card';
-    card.style.backgroundImage = `url('assets/${category}.jpg')`;
-    // card.style.backgroundImage = `url('assets/cat-test.png')`;
+    card.style.backgroundImage = `url('assets/${category}.png')`;
 
     categories.push(card)
 
@@ -23,7 +22,8 @@ export function Categories({ onClick }) {
     categories.forEach(cat => {
 
       cat.addEventListener('click', (e) => {
-        onClick(cat.textContent);
+        let category = cat.dataset.category
+        onClick(category);
       })
 
       root.append(cat);

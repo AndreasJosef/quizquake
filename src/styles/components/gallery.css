@@ -8,6 +8,7 @@
     cursor: pointer;
     display: flex;
     align-items: center;
+    height: 5rem;
     justify-content: center;
     background-size: cover;
     background-position: center;
@@ -25,7 +26,7 @@
 .gallery__card:active {
     transform: scale(0.95);
     transition: transform 0.1s ease-in-out;
-} */
+} 
 
 .gallery__card span {
     background-color: rgb(255, 255, 255);
@@ -41,5 +42,6 @@
 
     .gallery__card {
         aspect-ratio: 3 / 2;
+        height: initial;
     }
 }
