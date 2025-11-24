@@ -16,9 +16,8 @@
     --ink-muted: #334155;
 
     /* Brand */
-    --brand-600: #27547d;
-    --brand-500: #2f6aa0;
-    --accent-500: #26c793;
+    --brand: #291c2d;
+    --accent: #fcb922;
 
     /* Links */
     --link: var(--brand-600);

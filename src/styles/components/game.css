@@ -1,5 +1,7 @@
 .game {
     background-color: var(--neutral-700);
+    background-color: #291c2d;
+    opacity: .98;
     padding: var(--space-5);
     border-radius: var(--radius-md);
     border: 1px solid var(--neutral-600);
