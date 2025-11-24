@@ -71,7 +71,7 @@ const children = [
     {
         component: NameInput({ onSubmit: saveHighscore }),
         childRoot: () => app.el.querySelector('.slot-main'),
-        slice: state => ({ score: state.score }),
+        slice: state => ({ score: state.score, highscores: state.highscores }),
         visibleWhen: (state) => state.gamePhase === 'finished'
     },
     {

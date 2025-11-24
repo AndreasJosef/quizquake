@@ -19,11 +19,11 @@
     margin-inline: auto;
     /* Enable Container Queries */
     container-type: inline-size;
+    /* padding-inline: var(--gutter); */
 
 }
 
 
 .layout-page__container {
     max-inline-size: min(100vw, var(--layout-max));
-    padding-inline: var(--gutter);
 }

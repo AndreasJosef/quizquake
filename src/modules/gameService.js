@@ -27,7 +27,7 @@ function createGameService() {
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
-        timeRemaining: 10,
+        timeRemaining: 5,
         nextIndex: 0,
         highscores: null,
     };
@@ -65,13 +65,14 @@ function createGameService() {
 
         // clearStorage() 
 
-        saveHighscore(20, 'Leon');
-        saveHighscore(40, 'Leon');
+        // saveHighscore(20, 'Leon');
+        // saveHighscore(40, 'Leon');
 
         publishState();
     }
 
     function ready() {
+        state.score = 0;
         state.gamePhase = GAME_PHASES.settings;
         state.highscores = getHighscores();
 

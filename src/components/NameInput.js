@@ -10,6 +10,7 @@ export function NameInput({ onSubmit }) {
     submitButton.textContent = 'Confirm'
 
     let playerScore = null;
+    let currentHighscores = null;
 
     root.append(nameInput, submitButton);
 
@@ -40,16 +41,29 @@ export function NameInput({ onSubmit }) {
         });
 
         submitButton.addEventListener('click', submitClick);
-
         window.addEventListener('keypress', enterPress);
+
+        if (!currentHighscores.length) return;
+        console.log(playerScore > currentHighscores[currentHighscores.length - 1].score)
+        
+
+        playerScore > currentHighscores[currentHighscores.length - 1].score
+            ? root.style.display = 'block'
+            : root.style.display = 'none';
 
     }
 
-    function update({ score }) {
+    function update({ score, highscores }) {
+        playerScore = score
+        currentHighscores = highscores
+    }
+
+    function init({ score, highscores }) {
+        currentHighscores = highscores
         playerScore = score
     }
 
-    function destroy(){
+    function destroy() {
         submitButton.removeEventListener('click', submitClick);
         window.removeEventListener('click', enterPress);
     }
@@ -58,6 +72,7 @@ export function NameInput({ onSubmit }) {
         el: root,
         mount,
         update,
+        init,
         destroy
     }
 }
