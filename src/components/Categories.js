@@ -11,8 +11,8 @@ export function Categories({ onClick }) {
     const card = document.createElement('div');
     card.textContent = category;
     card.className = 'card__category';
-    // card.style.backgroundImage = `url('assets/${category}.jpg')`;
-    card.style.backgroundImage = `url('assets/cat-test.png')`;
+    card.style.backgroundImage = `url('assets/${category}.jpg')`;
+    // card.style.backgroundImage = `url('assets/cat-test.png')`;
 
     categories.push(card)
 

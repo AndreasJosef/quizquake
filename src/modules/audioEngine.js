@@ -1,23 +1,38 @@
+export const  AUDIO_TRACKS = [
+  'background-track'
+]
+
 class AudioEngine {
   constructor() {
-    this.audio = null;
+    this.audio = [];
   }
 
-  async load(loopUrl) {
-    if (this.audio) {
-      this.audio.pause();
-      this.audio = null;
+  async load(loopUrl, audioTitle, loop) {
+
+    let trackAudio = new Audio(loopUrl);
+
+    trackAudio.loop = loop
+
+    let track = {
+      title: audioTitle,
+      audio: trackAudio,
     }
-    this.audio = new Audio(loopUrl);
-    this.audio.loop = true;
+
+
+    this.audio.push(track);
 
     console.log('loaded', this.audio)
   }
 
-  play() {
-    if (this.audio) {
-      this.audio.play();
+  play(title) {
+    let track = this.audio.find(t => t.title === title) 
+
+    if (track) {
+      track.audio.play();
+    } else {
+      console.error(`Track with title: ${title} not found!`)
     }
+
   }
 
   stop() {

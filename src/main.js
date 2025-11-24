@@ -92,6 +92,4 @@ const renderer = createRenderer({
 // Mount the app
 renderer.mount('#gameContainer');
 quizQuake.init();
-
-await audioEngine.load('/assets/Neon_Nightsong.mp3')
-audioEngine.play();
+audioEngine.load('/assets/Neon_Nightsong.mp3', 'background-track', true)
