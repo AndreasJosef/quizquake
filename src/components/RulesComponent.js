@@ -5,6 +5,7 @@ export function RulesComponent({ onClick }) {
     const rulesHeading = document.createElement('h2');
     const rulesText = document.createElement('p');
     const readyButton = document.createElement('button')
+    readyButton.className = 'btn btn__ready'
 
     root.append(rulesHeading, rulesText, readyButton)
 

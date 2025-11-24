@@ -1,0 +1,20 @@
+.btn__ready {
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    color: #FFF; /* White text */
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    
+    /* Chunky, rounded look */
+    border-radius: 8px; 
+    
+    /* Bevel/3D effect using box-shadow */
+    box-shadow: 
+        inset 0 -8px 0 rgba(0, 0, 0, 0.4), /* Bottom shadow (the 'depth' when pressed) */
+        0 5px 0 rgba(0, 0, 0, 0.6); /* Outer shadow (the 'lip') */
+    
+    /* Initial transition for smooth hover/active states */
+    transition: all 0.05s ease;
+}

@@ -25,9 +25,10 @@
     text-rendering: optimizeLegibility;
     color: var(--ink-primary);
     background: var(--surface-page);
-    background-image: url('../../../assets/bg-page.png');
-    background-size: stretch;
+    background-image: url('../../../assets/bg-page-lg.png');
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
 
   /* Make media elements behave predictably */
@@ -62,4 +63,5 @@
       scroll-behavior: auto !important;
     }
   } */
+
 }

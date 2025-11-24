@@ -7,7 +7,8 @@
 @import "../components/layout-section.css";
 
 @import "../components/hero.css";
-@import "../components/card.css";
+@import "../components/button.css";
+@import "../components/gallery.css";
 @import "../components/game.css";
 @import "../components/fade.css";
 @import "../components/slot.css";

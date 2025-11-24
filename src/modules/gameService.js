@@ -4,7 +4,7 @@ import { startTimer } from "./timerService.js";
 import { clearStorage, getHighscores, saveHighscore } from "./highscoreAdapter.js"
 import { audioEngine } from "./audioEngine.js"
 
-export const GAME_SECONDS = 2;
+export const GAME_SECONDS = 30;
 
 export const GAME_PHASES = {
     start: 'start',
@@ -28,7 +28,7 @@ function createGameService() {
         score: 0,
         currentQuestion: null,
         currentQuestionID: null,
-        timeRemaining: 30,
+        timeRemaining: GAME_SECONDS,
         nextIndex: 0,
         highscores: null,
     };
@@ -74,6 +74,7 @@ function createGameService() {
 
     function ready() {
         state.score = 0;
+        state.timeRemaining = GAME_SECONDS;
         state.gamePhase = GAME_PHASES.settings;
         state.highscores = getHighscores();
         audioEngine.play('background-track');

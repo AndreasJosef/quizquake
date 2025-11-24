@@ -3,14 +3,14 @@ import { CATEGORIES } from "../modules/gameService.js";
 export function Categories({ onClick }) {
   // Create the parent container
   const root = document.createElement('div');
-  root.className = 'category-container';
+  root.className = 'gallery';
 
   const categories = [];
 
   CATEGORIES.forEach(category => {
     const card = document.createElement('div');
     card.textContent = category;
-    card.className = 'card__category';
+    card.className = 'gallery__card';
     card.style.backgroundImage = `url('assets/${category}.jpg')`;
     // card.style.backgroundImage = `url('assets/cat-test.png')`;
 
