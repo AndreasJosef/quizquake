@@ -19,7 +19,7 @@
     margin-inline: auto;
     /* Enable Container Queries */
     container-type: inline-size;
-    /* padding-inline: var(--gutter); */
+    padding-inline: var(--gutter);
 
 }
 

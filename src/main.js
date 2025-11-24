@@ -16,6 +16,7 @@ import { Categories } from "./components/Categories.js";
 import { NameInput } from "./components/NameInput.js";
 import { HighscoresList } from "./components/HighscoresList.js";
 import { saveHighscore } from "./modules/highscoreAdapter.js";
+import { audioEngine } from "./modules/audioEngine.js"
 
 // Create components
 const app = App();
@@ -91,3 +92,6 @@ const renderer = createRenderer({
 // Mount the app
 renderer.mount('#gameContainer');
 quizQuake.init();
+
+await audioEngine.load('/assets/Neon_Nightsong.mp3')
+audioEngine.play();

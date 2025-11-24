@@ -5,7 +5,7 @@
 
 :where(.hero) {
   /* Block Tokens */
-  --hero-title-size: 56px;
+  --hero-title-size: 62px;
   --hero-font: 'Honk';
 
   /* Layout */

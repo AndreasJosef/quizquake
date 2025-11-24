@@ -11,16 +11,16 @@
 
 .category-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
     gap: var(--space-3);
 }
 
 .card__category {
     cursor: pointer;
-    aspect-ratio: 3 / 2;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-block: var(--space-2);
     background-size: cover;
     background-position: center;
     border-radius: var(--radius-md);
@@ -34,6 +34,7 @@
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+
 .card__category:active {
     transform: scale(0.95);
     transition: transform 0.1s ease-in-out;
@@ -43,4 +44,15 @@
     background-color: rgb(255, 255, 255);
     padding: 0.3rem 0.3rem;
     border-radius: 0.5rem;
+}
+
+@container (min-width: 500px) {
+
+    .category-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .card__category {
+        aspect-ratio: 3 / 2;
+    }
 }
