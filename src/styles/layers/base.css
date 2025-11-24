@@ -26,7 +26,8 @@
     color: var(--ink-primary);
     background: var(--surface-page);
     background-image: url('../../../assets/bg-page.png');
-    background-size: cover;
+    background-size: stretch;
+    background-repeat: no-repeat;
   }
 
   /* Make media elements behave predictably */
