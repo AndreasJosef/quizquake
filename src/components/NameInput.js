@@ -55,7 +55,7 @@ export function NameInput({ onSubmit }) {
         inputVisible ? root.style.display = 'block' : root.style.display = 'none';
 
         // Play game over sounds
-        // inputVisible ? audioEngine.play('game-won') : audioEngine('game-over');
+        inputVisible ? audioEngine.play('level-up-sound') : audioEngine.play('game-over-sound');
 
     }
 
