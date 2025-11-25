@@ -1,5 +1,7 @@
 export const  AUDIO_TRACKS = [
   'background-track',
+  'game-over-sound',
+  'level-up-sound'
 ]
 
 class AudioEngine {
