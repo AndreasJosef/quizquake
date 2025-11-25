@@ -1,5 +1,5 @@
 export const  AUDIO_TRACKS = [
-  'background-track'
+  'background-track',
 ]
 
 class AudioEngine {
