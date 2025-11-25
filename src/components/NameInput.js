@@ -44,12 +44,13 @@ export function NameInput({ onSubmit }) {
         window.addEventListener('keypress', enterPress);
 
         if (!currentHighscores.length) return;
-        console.log(playerScore > currentHighscores[currentHighscores.length - 1].score)
-        
 
-        playerScore > currentHighscores[currentHighscores.length - 1].score
-            ? root.style.display = 'block'
-            : root.style.display = 'none';
+        const inputVisible =
+            playerScore > currentHighscores[currentHighscores.length - 1].score &&
+            !currentHighscores.find(highscore => highscore.score === playerScore);
+
+
+        inputVisible ? root.style.display = 'block' : root.style.display = 'none';
 
     }
 
