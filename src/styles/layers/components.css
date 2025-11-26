@@ -6,5 +6,14 @@
 @import "../components/layout-page.css";
 @import "../components/layout-section.css";
 
-@import "../components/card.css";
-@import "../components/view.css";
+@import "../components/hero.css";
+@import "../components/button.css";
+@import "../components/input.css";
+@import "../components/highscores.css";
+@import "../components/gallery.css";
+@import "../components/game.css";
+@import "../components/rules.css";
+@import "../components/fade.css";
+@import "../components/slot.css";
+@import "../components/button-cristian.css";
+@import "../components/about.css";

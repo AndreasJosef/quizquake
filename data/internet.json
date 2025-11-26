@@ -1,0 +1,1002 @@
+[
+  {
+    "id": 1,
+    "question": "The World Wide Web and the Internet are the same thing.",
+    "answer": false
+  },
+  {
+    "id": 2,
+    "question": "Tim Berners-Lee invented the World Wide Web.",
+    "answer": true
+  },
+  {
+    "id": 3,
+    "question": "The first web browser was called Mosaic.",
+    "answer": true
+  },
+  {
+    "id": 4,
+    "question": "ARPANET is considered the earliest version of the Internet.",
+    "answer": true
+  },
+  {
+    "id": 5,
+    "question": "Email existed before the World Wide Web.",
+    "answer": true
+  },
+  {
+    "id": 6,
+    "question": "The first search engine was Google.",
+    "answer": false
+  },
+  {
+    "id": 7,
+    "question": "Yahoo was founded before Google.",
+    "answer": true
+  },
+  {
+    "id": 8,
+    "question": "HTML is a programming language.",
+    "answer": false
+  },
+  {
+    "id": 9,
+    "question": "CSS is primarily used for styling web pages.",
+    "answer": true
+  },
+  {
+    "id": 10,
+    "question": "Most modern websites run entirely without JavaScript.",
+    "answer": false
+  },
+  {
+    "id": 11,
+    "question": "SSL certificates encrypt data transmitted between user and server.",
+    "answer": true
+  },
+  {
+    "id": 12,
+    "question": "IPv6 has more available addresses than IPv4.",
+    "answer": true
+  },
+  {
+    "id": 13,
+    "question": "HTTP is a secure communication protocol.",
+    "answer": false
+  },
+  {
+    "id": 14,
+    "question": "HTTPS uses TLS or SSL for encryption.",
+    "answer": true
+  },
+  {
+    "id": 15,
+    "question": "DNS translates domain names into IP addresses.",
+    "answer": true
+  },
+  {
+    "id": 16,
+    "question": "The Internet is controlled by a single global organization.",
+    "answer": false
+  },
+  {
+    "id": 17,
+    "question": "A VPN hides your IP address from websites.",
+    "answer": true
+  },
+  {
+    "id": 18,
+    "question": "The Deep Web contains only illegal content.",
+    "answer": false
+  },
+  {
+    "id": 19,
+    "question": "The Dark Web is a small part of the Deep Web.",
+    "answer": true
+  },
+  {
+    "id": 20,
+    "question": "Cookies on websites store data in your browser.",
+    "answer": true
+  },
+  {
+    "id": 21,
+    "question": "Phishing attacks often pretend to be trusted organizations.",
+    "answer": true
+  },
+  {
+    "id": 22,
+    "question": "Two-factor authentication always uses SMS codes.",
+    "answer": false
+  },
+  {
+    "id": 23,
+    "question": "Ransomware encrypts a victim's files for payment.",
+    "answer": true
+  },
+  {
+    "id": 24,
+    "question": "A strong password includes personal information for memorability.",
+    "answer": false
+  },
+  {
+    "id": 25,
+    "question": "A firewall can block malicious traffic before it reaches your device.",
+    "answer": true
+  },
+  {
+    "id": 26,
+    "question": "Malware and viruses are the exact same thing.",
+    "answer": false
+  },
+  {
+    "id": 27,
+    "question": "Botnets consist of compromised computers controlled remotely.",
+    "answer": true
+  },
+  {
+    "id": 28,
+    "question": "Using public Wi-Fi without a VPN is completely risk-free.",
+    "answer": false
+  },
+  {
+    "id": 29,
+    "question": "Keyloggers can record everything typed on a device.",
+    "answer": true
+  },
+  {
+    "id": 30,
+    "question": "Ad blockers can help reduce malware risks.",
+    "answer": true
+  },
+  {
+    "id": 31,
+    "question": "YouTube was created before Facebook.",
+    "answer": false
+  },
+  {
+    "id": 32,
+    "question": "Reddit is known as 'the front page of the Internet'.",
+    "answer": true
+  },
+  {
+    "id": 33,
+    "question": "Instagram was launched in 2000.",
+    "answer": false
+  },
+  {
+    "id": 34,
+    "question": "Twitter originally limited posts to 140 characters.",
+    "answer": true
+  },
+  {
+    "id": 35,
+    "question": "TikTok was created by the same company that created Musical.ly.",
+    "answer": true
+  },
+  {
+    "id": 36,
+    "question": "LinkedIn is primarily used for gaming content.",
+    "answer": false
+  },
+  {
+    "id": 37,
+    "question": "Snapchat messages were originally advertised as disappearing.",
+    "answer": true
+  },
+  {
+    "id": 38,
+    "question": "Myspace was one of the most popular social networks in the mid-2000s.",
+    "answer": true
+  },
+  {
+    "id": 39,
+    "question": "Pinterest is primarily used for short-form videos.",
+    "answer": false
+  },
+  {
+    "id": 40,
+    "question": "Discord began as a platform for gamers.",
+    "answer": true
+  },
+  {
+    "id": 41,
+    "question": "The first version of Windows with Internet Explorer was Windows 95.",
+    "answer": true
+  },
+  {
+    "id": 42,
+    "question": "Chrome is built on the WebKit engine.",
+    "answer": false
+  },
+  {
+    "id": 43,
+    "question": "Firefox is open-source software.",
+    "answer": true
+  },
+  {
+    "id": 44,
+    "question": "Safari is the default browser on macOS devices.",
+    "answer": true
+  },
+  {
+    "id": 45,
+    "question": "Microsoft Edge replaced Internet Explorer.",
+    "answer": true
+  },
+  {
+    "id": 46,
+    "question": "Opera invented browser tabs.",
+    "answer": false
+  },
+  {
+    "id": 47,
+    "question": "Private browsing mode completely hides your activity from your ISP.",
+    "answer": false
+  },
+  {
+    "id": 48,
+    "question": "Most modern browsers sandbox web content.",
+    "answer": true
+  },
+  {
+    "id": 49,
+    "question": "Flash Player is still widely used on modern websites.",
+    "answer": false
+  },
+  {
+    "id": 50,
+    "question": "WebAssembly allows near-native performance inside browsers.",
+    "answer": true
+  },
+  {
+    "id": 51,
+    "question": "The term 'cloud computing' refers to remote servers accessed over the Internet.",
+    "answer": true
+  },
+  {
+    "id": 52,
+    "question": "Amazon Web Services is one of the largest cloud providers in the world.",
+    "answer": true
+  },
+  {
+    "id": 53,
+    "question": "Dropbox was originally created as a solution for forgotten USB drives.",
+    "answer": true
+  },
+  {
+    "id": 54,
+    "question": "Google Drive launched before Gmail.",
+    "answer": false
+  },
+  {
+    "id": 55,
+    "question": "iCloud is primarily a file-hosting service.",
+    "answer": false
+  },
+  {
+    "id": 56,
+    "question": "Most cloud services automatically replicate data across multiple servers.",
+    "answer": true
+  },
+  {
+    "id": 57,
+    "question": "Cloud storage files are always fully private by default.",
+    "answer": false
+  },
+  {
+    "id": 58,
+    "question": "OneDrive is a Microsoft cloud storage platform.",
+    "answer": true
+  },
+  {
+    "id": 59,
+    "question": "Streaming platforms rely heavily on cloud infrastructure.",
+    "answer": true
+  },
+  {
+    "id": 60,
+    "question": "The cloud has unlimited physical storage capacity.",
+    "answer": false
+  },
+  {
+    "id": 61,
+    "question": "A megabit is larger than a megabyte.",
+    "answer": false
+  },
+  {
+    "id": 62,
+    "question": "Bandwidth refers to the maximum data transfer rate of a network.",
+    "answer": true
+  },
+  {
+    "id": 63,
+    "question": "Latency refers to the delay in data transmission.",
+    "answer": true
+  },
+  {
+    "id": 64,
+    "question": "5G networks can deliver faster speeds than most home broadband connections.",
+    "answer": true
+  },
+  {
+    "id": 65,
+    "question": "Wi-Fi uses the same communication protocol as Bluetooth.",
+    "answer": false
+  },
+  {
+    "id": 66,
+    "question": "Fiber-optic cables transmit data using light.",
+    "answer": true
+  },
+  {
+    "id": 67,
+    "question": "Ethernet cables cannot exceed one meter in length.",
+    "answer": false
+  },
+  {
+    "id": 68,
+    "question": "Routers assign IP addresses to devices on a network.",
+    "answer": true
+  },
+  {
+    "id": 69,
+    "question": "A modem is required for connecting to an ISP.",
+    "answer": true
+  },
+  {
+    "id": 70,
+    "question": "A mesh Wi-Fi system uses a single large router.",
+    "answer": false
+  },
+  {
+    "id": 71,
+    "question": "Streaming video consumes more data than streaming audio.",
+    "answer": true
+  },
+  {
+    "id": 72,
+    "question": "Netflix originally mailed DVDs before streaming.",
+    "answer": true
+  },
+  {
+    "id": 73,
+    "question": "YouTube started as a dating website.",
+    "answer": true
+  },
+  {
+    "id": 74,
+    "question": "Twitch was originally called Justin.tv.",
+    "answer": true
+  },
+  {
+    "id": 75,
+    "question": "Spotify launched before Apple Music.",
+    "answer": true
+  },
+  {
+    "id": 76,
+    "question": "Hulu is only available in Europe.",
+    "answer": false
+  },
+  {
+    "id": 77,
+    "question": "Disney+ launched in 2019.",
+    "answer": true
+  },
+  {
+    "id": 78,
+    "question": "VR headsets require an active internet connection at all times.",
+    "answer": false
+  },
+  {
+    "id": 79,
+    "question": "4K video uses more bandwidth than 1080p video.",
+    "answer": true
+  },
+  {
+    "id": 80,
+    "question": "GIFs support more colors than JPEG images.",
+    "answer": false
+  },
+  {
+    "id": 81,
+    "question": "Blockchain technology powers some cryptocurrencies.",
+    "answer": true
+  },
+  {
+    "id": 82,
+    "question": "Bitcoin was the first digital currency ever created.",
+    "answer": false
+  },
+  {
+    "id": 83,
+    "question": "NFTs are stored on blockchain networks.",
+    "answer": true
+  },
+  {
+    "id": 84,
+    "question": "Cryptocurrency transactions cannot be traced.",
+    "answer": false
+  },
+  {
+    "id": 85,
+    "question": "Web3 is commonly associated with decentralized applications.",
+    "answer": true
+  },
+  {
+    "id": 86,
+    "question": "Blockchain data can be altered retroactively.",
+    "answer": false
+  },
+  {
+    "id": 87,
+    "question": "Ethereum introduced the concept of smart contracts.",
+    "answer": true
+  },
+  {
+    "id": 88,
+    "question": "Private keys can be recovered if lost.",
+    "answer": false
+  },
+  {
+    "id": 89,
+    "question": "Mining cryptocurrency requires computational power.",
+    "answer": true
+  },
+  {
+    "id": 90,
+    "question": "Most crypto wallets require an internet connection to function.",
+    "answer": false
+  },
+  {
+    "id": 91,
+    "question": "HTML5 introduced the <canvas> element.",
+    "answer": true
+  },
+  {
+    "id": 92,
+    "question": "JSON is a binary data format.",
+    "answer": false
+  },
+  {
+    "id": 93,
+    "question": "APIs allow software applications to communicate over the internet.",
+    "answer": true
+  },
+  {
+    "id": 94,
+    "question": "REST APIs must always return XML.",
+    "answer": false
+  },
+  {
+    "id": 95,
+    "question": "Webhooks push data automatically to receiving applications.",
+    "answer": true
+  },
+  {
+    "id": 96,
+    "question": "AJAX enables asynchronous communication with servers.",
+    "answer": true
+  },
+  {
+    "id": 97,
+    "question": "A CDN helps deliver content faster to users.",
+    "answer": true
+  },
+  {
+    "id": 98,
+    "question": "SQL is used to describe website layouts.",
+    "answer": false
+  },
+  {
+    "id": 99,
+    "question": "Caching improves website performance.",
+    "answer": true
+  },
+  {
+    "id": 100,
+    "question": "WebSockets enable persistent, two-way communication.",
+    "answer": true
+  },
+  {
+    "id": 101,
+    "question": "The first ever domain name was symbolics.com.",
+    "answer": true
+  },
+  {
+    "id": 102,
+    "question": "DNS stands for Domain Number System.",
+    "answer": false
+  },
+  {
+    "id": 103,
+    "question": "Top-level domains include .com, .org, and .net.",
+    "answer": true
+  },
+  {
+    "id": 104,
+    "question": "A subdomain appears before the main domain in a URL.",
+    "answer": true
+  },
+  {
+    "id": 105,
+    "question": "WHOIS databases contain domain ownership information.",
+    "answer": true
+  },
+  {
+    "id": 106,
+    "question": "The .gov domain can be registered by anyone.",
+    "answer": false
+  },
+  {
+    "id": 107,
+    "question": ".io domains are originally assigned to a British territory.",
+    "answer": true
+  },
+  {
+    "id": 108,
+    "question": "Unicode domain names allow the use of emojis.",
+    "answer": true
+  },
+  {
+    "id": 109,
+    "question": "A parked domain is one that receives heavy traffic.",
+    "answer": false
+  },
+  {
+    "id": 110,
+    "question": "DNS propagation happens instantly worldwide.",
+    "answer": false
+  },
+  {
+    "id": 111,
+    "question": "The first smartphone with a full web browser was the Blackberry 5810.",
+    "answer": false
+  },
+  {
+    "id": 112,
+    "question": "The iPhone popularized mobile web browsing.",
+    "answer": true
+  },
+  {
+    "id": 113,
+    "question": "Progressive Web Apps can work offline.",
+    "answer": true
+  },
+  {
+    "id": 114,
+    "question": "AMP pages were created by Facebook.",
+    "answer": false
+  },
+  {
+    "id": 115,
+    "question": "Responsive design adapts a website to different screen sizes.",
+    "answer": true
+  },
+  {
+    "id": 116,
+    "question": "Mobile browsers always support desktop features.",
+    "answer": false
+  },
+  {
+    "id": 117,
+    "question": "5G significantly improves mobile online gaming.",
+    "answer": true
+  },
+  {
+    "id": 118,
+    "question": "Mobile apps always require an internet connection to launch.",
+    "answer": false
+  },
+  {
+    "id": 119,
+    "question": "Most mobile devices can act as Wi-Fi hotspots.",
+    "answer": true
+  },
+  {
+    "id": 120,
+    "question": "Push notifications require a persistent internet connection.",
+    "answer": false
+  },
+  {
+    "id": 121,
+    "question": "Most modern websites use analytics tools to track user behavior.",
+    "answer": true
+  },
+  {
+    "id": 122,
+    "question": "SEO stands for Search Engine Optimization.",
+    "answer": true
+  },
+  {
+    "id": 123,
+    "question": "Backlinks do not affect search engine rankings.",
+    "answer": false
+  },
+  {
+    "id": 124,
+    "question": "A high bounce rate usually indicates users leave a site quickly.",
+    "answer": true
+  },
+  {
+    "id": 125,
+    "question": "Google's search algorithm has remained unchanged since its launch.",
+    "answer": false
+  },
+  {
+    "id": 126,
+    "question": "Meta descriptions directly determine ranking position.",
+    "answer": false
+  },
+  {
+    "id": 127,
+    "question": "Image alt text improves accessibility and SEO.",
+    "answer": true
+  },
+  {
+    "id": 128,
+    "question": "Page speed influences search ranking.",
+    "answer": true
+  },
+  {
+    "id": 129,
+    "question": "Keyword stuffing improves search performance.",
+    "answer": false
+  },
+  {
+    "id": 130,
+    "question": "Search engines use crawlers to index content.",
+    "answer": true
+  },
+  {
+    "id": 131,
+    "question": "E-commerce websites always require a merchant account to process payments.",
+    "answer": false
+  },
+  {
+    "id": 132,
+    "question": "The first online purchase was a pizza in the 1990s.",
+    "answer": false
+  },
+  {
+    "id": 133,
+    "question": "SSL is required for secure payment transactions.",
+    "answer": true
+  },
+  {
+    "id": 134,
+    "question": "Abandoned cart emails are used to increase sales.",
+    "answer": true
+  },
+  {
+    "id": 135,
+    "question": "A payment gateway processes online transactions.",
+    "answer": true
+  },
+  {
+    "id": 136,
+    "question": "Digital goods require physical shipping costs.",
+    "answer": false
+  },
+  {
+    "id": 137,
+    "question": "Most online marketplaces charge seller fees.",
+    "answer": true
+  },
+  {
+    "id": 138,
+    "question": "SKU stands for Stock Key Unit.",
+    "answer": false
+  },
+  {
+    "id": 139,
+    "question": "Fraud detection systems analyze transaction patterns.",
+    "answer": true
+  },
+  {
+    "id": 140,
+    "question": "Online stores cannot operate without an SSL certificate.",
+    "answer": false
+  },
+  {
+    "id": 141,
+    "question": "The Internet of Things includes smart home devices.",
+    "answer": true
+  },
+  {
+    "id": 142,
+    "question": "IoT devices always have strong built-in security.",
+    "answer": false
+  },
+  {
+    "id": 143,
+    "question": "Smart thermostats can be controlled remotely over the internet.",
+    "answer": true
+  },
+  {
+    "id": 144,
+    "question": "Wearable devices cannot connect to the internet.",
+    "answer": false
+  },
+  {
+    "id": 145,
+    "question": "IoT stands for Internet of Tools.",
+    "answer": false
+  },
+  {
+    "id": 146,
+    "question": "Smart speakers process some voice commands in the cloud.",
+    "answer": true
+  },
+  {
+    "id": 147,
+    "question": "Many IoT devices rely on Wi-Fi or Bluetooth.",
+    "answer": true
+  },
+  {
+    "id": 148,
+    "question": "IoT devices never receive firmware updates.",
+    "answer": false
+  },
+  {
+    "id": 149,
+    "question": "Industrial IoT systems monitor machinery in factories.",
+    "answer": true
+  },
+  {
+    "id": 150,
+    "question": "IoT devices always require a smartphone to function.",
+    "answer": false
+  },
+  {
+    "id": 151,
+    "question": "Most people access the internet through mobile devices today.",
+    "answer": true
+  },
+  {
+    "id": 152,
+    "question": "Cyberbullying can occur through online messaging apps.",
+    "answer": true
+  },
+  {
+    "id": 153,
+    "question": "Online anonymity is impossible to achieve.",
+    "answer": false
+  },
+  {
+    "id": 154,
+    "question": "Internet memes existed before social media.",
+    "answer": true
+  },
+  {
+    "id": 155,
+    "question": "Online forums have existed since the early days of the internet.",
+    "answer": true
+  },
+  {
+    "id": 156,
+    "question": "Influencer marketing began in the 2020s.",
+    "answer": false
+  },
+  {
+    "id": 157,
+    "question": "Crowdfunding websites allow people to fund creative projects.",
+    "answer": true
+  },
+  {
+    "id": 158,
+    "question": "Most online comments are moderated automatically using algorithms.",
+    "answer": true
+  },
+  {
+    "id": 159,
+    "question": "Digital addiction is recognized as a real issue.",
+    "answer": true
+  },
+  {
+    "id": 160,
+    "question": "Online friendships cannot be as meaningful as offline ones.",
+    "answer": false
+  },
+  {
+    "id": 161,
+    "question": "CAPTCHA challenges help distinguish humans from bots.",
+    "answer": true
+  },
+  {
+    "id": 162,
+    "question": "Spam emails make up a small fraction of global email traffic.",
+    "answer": false
+  },
+  {
+    "id": 163,
+    "question": "A DDoS attack floods a server with massive traffic.",
+    "answer": true
+  },
+  {
+    "id": 164,
+    "question": "Rootkits improve the security of your computer.",
+    "answer": false
+  },
+  {
+    "id": 165,
+    "question": "Social engineering manipulates people into revealing confidential information.",
+    "answer": true
+  },
+  {
+    "id": 166,
+    "question": "Antivirus software completely eliminates all cyber threats.",
+    "answer": false
+  },
+  {
+    "id": 167,
+    "question": "A zero-day vulnerability has no available fix at the time of discovery.",
+    "answer": true
+  },
+  {
+    "id": 168,
+    "question": "Two-step verification is the same as using two separate passwords.",
+    "answer": false
+  },
+  {
+    "id": 169,
+    "question": "Brute-force attacks try many password combinations quickly.",
+    "answer": true
+  },
+  {
+    "id": 170,
+    "question": "Encryption makes intercepted data unreadable.",
+    "answer": true
+  },
+  {
+    "id": 171,
+    "question": "The first banner ad appeared in the 1990s.",
+    "answer": true
+  },
+  {
+    "id": 172,
+    "question": "Cookies were originally invented for online advertising.",
+    "answer": false
+  },
+  {
+    "id": 173,
+    "question": "Online ads can be targeted using browsing history.",
+    "answer": true
+  },
+  {
+    "id": 174,
+    "question": "Ad impressions represent how many times an ad was clicked.",
+    "answer": false
+  },
+  {
+    "id": 175,
+    "question": "CTR stands for Click Through Ratio.",
+    "answer": false
+  },
+  {
+    "id": 176,
+    "question": "Retargeting ads show products users previously viewed online.",
+    "answer": true
+  },
+  {
+    "id": 177,
+    "question": "Banner blindness refers to users ignoring ads unconsciously.",
+    "answer": true
+  },
+  {
+    "id": 178,
+    "question": "CPM pricing charges advertisers per click.",
+    "answer": false
+  },
+  {
+    "id": 179,
+    "question": "Ad blockers can affect publisher revenue.",
+    "answer": true
+  },
+  {
+    "id": 180,
+    "question": "Pop-up ads are now banned on the entire internet.",
+    "answer": false
+  },
+  {
+    "id": 181,
+    "question": "Open-source software allows users to see and modify the source code.",
+    "answer": true
+  },
+  {
+    "id": 182,
+    "question": "Linux is a closed-source operating system.",
+    "answer": false
+  },
+  {
+    "id": 183,
+    "question": "GitHub is a platform for code hosting and collaboration.",
+    "answer": true
+  },
+  {
+    "id": 184,
+    "question": "Version control helps teams track changes to code.",
+    "answer": true
+  },
+  {
+    "id": 185,
+    "question": "JavaScript and Java were developed by the same company.",
+    "answer": false
+  },
+  {
+    "id": 186,
+    "question": "Python is commonly used for web development.",
+    "answer": true
+  },
+  {
+    "id": 187,
+    "question": "Static websites cannot display dynamic data.",
+    "answer": false
+  },
+  {
+    "id": 188,
+    "question": "Compression reduces the size of files transmitted online.",
+    "answer": true
+  },
+  {
+    "id": 189,
+    "question": "Ping tests measure network download speeds.",
+    "answer": false
+  },
+  {
+    "id": 190,
+    "question": "A proxy server can hide a user’s IP address.",
+    "answer": true
+  },
+  {
+    "id": 191,
+    "question": "Most digital assistants rely on cloud-based processing.",
+    "answer": true
+  },
+  {
+    "id": 192,
+    "question": "Machine learning models can run entirely inside a browser.",
+    "answer": true
+  },
+  {
+    "id": 193,
+    "question": "Artificial intelligence existed before the internet.",
+    "answer": true
+  },
+  {
+    "id": 194,
+    "question": "Facial recognition always requires an internet connection.",
+    "answer": false
+  },
+  {
+    "id": 195,
+    "question": "Many recommendation systems use collaborative filtering.",
+    "answer": true
+  },
+  {
+    "id": 196,
+    "question": "Chatbots cannot operate offline.",
+    "answer": false
+  },
+  {
+    "id": 197,
+    "question": "Neural networks are inspired by the human brain.",
+    "answer": true
+  },
+  {
+    "id": 198,
+    "question": "AI-generated images require specialized hardware to view.",
+    "answer": false
+  },
+  {
+    "id": 199,
+    "question": "Most voice assistants store training data anonymously.",
+    "answer": false
+  },
+  {
+    "id": 200,
+    "question": "AI moderation tools help detect harmful content online.",
+    "answer": true
+  }
+]

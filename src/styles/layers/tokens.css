@@ -10,15 +10,16 @@
     --neutral-800: #1E1E1E;
     --neutral-900: #121212;
 
-    --surface-page: var(--neutral-200);
+    --surface-page: var(--neutral-800);
     --surface-card: var(--neutral-600);
-    --ink-primary: var(--neutral-800);
+    --ink-primary: var(--neutral-200);
     --ink-muted: #334155;
 
     /* Brand */
-    --brand-600: #27547d;
-    --brand-500: #2f6aa0;
-    --accent-500: #26c793;
+    --brand: #291c2d;
+    --accent: #00FFFF;
+
+    --arcade-font: 'Press Start 2P', monospace;
 
     /* Links */
     --link: var(--brand-600);

@@ -1,28 +1,32 @@
-export function RulesComponent() {
+export function RulesComponent({ onClick }) {
 
     // Creating the components single root element
     const root = document.createElement('div');
+    root.className = 'rules'
+
+    const rulesHeading = document.createElement('h2');
+    const rulesText = document.createElement('p');
+    const readyButton = document.createElement('button')
+    readyButton.className = 'btn btn__ready'
+
+    root.append(rulesHeading, rulesText, readyButton)
 
     // Components lifecykel methods can be: init, update, mount, destroy
     function init() {
 
         // skapar DOM 
-        root.innerHTML = `
-            <h2>Regler:</h2>
-            <p>Är det sant eller falskt? Du har en minut att svara på så många frågor du kan.</p>
-        `
+        rulesHeading.textContent = 'Regler:'
+        rulesText.textContent = 'SANT ELLER FALSKT? Mål: Svara på flest frågor på 60 sek. Svar: [ J ] för Sant, [ F ] för Falskt.'
+        readyButton.textContent = 'I got it!'
+
+        readyButton.addEventListener('click', onClick);
+
     }
 
-    // On State Change
-    function update({ ready }) {
-
-        ready ? root.classList.add('u-hidden') : root.classList.remove('u-hidden')
-    }
 
     // API
     return {
         el: root,
-        init,
-        update
+        init
     }
 }

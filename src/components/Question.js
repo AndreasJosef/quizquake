@@ -1,34 +1,36 @@
 export function Question() {
 
     const root = document.createElement('div')
-    root.style.display = 'none'
-
     const questionElement = document.createElement('h2');
-    const clockSlot = document.createElement('div')
 
-    clockSlot.className = 'slot-clock'
-
-    root.append(questionElement, clockSlot)
-
-    // DOM HTML
-    const trueButton = document.createElement('button');
-    trueButton.textContent = 'True'
-
-    const falseButton = document.createElement('button');
-    falseButton.textContent = 'False'
-
-    root.append(trueButton, falseButton)
+    root.append(questionElement)
 
     // update
-    function update({ question, ready }) {
-        if (ready) {
-            root.style.display = 'block';
-            questionElement.textContent = question
-        }
+    function update({ question, phase }) {
+        if (question === questionElement.textContent) return;
+
+        questionElement.textContent = question
+    }
+
+    function mount() {
     }
 
     return {
         el: root,
-        update
+        update,
+        mount
     }
+}
+
+// Effects
+function updateVisuals() {
+    const percentage = secondsRemaining / TOTAL_TIME;
+
+    const curveFactor = 1.5; //exponenten. 1 är linjär kurva som vi hade tidigare.
+
+    const adjustedPercentage = Math.pow(percentage, curveFactor); // pow() är potens
+
+    const hue = adjustedPercentage * 120;
+
+    document.body.style.backgroundColor = `hsl(${hue}, 100%, 50%)`;
 }

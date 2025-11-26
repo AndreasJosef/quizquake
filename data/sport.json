@@ -1,0 +1,2003 @@
+[
+  {
+    "id": 1,
+    "question": "Fotboll spelas med 11 spelare på varje lag.",
+    "answer": true
+  },
+  {
+    "id": 2,
+    "question": "Basketboll uppfanns i Sverige.",
+    "answer": false
+  },
+  {
+    "id": 3,
+    "question": "En maraton är längre än ett halvmaraton.",
+    "answer": true
+  },
+  {
+    "id": 4,
+    "question": "Tennis spelas alltid utomhus.",
+    "answer": false
+  },
+  {
+    "id": 5,
+    "question": "Simning är en olympisk sport.",
+    "answer": true
+  },
+  {
+    "id": 6,
+    "question": "I ishockey får målvakten använda sin klubba överallt på isen.",
+    "answer": false
+  },
+  {
+    "id": 7,
+    "question": "Golf spelas med en boll och klubbor.",
+    "answer": true
+  },
+  {
+    "id": 8,
+    "question": "Rugby tillåter användning av händer för att passa bollen framåt.",
+    "answer": false
+  },
+  {
+    "id": 9,
+    "question": "Boxning är en sport som har viktklasser.",
+    "answer": true
+  },
+  {
+    "id": 10,
+    "question": "Friidrott inkluderar grenar som diskus och spjutkastning.",
+    "answer": true
+  },
+  {
+    "id": 11,
+    "question": "Snooker och biljard är samma sport.",
+    "answer": false
+  },
+  {
+    "id": 12,
+    "question": "Handboll spelas på en plan som är ungefär lika stor som en fotbollsplan.",
+    "answer": false
+  },
+  {
+    "id": 13,
+    "question": "Volleyboll spelas vanligtvis med sex spelare per lag på planen.",
+    "answer": true
+  },
+  {
+    "id": 14,
+    "question": "Cricket är mest populärt i USA.",
+    "answer": false
+  },
+  {
+    "id": 15,
+    "question": "Skidåkning kan vara både en sommar- och vintersport.",
+    "answer": true
+  },
+  {
+    "id": 16,
+    "question": "Badminton spelas med en tung boll som kallas puck.",
+    "answer": false
+  },
+  {
+    "id": 17,
+    "question": "Fäktning har tre olika vapen: florett, värja och sabel.",
+    "answer": true
+  },
+  {
+    "id": 18,
+    "question": "I curling använder spelarna sina händer för att kasta stenen.",
+    "answer": false
+  },
+  {
+    "id": 19,
+    "question": "Baseboll spelas med 9 spelare per lag.",
+    "answer": true
+  },
+  {
+    "id": 20,
+    "question": "Motorsport inkluderar tävlingar som Formel 1 och MotoGP.",
+    "answer": true
+  },
+  {
+    "id": 21,
+    "question": "I gymnastik bedöms endast styrka, inte form och teknik.",
+    "answer": false
+  },
+  {
+    "id": 22,
+    "question": "Triathlon inkluderar simning, cykling och löpning.",
+    "answer": true
+  },
+  {
+    "id": 23,
+    "question": "I badminton kan bollen studsa på marken innan den slås tillbaka.",
+    "answer": false
+  },
+  {
+    "id": 24,
+    "question": "Lacrosse spelas med en boll och en klubba med nät.",
+    "answer": true
+  },
+  {
+    "id": 25,
+    "question": "I fotboll kan en spelare kasta bollen med händerna när som helst.",
+    "answer": false
+  },
+  {
+    "id": 26,
+    "question": "Skytte är en olympisk sport.",
+    "answer": true
+  },
+  {
+    "id": 27,
+    "question": "I basket får man bara dribbla bollen med händerna.",
+    "answer": true
+  },
+  {
+    "id": 28,
+    "question": "I ishockey används en puck istället för en boll.",
+    "answer": true
+  },
+  {
+    "id": 29,
+    "question": "I rugby kan spelare tackla motståndare under knähöjd endast.",
+    "answer": false
+  },
+  {
+    "id": 30,
+    "question": "I bordtennis används små, lätta paddlar.",
+    "answer": true
+  },
+  {
+    "id": 31,
+    "question": "Futsal spelas inomhus med en mindre boll än vanlig fotboll.",
+    "answer": true
+  },
+  {
+    "id": 32,
+    "question": "I brottning är poängsystemet inte viktigt, endast vinster räknas.",
+    "answer": false
+  },
+  {
+    "id": 33,
+    "question": "I krocket används en boll och klubbor för att slå bollen genom bågar.",
+    "answer": true
+  },
+  {
+    "id": 34,
+    "question": "I snowboard tävlar man bara på hastighet, inte stil.",
+    "answer": false
+  },
+  {
+    "id": 35,
+    "question": "I orientering används karta och kompass för navigering.",
+    "answer": true
+  },
+  {
+    "id": 36,
+    "question": "I volleyboll kan bollen studsa på marken innan ett slag.",
+    "answer": false
+  },
+  {
+    "id": 37,
+    "question": "I amerikansk fotboll används en oval boll.",
+    "answer": true
+  },
+  {
+    "id": 38,
+    "question": "I hockey kan man använda händerna för att skjuta pucken in i mål.",
+    "answer": false
+  },
+  {
+    "id": 39,
+    "question": "I gymnastik tävlas både individuellt och i lag.",
+    "answer": true
+  },
+  {
+    "id": 40,
+    "question": "I speedskating tävlar man på skridskor på långbana.",
+    "answer": true
+  },
+  {
+    "id": 41,
+    "question": "I simning får simmare vila när de vill under loppet.",
+    "answer": false
+  },
+  {
+    "id": 42,
+    "question": "I rodd används åror för att förflytta båten framåt.",
+    "answer": true
+  },
+  {
+    "id": 43,
+    "question": "I kajakpolo används en boll och paddlar för att göra mål.",
+    "answer": true
+  },
+  {
+    "id": 44,
+    "question": "I gymnastik är det förbjudet att göra volter.",
+    "answer": false
+  },
+  {
+    "id": 45,
+    "question": "I bowling får man poäng för att välta käglor.",
+    "answer": true
+  },
+  {
+    "id": 46,
+    "question": "I golf måste bollen alltid landa på greenen för att poäng ska räknas.",
+    "answer": false
+  },
+  {
+    "id": 47,
+    "question": "I boxning används handskar för skydd av händerna.",
+    "answer": true
+  },
+  {
+    "id": 48,
+    "question": "I tyngdlyftning tävlar man i flera olika viktklasser.",
+    "answer": true
+  },
+  {
+    "id": 49,
+    "question": "I fotboll är offside-regeln frivillig att följa.",
+    "answer": false
+  },
+  {
+    "id": 50,
+    "question": "I curling används sopar för att påverka stenens hastighet och riktning.",
+    "answer": true
+  },
+  {
+    "id": 51,
+    "question": "I rugby får man inte passa bollen framåt med händerna.",
+    "answer": true
+  },
+  {
+    "id": 52,
+    "question": "I friidrott ingår löpning, hopp och kast.",
+    "answer": true
+  },
+  {
+    "id": 53,
+    "question": "I basketboll är trepoängslinjen längre bort än straffkastlinjen.",
+    "answer": true
+  },
+  {
+    "id": 54,
+    "question": "I simhopp bedöms endast längden på hoppet.",
+    "answer": false
+  },
+  {
+    "id": 55,
+    "question": "I motocross tävlar man på motorcyklar över hinderbanor.",
+    "answer": true
+  },
+  {
+    "id": 56,
+    "question": "I fotboll kan målvakten spela bollen med händerna när som helst på planen.",
+    "answer": false
+  },
+  {
+    "id": 57,
+    "question": "I tennis kan bollen slå i nätet och ändå vara i spel om den går över.",
+    "answer": true
+  },
+  {
+    "id": 58,
+    "question": "I bordtennis spelar man bäst med en stor tung racket.",
+    "answer": false
+  },
+  {
+    "id": 59,
+    "question": "I cricket kan man slå bollen med foten.",
+    "answer": false
+  },
+  {
+    "id": 60,
+    "question": "I ishockey används skridskor för att röra sig på isen.",
+    "answer": true
+  },
+  {
+    "id": 61,
+    "question": "I fotboll kan en spelare bli utvisad med rött kort.",
+    "answer": true
+  },
+  {
+    "id": 62,
+    "question": "I handboll är målet mycket mindre än i fotboll.",
+    "answer": true
+  },
+  {
+    "id": 63,
+    "question": "I basketboll får man bara dribbla bollen med fötterna.",
+    "answer": false
+  },
+  {
+    "id": 64,
+    "question": "I friidrott finns grenarna 100m, 200m och 400m sprint.",
+    "answer": true
+  },
+  {
+    "id": 65,
+    "question": "I curling kan spelarna påverka stenens riktning med sopar.",
+    "answer": true
+  },
+  {
+    "id": 66,
+    "question": "I volleyboll används nätet för att hindra bollen från att gå över.",
+    "answer": false
+  },
+  {
+    "id": 67,
+    "question": "I orientering är det viktigt att kunna läsa karta och kompass.",
+    "answer": true
+  },
+  {
+    "id": 68,
+    "question": "I boxning används benskydd.",
+    "answer": false
+  },
+  {
+    "id": 69,
+    "question": "I maraton springer deltagarna 42,195 km.",
+    "answer": true
+  },
+  {
+    "id": 70,
+    "question": "I golf är bunkrar områden med sand som man ska undvika.",
+    "answer": true
+  },
+  {
+    "id": 71,
+    "question": "I badminton används en boll som är tung och studsar mycket.",
+    "answer": false
+  },
+  {
+    "id": 72,
+    "question": "I tyngdlyftning lyfter man skivstänger med olika vikter.",
+    "answer": true
+  },
+  {
+    "id": 73,
+    "question": "I amerikansk fotboll kan man sparka bollen för att göra poäng.",
+    "answer": true
+  },
+  {
+    "id": 74,
+    "question": "I simning tävlar man aldrig på tid.",
+    "answer": false
+  },
+  {
+    "id": 75,
+    "question": "I handboll kan man dribbla bollen som i basket.",
+    "answer": true
+  },
+  {
+    "id": 76,
+    "question": "I snowboard ingår både hastighet och tricks i tävlingar.",
+    "answer": true
+  },
+  {
+    "id": 77,
+    "question": "I rodd används ingen teknik, bara styrka.",
+    "answer": false
+  },
+  {
+    "id": 78,
+    "question": "I fotboll kan straffspark ges vid fouls i straffområdet.",
+    "answer": true
+  },
+  {
+    "id": 79,
+    "question": "I friidrott är diskuskastning en gren för att kasta så långt som möjligt.",
+    "answer": true
+  },
+  {
+    "id": 80,
+    "question": "I basket kan man göra trepoängskast om man står bakom trepoängslinjen.",
+    "answer": true
+  },
+  {
+    "id": 81,
+    "question": "I motorsport tävlar man alltid med bil.",
+    "answer": false
+  },
+  {
+    "id": 82,
+    "question": "I rugby används en oval boll.",
+    "answer": true
+  },
+  {
+    "id": 83,
+    "question": "I cricket används både bat och boll.",
+    "answer": true
+  },
+  {
+    "id": 84,
+    "question": "I boxning kan man använda armbågar för att träffa motståndaren.",
+    "answer": false
+  },
+  {
+    "id": 85,
+    "question": "I bowling försöker man välta tio käglor.",
+    "answer": true
+  },
+  {
+    "id": 86,
+    "question": "I bordtennis spelar man med små lätta bollar.",
+    "answer": true
+  },
+  {
+    "id": 87,
+    "question": "I basketboll kan man hoppa utan att dribbla för att göra poäng.",
+    "answer": true
+  },
+  {
+    "id": 88,
+    "question": "I simning måste simmare alltid andas med huvudet under vattnet.",
+    "answer": false
+  },
+  {
+    "id": 89,
+    "question": "I handboll är planen mindre än en fotbollsplan.",
+    "answer": true
+  },
+  {
+    "id": 90,
+    "question": "I volleyboll måste bollen alltid träffa marken innan den går över nätet.",
+    "answer": false
+  },
+  {
+    "id": 91,
+    "question": "I ishockey kan spelare använda klubban för att passa bollen.",
+    "answer": false
+  },
+  {
+    "id": 92,
+    "question": "I golf kan man använda flera olika klubbor under en runda.",
+    "answer": true
+  },
+  {
+    "id": 93,
+    "question": "I maraton kan man springa vilken sträcka man vill.",
+    "answer": false
+  },
+  {
+    "id": 94,
+    "question": "I rugby kan man sparka bollen för att göra poäng.",
+    "answer": true
+  },
+  {
+    "id": 95,
+    "question": "I badminton kan bollen slå i nätet och fortfarande vara giltig om den går över.",
+    "answer": true
+  },
+  {
+    "id": 96,
+    "question": "I boxning får man sparka motståndaren.",
+    "answer": false
+  },
+  {
+    "id": 97,
+    "question": "I friidrott är spjutkastning en gren.",
+    "answer": true
+  },
+  {
+    "id": 98,
+    "question": "I speedskating tävlar man på skridskor på kortbana och långbana.",
+    "answer": true
+  },
+  {
+    "id": 99,
+    "question": "I simning tävlar man alltid individuellt.",
+    "answer": false
+  },
+  {
+    "id": 100,
+    "question": "I motorsport används ibland motorcyklar.",
+    "answer": true
+  },
+  {
+    "id": 101,
+    "question": "I fotboll måste bollen passera hela mållinjen för att mål ska räknas.",
+    "answer": true
+  },
+  {
+    "id": 102,
+    "question": "I handboll kan man kasta bollen bakåt men inte framåt.",
+    "answer": false
+  },
+  {
+    "id": 103,
+    "question": "I ishockey kan målvakten fånga pucken med händerna i sitt målområde.",
+    "answer": true
+  },
+  {
+    "id": 104,
+    "question": "I basketboll kan man få poäng utan att träffa korgen.",
+    "answer": false
+  },
+  {
+    "id": 105,
+    "question": "I rugby är tacklingar tillåtna för att stoppa motståndaren.",
+    "answer": true
+  },
+  {
+    "id": 106,
+    "question": "I badminton får bollen studsa på marken innan du slår den.",
+    "answer": false
+  },
+  {
+    "id": 107,
+    "question": "I friidrott används startingblocks i korta lopp.",
+    "answer": true
+  },
+  {
+    "id": 108,
+    "question": "I boxning kan man använda handsken för att blockera slag.",
+    "answer": true
+  },
+  {
+    "id": 109,
+    "question": "I curling kan stenen stanna utan att sopas.",
+    "answer": true
+  },
+  {
+    "id": 110,
+    "question": "I tyngdlyftning används inga vikter.",
+    "answer": false
+  },
+  {
+    "id": 111,
+    "question": "I maraton deltar endast elitlöpare.",
+    "answer": false
+  },
+  {
+    "id": 112,
+    "question": "I rodd tävlar man både individuellt och i lag.",
+    "answer": true
+  },
+  {
+    "id": 113,
+    "question": "I amerikansk fotboll används hjälm och axelskydd.",
+    "answer": true
+  },
+  {
+    "id": 114,
+    "question": "I basketboll används alltid fyra poäng per korg.",
+    "answer": false
+  },
+  {
+    "id": 115,
+    "question": "I golf gäller det att slå bollen i hål med så få slag som möjligt.",
+    "answer": true
+  },
+  {
+    "id": 116,
+    "question": "I handboll får man dribbla bollen hela tiden utan begränsning.",
+    "answer": false
+  },
+  {
+    "id": 117,
+    "question": "I volleyboll spelar man vanligtvis tre set i en match.",
+    "answer": true
+  },
+  {
+    "id": 118,
+    "question": "I ishockey finns inga utvisningar.",
+    "answer": false
+  },
+  {
+    "id": 119,
+    "question": "I simning används olika simsätt som bröstsim, ryggsim och frisim.",
+    "answer": true
+  },
+  {
+    "id": 120,
+    "question": "I motorsport tävlar man endast på asfaltbanor.",
+    "answer": false
+  },
+  {
+    "id": 121,
+    "question": "I rugby kan man poängsätta genom att springa över mållinjen med bollen.",
+    "answer": true
+  },
+  {
+    "id": 122,
+    "question": "I basketboll är dribbling valfri, man kan bära bollen.",
+    "answer": false
+  },
+  {
+    "id": 123,
+    "question": "I friidrott ingår höjdhopp och längdhopp.",
+    "answer": true
+  },
+  {
+    "id": 124,
+    "question": "I badminton används fjäderbollar som alltid är tunga.",
+    "answer": false
+  },
+  {
+    "id": 125,
+    "question": "I fotboll kan målvakten använda händerna inom straffområdet.",
+    "answer": true
+  },
+  {
+    "id": 126,
+    "question": "I ishockey kan spelare skjuta pucken med fötterna.",
+    "answer": false
+  },
+  {
+    "id": 127,
+    "question": "I maraton kan löpare delta i lag.",
+    "answer": false
+  },
+  {
+    "id": 128,
+    "question": "I rodd är det viktigt att synkronisera med laget.",
+    "answer": true
+  },
+  {
+    "id": 129,
+    "question": "I boxning används röd och blå ringhörn för att skilja lagen.",
+    "answer": true
+  },
+  {
+    "id": 130,
+    "question": "I tyngdlyftning används alltid samma vikt för alla deltagare.",
+    "answer": false
+  },
+  {
+    "id": 131,
+    "question": "I basketboll finns positioner som point guard och center.",
+    "answer": true
+  },
+  {
+    "id": 132,
+    "question": "I simning kan man använda paddlar för att få extra poäng.",
+    "answer": false
+  },
+  {
+    "id": 133,
+    "question": "I rugby är maul och ruck vanliga situationer i spelet.",
+    "answer": true
+  },
+  {
+    "id": 134,
+    "question": "I friidrott är stafettlöpning inte en gren.",
+    "answer": false
+  },
+  {
+    "id": 135,
+    "question": "I curling används sopar för att påverka stenens bana.",
+    "answer": true
+  },
+  {
+    "id": 136,
+    "question": "I ishockey kan man göra mål direkt från ett frislag.",
+    "answer": true
+  },
+  {
+    "id": 137,
+    "question": "I basketboll används alltid korgar som är 5 meter höga.",
+    "answer": false
+  },
+  {
+    "id": 138,
+    "question": "I handboll används en boll som är mindre än en fotboll.",
+    "answer": true
+  },
+  {
+    "id": 139,
+    "question": "I maraton tävlar man på skidspår.",
+    "answer": false
+  },
+  {
+    "id": 140,
+    "question": "I badminton kan man vinna poäng genom att motståndaren missar bollen.",
+    "answer": true
+  },
+  {
+    "id": 141,
+    "question": "I rugby får man bara passa bollen framåt.",
+    "answer": false
+  },
+  {
+    "id": 142,
+    "question": "I motorsport kan man tävla på både bilar och motorcyklar.",
+    "answer": true
+  },
+  {
+    "id": 143,
+    "question": "I fotboll finns inget offside.",
+    "answer": false
+  },
+  {
+    "id": 144,
+    "question": "I boxning måste matcherna alltid ha tre ronder.",
+    "answer": false
+  },
+  {
+    "id": 145,
+    "question": "I tyngdlyftning kan man tävla i snatch och clean & jerk.",
+    "answer": true
+  },
+  {
+    "id": 146,
+    "question": "I basketboll kan man inte hoppa för att skjuta korgen.",
+    "answer": false
+  },
+  {
+    "id": 147,
+    "question": "I simning kan man tävla på kortbana eller långbana.",
+    "answer": true
+  },
+  {
+    "id": 148,
+    "question": "I handboll är det tillåtet att stå i målgården utan boll.",
+    "answer": false
+  },
+  {
+    "id": 149,
+    "question": "I ishockey används målvaktens utrustning för att skydda mot pucken.",
+    "answer": true
+  },
+  {
+    "id": 150,
+    "question": "I maraton är loppet alltid kortare än 10 km.",
+    "answer": false
+  },
+  {
+    "id": 151,
+    "question": "I rodd används både sculling och sweeping tekniker.",
+    "answer": true
+  },
+  {
+    "id": 152,
+    "question": "I rugby kan man poängsätta med straffspark.",
+    "answer": true
+  },
+  {
+    "id": 153,
+    "question": "I friidrott finns inga hoppgrenar.",
+    "answer": false
+  },
+  {
+    "id": 154,
+    "question": "I golf gäller det att undvika vattenhinder.",
+    "answer": true
+  },
+  {
+    "id": 155,
+    "question": "I basketboll är det tillåtet att hålla bollen för länge utan att dribbla.",
+    "answer": false
+  },
+  {
+    "id": 156,
+    "question": "I badminton är dubbelspel en vanlig spelform.",
+    "answer": true
+  },
+  {
+    "id": 157,
+    "question": "I ishockey kan målvakten spela pucken med fötterna inom målområdet.",
+    "answer": true
+  },
+  {
+    "id": 158,
+    "question": "I fotboll kan en spelare göra mål genom att kasta bollen direkt.",
+    "answer": false
+  },
+  {
+    "id": 159,
+    "question": "I motorsport används ibland bankörning för högre hastighet.",
+    "answer": true
+  },
+  {
+    "id": 160,
+    "question": "I tyngdlyftning är det förbjudet att använda skor.",
+    "answer": false
+  },
+  {
+    "id": 161,
+    "question": "I boxning finns olika viktklasser för tävlande."
+  },
+  {
+    "id": 162,
+    "question": "I amerikansk fotboll får man poäng genom touchdown eller field goal.",
+    "answer": true
+  },
+  {
+    "id": 163,
+    "question": "I simning kan man använda flytväst under tävling.",
+    "answer": false
+  },
+  {
+    "id": 164,
+    "question": "I handboll är målet 3 meter högt och 2 meter brett.",
+    "answer": true
+  },
+  {
+    "id": 165,
+    "question": "I basketboll kan man dribbla bollen med knäna.",
+    "answer": false
+  },
+  {
+    "id": 166,
+    "question": "I friidrott är längdhopp en gren där man hoppar horisontellt.",
+    "answer": true
+  },
+  {
+    "id": 167,
+    "question": "I rugby måste alla spelare vara över 18 år.",
+    "answer": false
+  },
+  {
+    "id": 168,
+    "question": "I ishockey kan matchen gå till förlängning om det står lika efter ordinarie tid.",
+    "answer": true
+  },
+  {
+    "id": 169,
+    "question": "I boxning kan man använda hjälm i professionella matcher.",
+    "answer": false
+  },
+  {
+    "id": 170,
+    "question": "I badminton används fjäderbollar.",
+    "answer": true
+  },
+  {
+    "id": 171,
+    "question": "I golf måste bollen alltid träffa fairway för att slaget ska gälla.",
+    "answer": false
+  },
+  {
+    "id": 172,
+    "question": "I motorsport kan man tävla på både asfalt och grusbanor.",
+    "answer": true
+  },
+  {
+    "id": 173,
+    "question": "I friidrott kan man kasta spjut både kortare och längre sträckor beroende på teknik.",
+    "answer": true
+  },
+  {
+    "id": 174,
+    "question": "I rugby används endast händer för att driva bollen framåt.",
+    "answer": false
+  },
+  {
+    "id": 175,
+    "question": "I ishockey används målvakten särskilda benskydd.",
+    "answer": true
+  },
+  {
+    "id": 176,
+    "question": "I bordtennis kan man använda händerna för att slå bollen.",
+    "answer": false
+  },
+  {
+    "id": 177,
+    "question": "I maraton kan både kvinnor och män delta.",
+    "answer": true
+  },
+  {
+    "id": 178,
+    "question": "I handboll får målvakten använda händerna inom målgården.",
+    "answer": true
+  },
+  {
+    "id": 179,
+    "question": "I basketboll är trepoängsskott alltid belönade med två poäng.",
+    "answer": false
+  },
+  {
+    "id": 180,
+    "question": "I simning finns både bröstsim och ryggsim som tävlingsgrenar.",
+    "answer": true
+  },
+  {
+    "id": 181,
+    "question": "I boxning får man slå under bältet.",
+    "answer": false
+  },
+  {
+    "id": 182,
+    "question": "I curling används sopar för att påverka stenens fart och riktning.",
+    "answer": true
+  },
+  {
+    "id": 183,
+    "question": "I tyngdlyftning tävlar man i snatch och clean & jerk.",
+    "answer": true
+  },
+  {
+    "id": 184,
+    "question": "I friidrott är 100 meter sprint alltid längre än 400 meter sprint.",
+    "answer": false
+  },
+  {
+    "id": 185,
+    "question": "I badminton får bollen studsa på marken innan man slår den.",
+    "answer": false
+  },
+  {
+    "id": 186,
+    "question": "I rugby kan man sparka bollen över motståndarnas mållinje.",
+    "answer": true
+  },
+  {
+    "id": 187,
+    "question": "I basketboll är det tillåtet att hålla bollen utan att dribbla hur länge som helst.",
+    "answer": false
+  },
+  {
+    "id": 188,
+    "question": "I ishockey får man tackla motståndare med kroppen.",
+    "answer": true
+  },
+  {
+    "id": 189,
+    "question": "I maraton används inga mellantider under loppet.",
+    "answer": false
+  },
+  {
+    "id": 190,
+    "question": "I simning tävlar man i bassäng och öppet vatten.",
+    "answer": true
+  },
+  {
+    "id": 191,
+    "question": "I handboll kan bollen slås med foten.",
+    "answer": false
+  },
+  {
+    "id": 192,
+    "question": "I friidrott är diskuskastning och spjutkastning tekniska grenar.",
+    "answer": true
+  },
+  {
+    "id": 193,
+    "question": "I boxning används alltid hjälm vid alla tävlingar.",
+    "answer": false
+  },
+  {
+    "id": 194,
+    "question": "I rugby används offside-regeln för att hålla spelet rättvist.",
+    "answer": true
+  },
+  {
+    "id": 195,
+    "question": "I motorsport måste alla fordon ha samma hastighet.",
+    "answer": false
+  },
+  {
+    "id": 196,
+    "question": "I basketboll kan man vinna på sudden death om det blir oavgjort.",
+    "answer": false
+  },
+  {
+    "id": 197,
+    "question": "I handboll finns regler för hur länge man får hålla bollen utan att dribbla.",
+    "answer": true
+  },
+  {
+    "id": 198,
+    "question": "I ishockey är icing tillåtet när pucken skjuts från egen planhalva och passerar motståndarnas mållinje utan att någon rör den.",
+    "answer": false
+  },
+  {
+    "id": 199,
+    "question": "I maraton är mållinjen alltid densamma som startlinjen.",
+    "answer": false
+  },
+  {
+    "id": 200,
+    "question": "I simning tävlar man både individuellt och i stafettlag.",
+    "answer": true
+  },
+  
+  {
+    "id": 201,
+    "question": "Zlatan Ibrahimović har spelat för Malmö FF.",
+    "answer": true
+  },
+  {
+    "id": 202,
+    "question": "Usain Bolt är känd för att vara världens snabbaste simmare.",
+    "answer": false
+  },
+  {
+    "id": 203,
+    "question": "Brasilien har vunnit herrarnas fotbolls-VM flest gånger.",
+    "answer": true
+  },
+  {
+    "id": 204,
+    "question": "Michael Jordan är en legendarisk basketspelare.",
+    "answer": true
+  },
+  {
+    "id": 205,
+    "question": "OS-ringarna är fyra till antalet.",
+    "answer": false
+  },
+  {
+    "id": 206,
+    "question": "Serena Williams är en framgångsrik tennisspelare.",
+    "answer": true
+  },
+  {
+    "id": 207,
+    "question": "Super Bowl är finalen i amerikansk fotboll (NFL).",
+    "answer": true
+  },
+  {
+    "id": 208,
+    "question": "Lionel Messi kommer från Spanien.",
+    "answer": false
+  },
+  {
+    "id": 209,
+    "question": "Björn Borg vann Wimbledon fem gånger i rad.",
+    "answer": true
+  },
+  {
+    "id": 210,
+    "question": "Formel 1-föraren Lewis Hamilton är från Storbritannien.",
+    "answer": true
+  },
+  {
+    "id": 211,
+    "question": "Ett maratonlopp är exakt 4 mil långt.",
+    "answer": false
+  },
+  {
+    "id": 212,
+    "question": "Ingemar Stenmark tävlade i alpin skidåkning.",
+    "answer": true
+  },
+  {
+    "id": 213,
+    "question": "Real Madrid är en fotbollsklubb från Italien.",
+    "answer": false
+  },
+  {
+    "id": 214,
+    "question": "De första moderna olympiska spelen hölls i Aten 1896.",
+    "answer": true
+  },
+  {
+    "id": 215,
+    "question": "Muhammad Ali var en berömd golfspelare.",
+    "answer": false
+  },
+  {
+    "id": 216,
+    "question": "Sverige tog guld i ishockey vid OS i Lillehammer 1994.",
+    "answer": true
+  },
+  {
+    "id": 217,
+    "question": "Tiger Woods är känd för sin karriär inom golf.",
+    "answer": true
+  },
+  {
+    "id": 218,
+    "question": "Tour de France är en cykeltävling.",
+    "answer": true
+  },
+  {
+    "id": 219,
+    "question": "Wayne Gretzky kallas ofta för 'The Great One' inom ishockey.",
+    "answer": true
+  },
+  {
+    "id": 220,
+    "question": "Armand Duplantis tävlar i stavhopp.",
+    "answer": true
+  },
+  {
+    "id": 221,
+    "question": "Fotbolls-VM spelas varje år.",
+    "answer": false
+  },
+  {
+    "id": 222,
+    "question": "Roger Federer är en tennisspelare från Schweiz.",
+    "answer": true
+  },
+  {
+    "id": 223,
+    "question": "NHL är den högsta ligan för handboll i USA.",
+    "answer": false
+  },
+  {
+    "id": 224,
+    "question": "Babe Ruth var en legendarisk basebollspelare.",
+    "answer": true
+  },
+  {
+    "id": 225,
+    "question": "OS-guldmedaljer är gjorda av 100% rent guld.",
+    "answer": false
+  },
+  {
+    "id": 226,
+    "question": "Liverpool FC:s hemmaarena heter Anfield.",
+    "answer": true
+  },
+  {
+    "id": 227,
+    "question": "Mike Tyson är känd för sin karriär inom boxning.",
+    "answer": true
+  },
+  {
+    "id": 228,
+    "question": "Carolina Klüft tävlade i sjukamp.",
+    "answer": true
+  },
+  {
+    "id": 229,
+    "question": "Vinter-OS har hållits i Sverige.",
+    "answer": false
+  },
+  {
+    "id": 230,
+    "question": "Sarah Sjöström är en svensk simmare.",
+    "answer": true
+  },
+  {
+    "id": 231,
+    "question": "Juventus är ett fotbollslag från Turin.",
+    "answer": true
+  },
+  {
+    "id": 232,
+    "question": "Diego Maradona gjorde ett mål med handen som kallas 'Guds hand'.",
+    "answer": true
+  },
+  {
+    "id": 233,
+    "question": "Wimbledon spelas på grus.",
+    "answer": false
+  },
+  {
+    "id": 234,
+    "question": "Kobe Bryant spelade hela sin karriär för Los Angeles Lakers.",
+    "answer": true
+  },
+  {
+    "id": 235,
+    "question": "Sveriges herrlandslag i fotboll tog brons i VM 1994.",
+    "answer": true
+  },
+  {
+    "id": 236,
+    "question": "En 'Grand Slam' i tennis innebär att man vinner fyra specifika turneringar.",
+    "answer": true
+  },
+  {
+    "id": 237,
+    "question": "Ferrari är ett stall i Formel 1.",
+    "answer": true
+  },
+  {
+    "id": 238,
+    "question": "Michael Phelps har vunnit flest OS-medaljer genom tiderna.",
+    "answer": true
+  },
+  {
+    "id": 239,
+    "question": "NBA-lag spelar 10 matcher per säsong.",
+    "answer": false
+  },
+  {
+    "id": 240,
+    "question": "Annika Sörenstam är en känd svensk golfspelare.",
+    "answer": true
+  },
+  {
+    "id": 241,
+    "question": "Manchester United spelar i röda tröjor.",
+    "answer": true
+  },
+  {
+    "id": 242,
+    "question": "Stanley Cup är pokalen man vinner i ishockey.",
+    "answer": true
+  },
+  {
+    "id": 243,
+    "question": "Conor McGregor är känd inom MMA (UFC).",
+    "answer": true
+  },
+  {
+    "id": 244,
+    "question": "Fotbollsspelaren Pelé kom från Argentina.",
+    "answer": false
+  },
+  {
+    "id": 245,
+    "question": "Vasaloppet är 90 km långt.",
+    "answer": true
+  },
+  {
+    "id": 246,
+    "question": "Cristiano Ronaldo har spelat för Real Madrid.",
+    "answer": true
+  },
+  {
+    "id": 247,
+    "question": "Sumobrottning är nationalsport i Kina.",
+    "answer": false
+  },
+  {
+    "id": 248,
+    "question": "Gunder Hägg var en svensk löpare.",
+    "answer": true
+  },
+  {
+    "id": 249,
+    "question": "Chicago Bulls är ett lag i NBA.",
+    "answer": true
+  },
+  {
+    "id": 250,
+    "question": "Zinedine Zidane skallade en motståndare i VM-finalen 2006.",
+    "answer": true
+  },
+  {
+    "id": 251,
+    "question": "En bowlingrunda består av 12 rutor (frames).",
+    "answer": false
+  },
+  {
+    "id": 252,
+    "question": "Sverige har aldrig vunnit Davis Cup i tennis.",
+    "answer": false
+  },
+  {
+    "id": 253,
+    "question": "Floyd Mayweather Jr. var en obesegrad boxare.",
+    "answer": true
+  },
+  {
+    "id": 254,
+    "question": "Ryder Cup är en tävling i golf mellan Europa och USA.",
+    "answer": true
+  },
+  {
+    "id": 255,
+    "question": "FC Barcelona spelar sina hemmamatcher på Camp Nou.",
+    "answer": true
+  },
+  {
+    "id": 256,
+    "question": "LeBron James har aldrig vunnit NBA.",
+    "answer": false
+  },
+  {
+    "id": 257,
+    "question": "Peter 'Foppa' Forsberg spelade för Colorado Avalanche.",
+    "answer": true
+  },
+  {
+    "id": 258,
+    "question": "OS-flaggan har en svart ring.",
+    "answer": true
+  },
+  {
+    "id": 259,
+    "question": "Rallyföraren Colin McRae kom från Skottland.",
+    "answer": true
+  },
+  {
+    "id": 260,
+    "question": "Ett vanligt fotbollsmål är 5 meter brett.",
+    "answer": false
+  },
+  {
+    "id": 261,
+    "question": "Novak Djokovic är en tennisspelare från Serbien.",
+    "answer": true
+  },
+  {
+    "id": 262,
+    "question": "New York Yankees är ett lag i amerikansk fotboll.",
+    "answer": false
+  },
+  {
+    "id": 263,
+    "question": "Jesse Owens vann fyra guld vid OS i Berlin 1936.",
+    "answer": true
+  },
+  {
+    "id": 264,
+    "question": "Tre Kronor är smeknamnet på Sveriges fotbollslandslag.",
+    "answer": false
+  },
+  {
+    "id": 265,
+    "question": "Max Verstappen är en Formel 1-förare.",
+    "answer": true
+  },
+  {
+    "id": 266,
+    "question": "En 'birdie' i golf betyder ett slag under par.",
+    "answer": true
+  },
+  {
+    "id": 267,
+    "question": "Tom Brady är en känd quarterback i amerikansk fotboll.",
+    "answer": true
+  },
+  {
+    "id": 268,
+    "question": "Sverige arrangerade fotbolls-VM 1958.",
+    "answer": true
+  },
+  {
+    "id": 269,
+    "question": "Shaquille O'Neal var känd för att vara väldigt kort.",
+    "answer": false
+  },
+  {
+    "id": 270,
+    "question": "Henrik Larsson spelade för Celtic och Barcelona.",
+    "answer": true
+  },
+  {
+    "id": 271,
+    "question": "Masters är en golftävling som spelas på Augusta National.",
+    "answer": true
+  },
+  {
+    "id": 272,
+    "question": "Norge är det land som tagit flest medaljer i Vinter-OS genom tiderna.",
+    "answer": true
+  },
+  {
+    "id": 273,
+    "question": "Lance Armstrong blev fråntagen sina Tour de France-titlar på grund av doping.",
+    "answer": true
+  },
+  {
+    "id": 274,
+    "question": "NBA-lag spelar 82 matcher i grundserien.",
+    "answer": true
+  },
+  {
+    "id": 275,
+    "question": "Börje Salming spelade för Toronto Maple Leafs.",
+    "answer": true
+  },
+  {
+    "id": 276,
+    "question": "En fotbollsmatch är normalt 60 minuter lång.",
+    "answer": false
+  },
+  {
+    "id": 277,
+    "question": "Rafael Nadal kallas ofta 'Gruskungen'.",
+    "answer": true
+  },
+  {
+    "id": 278,
+    "question": "Indianapolis 500 är en känd biltävling.",
+    "answer": true
+  },
+  {
+    "id": 279,
+    "question": "Det finns en basketspelare som heter Stephen Curry.",
+    "answer": true
+  },
+  {
+    "id": 280,
+    "question": "Allsvenskan är den högsta fotbollsserien i Sverige.",
+    "answer": true
+  },
+  {
+    "id": 281,
+    "question": "Usain Bolt kommer från USA.",
+    "answer": false
+  },
+  {
+    "id": 282,
+    "question": "Ronda Rousey var en mästare i UFC.",
+    "answer": true
+  },
+  {
+    "id": 283,
+    "question": "Wembley Stadium ligger i London.",
+    "answer": true
+  },
+  {
+    "id": 284,
+    "question": "Manny Pacquiao är en boxare från Filippinerna.",
+    "answer": true
+  },
+  {
+    "id": 285,
+    "question": "Svenska Dagbladets guldmedalj kallas 'Bragdguldet'.",
+    "answer": true
+  },
+  {
+    "id": 286,
+    "question": "Michael Schumacher tävlade i rally.",
+    "answer": false
+  },
+  {
+    "id": 287,
+    "question": "En 'hole-in-one' är mycket vanligt i golf.",
+    "answer": false
+  },
+  {
+    "id": 288,
+    "question": "Charlotte Kalla är en känd längdskidåkare.",
+    "answer": true
+  },
+  {
+    "id": 289,
+    "question": "Landslaget i fotboll för damer i USA har vunnit flera VM-guld.",
+    "answer": true
+  },
+  {
+    "id": 290,
+    "question": "En 'knockout' (KO) avslutar en boxningsmatch direkt.",
+    "answer": true
+  },
+  {
+    "id": 291,
+    "question": "David Beckham spelade aldrig för det engelska landslaget.",
+    "answer": false
+  },
+  {
+    "id": 292,
+    "question": "Zlatan har vunnit Champions League.",
+    "answer": false
+  },
+  {
+    "id": 293,
+    "question": "Green Bay Packers är ett lag i NFL.",
+    "answer": true
+  },
+  {
+    "id": 294,
+    "question": "Finnkampen är en friidrottstävling mellan Sverige och Finland.",
+    "answer": true
+  },
+  {
+    "id": 295,
+    "question": "En standard golfbana har 18 hål.",
+    "answer": true
+  },
+  {
+    "id": 296,
+    "question": "Ayrton Senna var en legendarisk Formel 1-förare från Brasilien.",
+    "answer": true
+  },
+  {
+    "id": 297,
+    "question": "Kajsa Bergqvist var en världsstjärna i höjdhopp.",
+    "answer": true
+  },
+  {
+    "id": 298,
+    "question": "En 'puck' i ishockey är gjord av trä.",
+    "answer": false
+  },
+  {
+    "id": 299,
+    "question": "Mondo Duplantis har slagit världsrekordet i stavhopp flera gånger.",
+    "answer": true
+  },
+  {
+    "id": 300,
+    "question": "Tottenham Hotspur är ett fotbollslag från London.",
+    "answer": true
+  },
+  {
+    "id": 301,
+    "question": "Basketkorgen sitter exakt 2 meter över marken.",
+    "answer": false
+  },
+  {
+    "id": 302,
+    "question": "Gunde Svan var känd för att åka längdskidor.",
+    "answer": true
+  },
+  {
+    "id": 303,
+    "question": "Simone Biles är en berömd gymnast.",
+    "answer": true
+  },
+  {
+    "id": 304,
+    "question": "Paris Saint-Germain (PSG) är en klubb från Frankrike.",
+    "answer": true
+  },
+  {
+    "id": 305,
+    "question": "En 'hattrick' i fotboll betyder att man gör tre mål i en match.",
+    "answer": true
+  },
+  {
+    "id": 306,
+    "question": "Anja Pärson har vunnit OS-guld i alpin skidåkning.",
+    "answer": true
+  },
+  {
+    "id": 307,
+    "question": "Madison Square Garden är en känd arena i New York.",
+    "answer": true
+  },
+  {
+    "id": 308,
+    "question": "Haka är en dans som Nya Zeelands rugbylag utför innan match.",
+    "answer": true
+  },
+  {
+    "id": 309,
+    "question": "Ronaldo (R9) från Brasilien spelade aldrig för Inter Milan.",
+    "answer": false
+  },
+  {
+    "id": 310,
+    "question": "Sverige vann U21-EM i fotboll 2015.",
+    "answer": true
+  },
+  {
+    "id": 311,
+    "question": "En 'bogey' i golf är ett slag över par.",
+    "answer": true
+  },
+  {
+    "id": 312,
+    "question": "Carl Lewis vann nio OS-guld i friidrott.",
+    "answer": true
+  },
+  {
+    "id": 313,
+    "question": "Det finns ett lag i NHL som heter Vegas Golden Knights.",
+    "answer": true
+  },
+  {
+    "id": 314,
+    "question": "Zlatan har vunnit Guldbollen (Sveriges bästa fotbollsspelare) mer än 10 gånger.",
+    "answer": true
+  },
+  {
+    "id": 315,
+    "question": "Ett tennisset vinns normalt när man når 6 game (med 2 games marginal).",
+    "answer": true
+  },
+  {
+    "id": 316,
+    "question": "Boston Red Sox spelar baseboll.",
+    "answer": true
+  },
+  {
+    "id": 317,
+    "question": "Nadia Comăneci var den första gymnasten som fick perfekta 10.0 i OS.",
+    "answer": true
+  },
+  {
+    "id": 318,
+    "question": "Sven-Göran 'Svennis' Eriksson har tränat Englands herrlandslag.",
+    "answer": true
+  },
+  {
+    "id": 319,
+    "question": "En 'strike' i bowling ger 15 poäng.",
+    "answer": false
+  },
+  {
+    "id": 320,
+    "question": "Elitloppet är en känd travtävling på Solvalla.",
+    "answer": true
+  },
+  {
+    "id": 321,
+    "question": "Arsenal FC kallas för 'The Gunners'.",
+    "answer": true
+  },
+  {
+    "id": 322,
+    "question": "Stina Nilsson bytte sport från längdskidor till skidskytte.",
+    "answer": true
+  },
+  {
+    "id": 323,
+    "question": "En maratonlöpare måste dricka champagne vid varje mil.",
+    "answer": false
+  },
+  {
+    "id": 324,
+    "question": "De olympiska ringarna representerar de fem bebodda världsdelarna.",
+    "answer": true
+  },
+  {
+    "id": 325,
+    "question": "Muhammad Ali hette tidigare Cassius Clay.",
+    "answer": true
+  },
+  {
+    "id": 326,
+    "question": "FC Bayern München spelar i Italien.",
+    "answer": false
+  },
+  {
+    "id": 327,
+    "question": "En 'ace' i tennis betyder att motståndaren inte rör bollen på serven.",
+    "answer": true
+  },
+  {
+    "id": 328,
+    "question": "Stefan Holm vann OS-guld i höjdhopp 2004.",
+    "answer": true
+  },
+  {
+    "id": 329,
+    "question": "Rugby World Cup-pokalen heter Webb Ellis Cup.",
+    "answer": true
+  },
+  {
+    "id": 330,
+    "question": "Ishockeymålvakten Henrik Lundqvist kallas 'King Henrik'.",
+    "answer": true
+  },
+  {
+    "id": 331,
+    "question": "Diego Maradona spelade för Napoli.",
+    "answer": true
+  },
+  {
+    "id": 332,
+    "question": "En 'uppercut' är ett slag i tennis.",
+    "answer": false
+  },
+  {
+    "id": 333,
+    "question": "OS i Tokyo hölls år 2021 istället för 2020 på grund av en pandemi.",
+    "answer": true
+  },
+  {
+    "id": 334,
+    "question": "En 'eagle' i golf är två slag under par.",
+    "answer": true
+  },
+  {
+    "id": 335,
+    "question": "Golden State Warriors är ett fotbollslag.",
+    "answer": false
+  },
+  {
+    "id": 336,
+    "question": "J-O Waldner är en legendarisk bordtennisspelare.",
+    "answer": true
+  },
+  {
+    "id": 337,
+    "question": "Wimbledon-turneringen kräver att spelarna klär sig mestadels i vitt.",
+    "answer": true
+  },
+  {
+    "id": 338,
+    "question": "Formel 1-bilar körs på diesel.",
+    "answer": false
+  },
+  {
+    "id": 339,
+    "question": "Sergej Bubka satte många världsrekord i stavhopp.",
+    "answer": true
+  },
+  {
+    "id": 340,
+    "question": "Super Bowl spelas i augusti varje år.",
+    "answer": false
+  },
+  {
+    "id": 341,
+    "question": "Alexander Isak är en svensk fotbollsspelare.",
+    "answer": true
+  },
+  {
+    "id": 342,
+    "question": "En 'home run' är när man springer runt alla baser i baseboll.",
+    "answer": true
+  },
+  {
+    "id": 343,
+    "question": "Landslaget i ishockey för Finland kallas 'Lejonen'.",
+    "answer": true
+  },
+  {
+    "id": 344,
+    "question": "Lionel Messi har aldrig spelat för FC Barcelona.",
+    "answer": false
+  },
+  {
+    "id": 345,
+    "question": "Krav Maga är en israelisk kampsport.",
+    "answer": true
+  },
+  {
+    "id": 346,
+    "question": "Silvermedaljen i OS är gjord av ren plast.",
+    "answer": false
+  },
+  {
+    "id": 347,
+    "question": "En 'slam dunk' är ett sätt att göra mål i basket.",
+    "answer": true
+  },
+  {
+    "id": 348,
+    "question": "Björn Ferry tävlade i skidskytte.",
+    "answer": true
+  },
+  {
+    "id": 349,
+    "question": "Manchester City tränas av Pep Guardiola (år 2023).",
+    "answer": true
+  },
+  {
+    "id": 350,
+    "question": "En 'jockey' rider hästar i galopptävlingar.",
+    "answer": true
+  },
+  {
+    "id": 351,
+    "question": "Pelé vann tre VM-guld.",
+    "answer": true
+  },
+  {
+    "id": 352,
+    "question": "En simbassäng i OS är 25 meter lång.",
+    "answer": false
+  },
+  {
+    "id": 353,
+    "question": "Shaun White är en känd snowboardåkare.",
+    "answer": true
+  },
+  {
+    "id": 354,
+    "question": "Rugby spelas utan skydd som hjälm och axelskydd (till skillnad från am. fotboll).",
+    "answer": true
+  },
+  {
+    "id": 355,
+    "question": "Zlatan gjorde 62 mål för svenska landslaget.",
+    "answer": true
+  },
+  {
+    "id": 356,
+    "question": "Giro d'Italia är en seglingstävling.",
+    "answer": false
+  },
+  {
+    "id": 357,
+    "question": "Mike Tyson bet en bit av örat på Evander Holyfield.",
+    "answer": true
+  },
+  {
+    "id": 358,
+    "question": "NBA-laget Toronto Raptors kommer från Kanada.",
+    "answer": true
+  },
+  {
+    "id": 359,
+    "question": "En 'caddie' bär golfspelarens klubbor.",
+    "answer": true
+  },
+  {
+    "id": 360,
+    "question": "Fotbolls-EM 2004 vanns av Grekland.",
+    "answer": true
+  },
+  {
+    "id": 361,
+    "question": "Ett 'love game' i tennis betyder att båda spelarna har lika poäng.",
+    "answer": false
+  },
+  {
+    "id": 362,
+    "question": "Tyson Fury är en tungviktsboxare.",
+    "answer": true
+  },
+  {
+    "id": 363,
+    "question": "Pittsburgh Penguins spelar ishockey.",
+    "answer": true
+  },
+  {
+    "id": 364,
+    "question": "Marit Björgen är en norsk längdskidåkare med många medaljer.",
+    "answer": true
+  },
+  {
+    "id": 365,
+    "question": "En 'drive' är det första slaget på ett golfhål.",
+    "answer": true
+  },
+  {
+    "id": 366,
+    "question": "Foppa-straffen utfördes vid OS 1994.",
+    "answer": true
+  },
+  {
+    "id": 367,
+    "question": "Kylian Mbappé är en fransk fotbollsspelare.",
+    "answer": true
+  },
+  {
+    "id": 368,
+    "question": "En 'technical knockout' (TKO) är samma sak som diskvalificering.",
+    "answer": false
+  },
+  {
+    "id": 369,
+    "question": "Monaco Grand Prix är ett lopp i Formel 1.",
+    "answer": true
+  },
+  {
+    "id": 370,
+    "question": "Sverige vann brons i fotbolls-VM för damer 2019.",
+    "answer": true
+  },
+  {
+    "id": 371,
+    "question": "En 'foul' i basket kan ge straffkast.",
+    "answer": true
+  },
+  {
+    "id": 372,
+    "question": "Vladimir Putin har svart bälte i judo.",
+    "answer": true
+  },
+  {
+    "id": 373,
+    "question": "En 'passning' i ishockey får gå över två linjer (tvåzonspass) utan avblåsning (moderna regler).",
+    "answer": true
+  },
+  {
+    "id": 374,
+    "question": "Wimbledon är den äldsta tennisturneringen i världen.",
+    "answer": true
+  },
+  {
+    "id": 375,
+    "question": "Bandy spelas med en puck.",
+    "answer": false
+  },
+  {
+    "id": 376,
+    "question": "Luka Modric vann Ballon d'Or 2018.",
+    "answer": true
+  },
+  {
+    "id": 377,
+    "question": "Boston Celtics har vunnit flest NBA-titlar (delat med Lakers).",
+    "answer": true
+  },
+  {
+    "id": 378,
+    "question": "En 'lobb' i tennis är ett slag som går högt över motståndaren.",
+    "answer": true
+  },
+  {
+    "id": 379,
+    "question": "Marcus Hellner var en skidskytt.",
+    "answer": false
+  },
+  {
+    "id": 380,
+    "question": "Ryggsim startas nere i vattnet.",
+    "answer": true
+  },
+  {
+    "id": 381,
+    "question": "Ryssland var värd för fotbolls-VM 2018.",
+    "answer": true
+  },
+  {
+    "id": 382,
+    "question": "En 'corner' är en hörna i fotboll.",
+    "answer": true
+  },
+  {
+    "id": 383,
+    "question": "Storbritannien deltar som 'Team GB' i OS.",
+    "answer": true
+  },
+  {
+    "id": 384,
+    "question": "Erling Haaland är född i England.",
+    "answer": true
+  },
+  {
+    "id": 385,
+    "question": "En 'quarterback' är en försvarsspelare.",
+    "answer": false
+  },
+  {
+    "id": 386,
+    "question": "Tony Hawk är känd för skateboardåkning.",
+    "answer": true
+  },
+  {
+    "id": 387,
+    "question": "Snooker spelas med 22 bollar.",
+    "answer": true
+  },
+  {
+    "id": 388,
+    "question": "Neymar spelar för landslaget Spanien.",
+    "answer": false
+  },
+  {
+    "id": 389,
+    "question": "En 'sprint' i längdskidor är en kort distans.",
+    "answer": true
+  },
+  {
+    "id": 390,
+    "question": "New Zealand All Blacks är kända för rugby.",
+    "answer": true
+  },
+  {
+    "id": 391,
+    "question": "En 'offside' i ishockey bedöms vid den blå linjen.",
+    "answer": true
+  },
+  {
+    "id": 392,
+    "question": "Harry Kane är en målvakt.",
+    "answer": false
+  },
+  {
+    "id": 393,
+    "question": "En 'double fault' i tennis ger poäng till motståndaren.",
+    "answer": true
+  },
+  {
+    "id": 394,
+    "question": "Stockholm Stadion byggdes inför OS 1912.",
+    "answer": true
+  },
+  {
+    "id": 395,
+    "question": "Floyd Mayweather har förlorat 5 matcher.",
+    "answer": false
+  },
+  {
+    "id": 396,
+    "question": "En 'assist' är en målgivande passning.",
+    "answer": true
+  },
+  {
+    "id": 397,
+    "question": "Världens största idrottsevenemang är Fotbolls-VM.",
+    "answer": true
+  },
+  {
+    "id": 398,
+    "question": "Svenska damlandslaget i fotboll har vunnit EM-guld (1984).",
+    "answer": true
+  },
+  {
+    "id": 399,
+    "question": "Babe Ruth spelade för Boston Red Sox och New York Yankees.",
+    "answer": true
+  },
+  {
+    "id": 400,
+    "question": "Det lag som vinner Champions League är bäst i Europa.",
+    "answer": true
+  }
+
+]

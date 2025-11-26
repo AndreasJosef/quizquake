@@ -1,74 +1,45 @@
-// ====================================================
-// Step 1: the key used in localStorage
-// ====================================================
+import { bus } from "../core/eventBus";
+
 const STORAGE_KEY = "quiz_highscores";
 
-// ====================================================
-// Step 2: new score
-// ====================================================
-export function saveHighscore(name, score) {
-  // the score is a valid number
-  if (typeof score !== "number" || isNaN(score)) {
-    console.error("Score must be a number");
-    return;
+// saves a top 10 sorted list of highscore objects to local storage
+export function saveHighscore(score, name) {
+
+  const highscores = getHighscores(STORAGE_KEY);
+
+  const entry = {
+    player: name,
+    score: score
   }
 
-  // Step 2.1: Load existing highscores
-  const highscores = loadFromLocalStorage(STORAGE_KEY);
+  const scoreExists = highscores
+    .find( highscore => highscore.score === entry.score)
 
-  // check if score already exists
-  if (highscores.includes(score)) return 
+  if (scoreExists) return 
 
+  highscores.push(entry);
 
-  // Step 2.2: the new score
-  highscores.push(score);
+  // Sort from highest to lowest
+  highscores.sort((a, b) => b.score - a.score);
 
-  // Step 2.3: Sort from highest to lowest
-  highscores.sort((a, b) => b - a);
+  // only save top ten
+  const topTen = highscores.slice(0, 5);
 
-  // Step 2.4: Keep only top 10
-  const topTen = highscores.slice(0, 10);
-
-  // Step 2.5: Save back to localStorage
   localStorage.setItem(STORAGE_KEY, JSON.stringify(topTen));
 
-  console.log("✅ Highscore saved!");
+  bus.emit('storage', topTen);
+
+  console.log("Highscore saved:", entry.player, entry.score);
 }
 
-// ====================================================
-// Step 3:  list of highscores
-// ====================================================
+// returns a sorted array of highscore objets from local storage
 export function getHighscores() {
-  return loadFromLocalStorage(STORAGE_KEY);
-}
-
-export function getPlayers() {
-  
-}
-
-export function createPlayer(){
-
-}
-
-// ====================================================
-// Step 4: to load data from localStorage
-// ====================================================
-function loadFromLocalStorage(key) {
-  const data = localStorage.getItem(key);
+  const data = localStorage.getItem(STORAGE_KEY);
   return data ? JSON.parse(data) : [];
 }
 
-
-
-// highscore shape
-// const highscores = [
-//   {
-//     name: 'Joakim',
-//     scores: [1,2,3]
-//   },
-//   {
-//     name: 'Andreas',
-//     scores: [1,2,3]
-//   },
-
-// ]
+// deletes all highscores from local storage
+export function clearStorage() {
+  localStorage.setItem(STORAGE_KEY, [])
+  console.log("Cleared Highscores!", localStorage.getItem(STORAGE_KEY));
+}

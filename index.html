@@ -2,113 +2,47 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Open Graph tags   Jag behöver url för bilderna samt sidan på netlify.  -->
+     <meta property="og:title" content="QuizQuake">
+     <meta property="og:type" content="website">
+     <meta property="og:url" content="https://example.netlify.com">
+     <meta property="og:image" content="https://example.netlify.com/QUIZQUAKE/assets/bg-page-2.png">
+
+     <!-- metadata för bilder  -->
+
+    <meta property="og:image:alt" content="QuizQuake förhandsbild">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+
+    <!-- Mer SEO & beskrivning -->
+
+    <meta property="og:description" content="Spela QuizQuake ett fartfyllt frågespel med fyra kategorier: barnfrågor, vetenskap, sport och internet. Svara på så många frågor som möjligt innan tiden tar slut och se dina poäng baserat på rätt svar!">
+    <meta property="og:site_name" content="QuizQuake">
+    <meta property="og:locale" content="sv_SE">
 
     <title>Quiz App</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./src/css/app.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Honk&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+    <link rel="stylesheet" href="./src/styles/app.css">
 
     <script src="./src/main.js" type="module" defer></script>
 
 </head>
-
 <body>
     <div class="layout-page">
-
-        <header>
-            <h1>QuizQuake</h1>
+        <header class="hero">
+            <h1 class="hero__title">QuizQuake</h1>
+            <!-- <a href="about.html">About</a> -->
         </header>
-
 
         <main id="gameContainer">
 
         </main>
-
-        <!-- Start View  -->
-        <!-- Användaren skriver in sitt namn och får regler innan spelet startas med startknapp -->
-        <!-- <section id="start-view" class="view active-view">
-            <h1 class="view-title">QuizQuake</h1>
-
-            <div class="input-area">
-                <label for="player-name-input">Ange ditt namn:</label>
-                <input type="text" id="player-name-input" placeholder="Ditt namn">
-            </div>
-
-            <div class="rules-area">
-                <h2>Regler:</h2>
-                <p>Är det sant eller falskt? Du har en minut att svara på så många frågor du kan.</p>
-                </div>
-
-            <button id="startGame" class="action-button">Starta spelet</button>
-        </section> -->
-
-        <!-- Game View -->
-        <!-- Huvudvy efter Andreas Figma-skiss  -->
-
-        <!-- <section id="game-view" class="view hidden-view">
-
-            <header class="game-header">
-
-                <div class="info-box highscore-box">
-                    <span id="player-display-name">Namn: N/A</span>
-                    <span id="high-score-display">Highscore: 0</span>
-                </div>
-
-                <div class="timer-bar-container">
-                    <div class="timer-bar">Timer bar</div>
-                </div>
-
-                <div class="info-box score-box">
-                    <span id="current-score-display">Score: 0</span>
-                </div>
-
-            </header>
-
-            <main class="game-main">
-
-                <div class="question-container">
-                    <p id="question-text">Frågan kommer att laddas här...</p>
-                </div>
-
-                <div class="answer-buttons-container">
-                    
-                    <button id="true-button" class="answer-button true-button">True</button>
-                    <button id="false-button" class="answer-button false-button">False</button>
-                </div>
-
-            </main>
-
-        </section> -->
-
-        <!-- Result View  -->
-        <!-- Detta visas när spelet är slut -->
-
-        <!-- <section id="results-view" class="view hidden-view">
-            <h1 class="view-title">GAME OVER</h1>
-
-            <div class="final-score-area">
-                <h2>Din poäng: <span id="final-score-value">0</span></h2>
-                <p id="new-highscore-message" class="hidden"></p>
-            </div>
-
-            <div class="highscore-list-container">
-                <h2>Highscore Topp 10</h2>
-                <ul id="highscore-list">
-                    </ul>
-            </div>
-
-            <button id="restart-game-button" class="action-button">Spela igen</button>
-        </section> -->
-
-        <!-- Här renderas frågorna dynamiskt -->
-        <!-- <section id="quiz"></section> -->
-
-        <!-- Start-knapp -->
 
     </div>
     <!-- Google tag (gtag.js) -->
@@ -121,5 +55,4 @@
         gtag('config', 'G-MPQXFLMCEF');
     </script>
 </body>
-
 </html>
