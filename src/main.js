@@ -82,11 +82,6 @@ const children = [
         visibleWhen: (state) => state.gamePhase === 'finished',
         slice: (state) => ({ highscores: state.highscores })
     },
-    // {
-    //     component: cookiePopup(),
-    //     childRoot: () => document.body,
-    //     visibleWhen: () => true
-    // }
 ]
 
 // Create the renderer
