@@ -1,4 +1,4 @@
-import { bus } from "../core/eventBus";
+import { bus } from "../core/eventBus.js";
 
 const STORAGE_KEY = "quiz_highscores";
 
