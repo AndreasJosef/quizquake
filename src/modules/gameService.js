@@ -4,7 +4,7 @@ import { startTimer } from "./timerService.js";
 import { clearStorage, getHighscores, saveHighscore } from "./highscoreAdapter.js"
 import { audioEngine } from "./audioEngine.js"
 
-export const GAME_SECONDS = 30;
+export const GAME_SECONDS = 60;
 
 export const GAME_PHASES = {
     start: 'start',
