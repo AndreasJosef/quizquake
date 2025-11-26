@@ -16,7 +16,7 @@ export function RulesComponent({ onClick }) {
 
         // skapar DOM 
         rulesHeading.textContent = 'Regler:'
-        rulesText.textContent = 'SANT ELLER FALSKT? Mål: Svara på flest frågor på 60 sek. Svar: [ J ] för Sant, [ F ] för Falskt.'
+        rulesText.textContent = 'SANT ELLER FALSKT? Mål: Rätt svar tar dig vidare till nästa fråga. Svarar du fel åker du ut. Svar: [J] för Sant, [F] för Falskt.'
         readyButton.textContent = 'I got it!'
 
         readyButton.addEventListener('click', onClick);
