@@ -1,6 +1,7 @@
 export function App(){
 
-    const el = document.createElement('div');
+    const el = document.createElement('section');
+    el.className = 'game';
 
     el.innerHTML = `
         <div class="slot slot-header"></div>

@@ -1,7 +1,7 @@
 .slot {
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 1;
-    display: block;
+    display: grid;
 }
 
 .slot-header {

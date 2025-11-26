@@ -1,7 +1,10 @@
 .game {
     --primary-accent: var(--accent); 
 
-    background-color: var(--neutral-700);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
     background-color: #291c2d;
     opacity: .98;
     padding: var(--space-5);
@@ -11,6 +14,7 @@
         0 0 25px 5px var(--primary-accent),
         inset 0 0 20px rgba(0, 0, 0, 0.8),
         0 0 40px -20px var(--primary-accent); 
+
     min-height: 50vh;
     font-family: 'Press Start 2P', monospace;
     color: var(--primary-accent); 
@@ -18,3 +22,4 @@
         0 0 4px var(--primary-accent), 
         0 0 8px rgba(0, 255, 255, 0.5);
 }
+

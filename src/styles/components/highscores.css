@@ -24,7 +24,7 @@
     text-shadow: none;
 }
 
-.highscores__item:nth-child(even) {
+.highscores__item:nth-child(odd) {
     background-color: var(--neutral-700);
 }
 
@@ -37,18 +37,14 @@
     font-weight: bold;
 }
 
-/* Rank 2 (Green/Silver Emphasis) */
 .highscores__item:nth-child(2) {
     color: #39ff14;
-    /* Neon Green */
 }
 
-/* Rank 3 (White/Bronze Emphasis) */
 .highscores__item:nth-child(3) {
     color: var(--accent);
 }
 
-/* Ensure score alignment is maintained */
 .item__score {
     text-align: right;
 }

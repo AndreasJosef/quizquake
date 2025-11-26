@@ -20,7 +20,6 @@
     /* Enable Container Queries */
     container-type: inline-size;
     padding-inline: var(--gutter);
-
 }
 
 
