@@ -1,7 +1,10 @@
 .slot {
     transition: opacity 0.3s ease, transform 0.3s ease;
     opacity: 1;
-    display: grid;
+}
+
+.slot > * {
+    margin-bottom: var(--space-4);
 }
 
 .slot-header {

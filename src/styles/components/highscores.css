@@ -3,6 +3,7 @@
     font-family: var(--arcade-font);
     border-radius: var(--radius-md);
 }
+
 .highscores__header,
 .highscores__item {
     display: grid;

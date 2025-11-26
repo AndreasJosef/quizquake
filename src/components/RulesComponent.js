@@ -2,6 +2,8 @@ export function RulesComponent({ onClick }) {
 
     // Creating the components single root element
     const root = document.createElement('div');
+    root.className = 'rules'
+
     const rulesHeading = document.createElement('h2');
     const rulesText = document.createElement('p');
     const readyButton = document.createElement('button')
@@ -15,7 +17,7 @@ export function RulesComponent({ onClick }) {
         // skapar DOM 
         rulesHeading.textContent = 'Regler:'
         rulesText.textContent = 'SANT ELLER FALSKT? Mål: Svara på flest frågor på 60 sek. Svar: [ J ] för Sant, [ F ] för Falskt.'
-       readyButton.textContent = 'I got it!'
+        readyButton.textContent = 'I got it!'
 
         readyButton.addEventListener('click', onClick);
 
