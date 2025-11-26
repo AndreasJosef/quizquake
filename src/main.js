@@ -93,3 +93,5 @@ const renderer = createRenderer({
 renderer.mount('#gameContainer');
 quizQuake.init();
 audioEngine.load('/assets/Neon_Nightsong.mp3', 'background-track', true)
+audioEngine.load('/assets/game-over.mp3','game-over-sound', false)
+audioEngine.load('/assets/level-up.mp3', 'level-up-sound', false)
