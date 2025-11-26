@@ -48,10 +48,10 @@
 
 .btn-bar {
   display: flex;
-  justify-content: center; /* Centrerar knapparna horisontellt */
+  justify-content: center; 
   gap: 10px;
-  margin-top: auto;        /* Trycker ner .button-bar till botten */
-  margin-bottom: 15px;     /* Lite padding från botten */
+  margin-top: auto;        
+  margin-bottom: 15px;     
 }
 
 .game-container {
