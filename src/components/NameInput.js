@@ -7,14 +7,12 @@ export function NameInput({ onSubmit }) {
     const nameInput = document.createElement('input');
     nameInput.type = 'text';
     nameInput.placeholder = 'Enter your Name';
-
-    const submitButton = document.createElement('button');
-    submitButton.textContent = 'Confirm'
+    nameInput.className = 'input__highscore';
 
     let playerScore = null;
     let currentHighscores = null;
 
-    root.append(nameInput, submitButton);
+    root.append(nameInput);
 
     function submitHighscore(playerName) {
 
@@ -42,7 +40,6 @@ export function NameInput({ onSubmit }) {
             nameInput.focus();
         });
 
-        submitButton.addEventListener('click', submitClick);
         window.addEventListener('keypress', enterPress);
 
         if (!currentHighscores.length) return;
@@ -70,7 +67,6 @@ export function NameInput({ onSubmit }) {
     }
 
     function destroy() {
-        submitButton.removeEventListener('click', submitClick);
         window.removeEventListener('click', enterPress);
     }
 

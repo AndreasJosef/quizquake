@@ -1,5 +1,5 @@
 .game {
-    --primary-accent: #00FFFF;
+    --primary-accent: var(--accent); 
 
     background-color: var(--neutral-700);
     background-color: #291c2d;

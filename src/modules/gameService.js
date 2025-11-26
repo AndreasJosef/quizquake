@@ -4,7 +4,7 @@ import { startTimer } from "./timerService.js";
 import { clearStorage, getHighscores, saveHighscore } from "./highscoreAdapter.js"
 import { audioEngine } from "./audioEngine.js"
 
-export const GAME_SECONDS = 60;
+export const GAME_SECONDS = 5;
 
 export const GAME_PHASES = {
     start: 'start',
@@ -109,19 +109,19 @@ function createGameService() {
 
             state.nextIndex++
 
-        } else {
+         } //else {
 
-            setTimeout(() => {
-                state.gamePhase = GAME_PHASES.finished;
-                publishState();
-
-
-            }, 1000);
+        //     setTimeout(() => {
+        //         state.gamePhase = GAME_PHASES.finished;
+        //         publishState();
 
 
+        //     }, 1000);
 
-            return;
-        }
+
+
+        //     return;
+        // }
 
 
 

@@ -8,6 +8,8 @@
 
 @import "../components/hero.css";
 @import "../components/button.css";
+@import "../components/input.css";
+@import "../components/highscores.css";
 @import "../components/gallery.css";
 @import "../components/game.css";
 @import "../components/fade.css";
