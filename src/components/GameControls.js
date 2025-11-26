@@ -5,9 +5,13 @@ export function GameControls({ onClick }) {
     const root = document.createElement('div');
     const trueButton = document.createElement('button');
     const falseButton = document.createElement('button');
-
+    
+    root.className = "btn-bar";
     trueButton.textContent = 'True';
+    trueButton.className = "btn btn-True";
     falseButton.textContent = 'False';
+    falseButton.className = "btn btn-False";
+
 
     root.append(falseButton, trueButton)
 
