@@ -1005,7 +1005,1009 @@
     "id": 200,
     "question": "William Tell är en folkhjälte från Schweiz.",
     "answer": true
+  },
+  
+  {
+    "id": 201,
+    "question": "George Orwell skrev 'Djurfarmen'.",
+    "answer": true
+  },
+  {
+    "id": 202,
+    "question": "Frihetsgudinnan var en gåva från Spanien till USA.",
+    "answer": false
+  },
+  {
+    "id": 203,
+    "question": "Frida Kahlo var gift med konstnären Diego Rivera.",
+    "answer": true
+  },
+  {
+    "id": 204,
+    "question": "Huvudstaden i det romerska riket var alltid Rom.",
+    "answer": false
+  },
+  {
+    "id": 205,
+    "question": "Filmen 'Gökboet' baseras på en bok av Ken Kesey.",
+    "answer": true
+  },
+  {
+    "id": 206,
+    "question": "Sokrates skrev ner alla sina egna filosofiska verk.",
+    "answer": false
+  },
+  {
+    "id": 207,
+    "question": "Bollywood producerar fler filmer per år än Hollywood.",
+    "answer": true
+  },
+  {
+    "id": 208,
+    "question": "En 'sonat' är en diktform.",
+    "answer": false
+  },
+  {
+    "id": 209,
+    "question": "Guggenheim-museet i Bilbao är ritat av Frank Gehry.",
+    "answer": true
+  },
+  {
+    "id": 210,
+    "question": "James Bond skapades av Ian Fleming.",
+    "answer": true
+  },
+  {
+    "id": 211,
+    "question": "Den litterära termen 'dystopi' beskriver ett perfekt samhälle.",
+    "answer": false
+  },
+  {
+    "id": 212,
+    "question": "Gustav Klimt målade 'Kyssen'.",
+    "answer": true
+  },
+  {
+    "id": 213,
+    "question": "Berlinmuren föll år 1999.",
+    "answer": false
+  },
+  {
+    "id": 214,
+    "question": "Matrix-filmerna regisserades av syskonen Wachowski.",
+    "answer": true
+  },
+  {
+    "id": 215,
+    "question": "En 'libretto' är texten i en opera.",
+    "answer": true
+  },
+  {
+    "id": 216,
+    "question": "Huvudkaraktären i 'Brott och straff' heter Raskolnikov.",
+    "answer": true
+  },
+  {
+    "id": 217,
+    "question": "Impressionismen fick sitt namn från en tavla av Claude Monet.",
+    "answer": true
+  },
+  {
+    "id": 218,
+    "question": "Stephen King skriver främst romantiska komedier.",
+    "answer": false
+  },
+  {
+    "id": 219,
+    "question": "Machiavelli skrev boken 'Fursten'.",
+    "answer": true
+  },
+  {
+    "id": 220,
+    "question": "Jazzmusikens ursprung brukar spåras till New Orleans.",
+    "answer": true
+  },
+  {
+    "id": 221,
+    "question": "Det finns 88 tangenter på ett vanligt piano.",
+    "answer": true
+  },
+  {
+    "id": 222,
+    "question": "Ingmar Bergman vann aldrig en Oscar.",
+    "answer": false
+  },
+  {
+    "id": 223,
+    "question": "En 'pagod' är en typ av tempelbyggnad vanlig i Östasien.",
+    "answer": true
+  },
+  {
+    "id": 224,
+    "question": "Sartre var en ledande figur inom existentialismen.",
+    "answer": true
+  },
+  {
+    "id": 225,
+    "question": "Det sixtinska kapellet ligger i Paris.",
+    "answer": false
+  },
+  {
+    "id": 226,
+    "question": "Bob Marley var från Jamaica.",
+    "answer": true
+  },
+  {
+    "id": 227,
+    "question": "Agatha Christie skrev pjäsen 'Råttfällan'.",
+    "answer": true
+  },
+  {
+    "id": 228,
+    "question": "Bauhaus var en tysk skola för konst och design.",
+    "answer": true
+  },
+  {
+    "id": 229,
+    "question": "Marlon Brando tackade nej till sin Oscar för 'Gudfadern'.",
+    "answer": true
+  },
+  {
+    "id": 230,
+    "question": "Haiku-dikter rimmar alltid.",
+    "answer": false
+  },
+  {
+    "id": 231,
+    "question": "Den 'Vitruvianske mannen' tecknades av Leonardo da Vinci.",
+    "answer": true
+  },
+  {
+    "id": 232,
+    "question": "Boken '1984' publicerades år 1984.",
+    "answer": false
+  },
+  {
+    "id": 233,
+    "question": "Greta Garbo var en svensk skådespelerska.",
+    "answer": true
+  },
+  {
+    "id": 234,
+    "question": "En cello är större än en kontrabas.",
+    "answer": false
+  },
+  {
+    "id": 235,
+    "question": "Winston Churchill fick Nobelpriset i litteratur.",
+    "answer": true
+  },
+  {
+    "id": 236,
+    "question": "Kalligrafi betyder 'vacker skrift'.",
+    "answer": true
+  },
+  {
+    "id": 237,
+    "question": "Punktlighetsrörelsen 'Futurismen' startade i Italien.",
+    "answer": true
+  },
+  {
+    "id": 238,
+    "question": "Harry Martinson skrev eposet 'Aniara'.",
+    "answer": true
+  },
+  {
+    "id": 239,
+    "question": "Elvis Presley skrev alla sina egna låtar.",
+    "answer": false
+  },
+  {
+    "id": 240,
+    "question": "Runebergstårta äts till minne av en finsk nationalskald.",
+    "answer": true
+  },
+  {
+    "id": 241,
+    "question": "Quasimodo är huvudpersonen i 'Ringaren i Notre Dame'.",
+    "answer": true
+  },
+  {
+    "id": 242,
+    "question": "En triptyk är ett konstverk indelat i tre delar.",
+    "answer": true
+  },
+  {
+    "id": 243,
+    "question": "Platon var elev till Aristoteles.",
+    "answer": false
+  },
+  {
+    "id": 244,
+    "question": "Beatles kom från London.",
+    "answer": false
+  },
+  {
+    "id": 245,
+    "question": "Tolkien var professor i språk.",
+    "answer": true
+  },
+  {
+    "id": 246,
+    "question": "Det lutande tornet i Pisa byggdes på 1900-talet.",
+    "answer": false
+  },
+  {
+    "id": 247,
+    "question": "Svenska Akademien utser Nobelpristagaren i litteratur.",
+    "answer": true
+  },
+  {
+    "id": 248,
+    "question": "Fredrika Bremer var en pionjär inom den svenska kvinnorörelsen.",
+    "answer": true
+  },
+  {
+    "id": 249,
+    "question": "En 'fuga' är en typ av svamp.",
+    "answer": false
+  },
+  {
+    "id": 250,
+    "question": "Andy Warhol målade de kända Campbell's soppburkarna.",
+    "answer": true
+  },
+  {
+    "id": 251,
+    "question": "Frankenstein är namnet på monstret, inte doktorn.",
+    "answer": false
+  },
+  {
+    "id": 252,
+    "question": "Nationalmuseum ligger i Stockholm.",
+    "answer": true
+  },
+  {
+    "id": 253,
+    "question": "Stanley Kubrick regisserade 'The Shining'.",
+    "answer": true
+  },
+  {
+    "id": 254,
+    "question": "Heros är det romerska namnet för Zeus.",
+    "answer": false
+  },
+  {
+    "id": 255,
+    "question": "Samsara är ett begrepp inom hinduism och buddhism.",
+    "answer": true
+  },
+  {
+    "id": 256,
+    "question": "En oboe är ett bleckblåsinstrument.",
+    "answer": false
+  },
+  {
+    "id": 257,
+    "question": "Jane Eyre skrevs av Charlotte Brontë.",
+    "answer": true
+  },
+  {
+    "id": 258,
+    "question": "Woodstockfestivalen ägde rum 1969.",
+    "answer": true
+  },
+  {
+    "id": 259,
+    "question": "En 'novell' är oftast längre än en roman.",
+    "answer": false
+  },
+  {
+    "id": 260,
+    "question": "Frihetstiden i Sverige var på 1700-talet.",
+    "answer": true
+  },
+  {
+    "id": 261,
+    "question": "Punkmusiken uppstod på 1990-talet.",
+    "answer": false
+  },
+  {
+    "id": 262,
+    "question": "Isaac Newton formulerade gravitationslagen.",
+    "answer": true
+  },
+  {
+    "id": 263,
+    "question": "En 'stencil' är en typ av pensel.",
+    "answer": false
+  },
+  {
+    "id": 264,
+    "question": "Oscar Wilde skrev 'Dorian Grays porträtt'.",
+    "answer": true
+  },
+  {
+    "id": 265,
+    "question": "ABBA vann Eurovision Song Contest med låten 'Waterloo'.",
+    "answer": true
+  },
+  {
+    "id": 266,
+    "question": "Gotland har 98 medeltida kyrkor.",
+    "answer": false
+  },
+  {
+    "id": 267,
+    "question": "J.K. Rowling skrev böckerna under pseudonymen Robert Galbraith.",
+    "answer": true
+  },
+  {
+    "id": 268,
+    "question": "En fresk målas på torr puts.",
+    "answer": false
+  },
+  {
+    "id": 269,
+    "question": "Pjotr Tjajkovskij skrev baletten 'Svansjön'.",
+    "answer": true
+  },
+  {
+    "id": 270,
+    "question": "Runeberg är Finlands nationalskald.",
+    "answer": true
+  },
+  {
+    "id": 271,
+    "question": "Darth Vader säger 'Luke, I am your father' i filmen.",
+    "answer": false
+  },
+  {
+    "id": 272,
+    "question": "Zornmuseet ligger i Mora.",
+    "answer": true
+  },
+  {
+    "id": 273,
+    "question": "H.C. Andersen skrev 'Den fula ankungen'.",
+    "answer": true
+  },
+  {
+    "id": 274,
+    "question": "En 'antologi' är en samling av texter.",
+    "answer": true
+  },
+  {
+    "id": 275,
+    "question": "Reggaemusik förknippas starkt med rastafari-religionen.",
+    "answer": true
+  },
+  {
+    "id": 276,
+    "question": "Vincent van Gogh sålde många tavlor under sin livstid.",
+    "answer": false
+  },
+  {
+    "id": 277,
+    "question": "Svenska språket tillhör den germanska språkfamiljen.",
+    "answer": true
+  },
+  {
+    "id": 278,
+    "question": "En 'ridå' är golvet på en teaterscen.",
+    "answer": false
+  },
+  {
+    "id": 279,
+    "question": "August Strindberg var gift med Siri von Essen.",
+    "answer": true
+  },
+  {
+    "id": 280,
+    "question": "Huvudstaden i antikens Grekland var Sparta.",
+    "answer": false
+  },
+  {
+    "id": 281,
+    "question": "MoMA är ett konstmuseum i New York.",
+    "answer": true
+  },
+  {
+    "id": 282,
+    "question": "En 'prolog' kommer i slutet av en bok.",
+    "answer": false
+  },
+  {
+    "id": 283,
+    "question": "Astrid Lindgren har fått sitt porträtt på en svensk sedel.",
+    "answer": true
+  },
+  {
+    "id": 284,
+    "question": "K-pop kommer från Nordkorea.",
+    "answer": false
+  },
+  {
+    "id": 285,
+    "question": "Sokrates dömdes till döden genom att dricka gift.",
+    "answer": true
+  },
+  {
+    "id": 286,
+    "question": "Den första talfilmen kom på 1920-talet.",
+    "answer": true
+  },
+  {
+    "id": 287,
+    "question": "En 'biografi' är en bok en person skriver om sitt eget liv.",
+    "answer": false
+  },
+  {
+    "id": 288,
+    "question": "Frihetsgudinnan är gjord av koppar.",
+    "answer": true
+  },
+  {
+    "id": 289,
+    "question": "Bröderna Grimm var franska.",
+    "answer": false
+  },
+  {
+    "id": 290,
+    "question": "Utvandrarserien skrevs av Vilhelm Moberg.",
+    "answer": true
+  },
+  {
+    "id": 291,
+    "question": "Mozart dog mycket rik.",
+    "answer": false
+  },
+  {
+    "id": 292,
+    "question": "En 'aria' sjungs vanligtvis av en solist.",
+    "answer": true
+  },
+  {
+    "id": 293,
+    "question": "Popkonsten uppstod på 1800-talet.",
+    "answer": false
+  },
+  {
+    "id": 294,
+    "question": "Charlie Chaplin var känd för sina stumfilmer.",
+    "answer": true
+  },
+  {
+    "id": 295,
+    "question": "Bibeln är världens mest sålda bok.",
+    "answer": true
+  },
+  {
+    "id": 296,
+    "question": "Ordet 'renässans' betyder pånyttfödelse.",
+    "answer": true
+  },
+  {
+    "id": 297,
+    "question": "En 'protagonist' är skurken i en berättelse.",
+    "answer": false
+  },
+  {
+    "id": 298,
+    "question": "Alfred Nobel uppfann dynamiten.",
+    "answer": true
+  },
+  {
+    "id": 299,
+    "question": "Picasso hade en 'blå period'.",
+    "answer": true
+  },
+  {
+    "id": 300,
+    "question": "Marseljäsen är Tysklands nationalsång.",
+    "answer": false
+  },
+  {
+    "id": 301,
+    "question": "Ernest Hemingway begick självmord.",
+    "answer": true
+  },
+  {
+    "id": 302,
+    "question": "En 'kvartett' består av fem musiker.",
+    "answer": false
+  },
+  {
+    "id": 303,
+    "question": "Drottningholms slott finns med på UNESCO:s världsarvslista.",
+    "answer": true
+  },
+  {
+    "id": 304,
+    "question": "Vikingarna hade horn på hjälmarna i strid.",
+    "answer": false
+  },
+  {
+    "id": 305,
+    "question": "Selma Lagerlöf är avbildad på 20-kronorssedeln.",
+    "answer": true
+  },
+  {
+    "id": 306,
+    "question": "James Cameron regisserade 'Titanic'.",
+    "answer": true
+  },
+  {
+    "id": 307,
+    "question": "En 'synonym' är ett ord med motsatt betydelse.",
+    "answer": false
+  },
+  {
+    "id": 308,
+    "question": "Ludwig van Beethoven blev döv senare i livet.",
+    "answer": true
+  },
+  {
+    "id": 309,
+    "question": "Katarina den stora var kejsarinna av Ryssland.",
+    "answer": true
+  },
+  {
+    "id": 310,
+    "question": "Buddha hette ursprungligen Siddhartha Gautama.",
+    "answer": true
+  },
+  {
+    "id": 311,
+    "question": "En 'falskmyntare' är någon som målar kopior av tavlor.",
+    "answer": false
+  },
+  {
+    "id": 312,
+    "question": "Mark Twain är författaren bakom Huckleberry Finn.",
+    "answer": true
+  },
+  {
+    "id": 313,
+    "question": "Den första Harry Potter-boken kom ut på 1980-talet.",
+    "answer": false
+  },
+  {
+    "id": 314,
+    "question": "Banksy är en känd gatukonstnär.",
+    "answer": true
+  },
+  {
+    "id": 315,
+    "question": "Akropolis ligger i Rom.",
+    "answer": false
+  },
+  {
+    "id": 316,
+    "question": "De tre musketörerna heter Athos, Porthos och Aramis.",
+    "answer": true
+  },
+  {
+    "id": 317,
+    "question": "En 'akilleshäl' betyder en svag punkt.",
+    "answer": true
+  },
+  {
+    "id": 318,
+    "question": "Cheops pyramid är den minsta av pyramiderna i Giza.",
+    "answer": false
+  },
+  {
+    "id": 319,
+    "question": "Den store Gatsby utspelar sig på 1920-talet.",
+    "answer": true
+  },
+  {
+    "id": 320,
+    "question": "En 'monolog' är ett samtal mellan två personer.",
+    "answer": false
+  },
+  {
+    "id": 321,
+    "question": "Virginia Woolf var en engelsk författare.",
+    "answer": true
+  },
+  {
+    "id": 322,
+    "question": "Rockbandet Queen leddes av Freddie Mercury.",
+    "answer": true
+  },
+  {
+    "id": 323,
+    "question": "Sagan om Ringen-filmerna spelades in på Island.",
+    "answer": false
+  },
+  {
+    "id": 324,
+    "question": "Nobelfesten hålls i Blå hallen i Stockholms stadshus.",
+    "answer": true
+  },
+  {
+    "id": 325,
+    "question": "En 'autograf' är en självskriven biografi.",
+    "answer": false
+  },
+  {
+    "id": 326,
+    "question": "Claude Monet målade ofta näckrosor.",
+    "answer": true
+  },
+  {
+    "id": 327,
+    "question": "En 'sopran' är den ljusaste kvinnorösten.",
+    "answer": true
+  },
+  {
+    "id": 328,
+    "question": "Det finns sju underverk i den antika världen.",
+    "answer": true
+  },
+  {
+    "id": 329,
+    "question": "Dante Alighieri skrev på latin.",
+    "answer": false
+  },
+  {
+    "id": 330,
+    "question": "Sigmund Freud är psykoanalysens fader.",
+    "answer": true
+  },
+  {
+    "id": 331,
+    "question": "En 'haiku' är en japansk maträtt.",
+    "answer": false
+  },
+  {
+    "id": 332,
+    "question": "Game of Thrones är baserad på böcker av George R.R. Martin.",
+    "answer": true
+  },
+  {
+    "id": 333,
+    "question": "En 'dirigent' leder orkestern.",
+    "answer": true
+  },
+  {
+    "id": 334,
+    "question": "August Renoir var en impressionistisk målare.",
+    "answer": true
+  },
+  {
+    "id": 335,
+    "question": "Vatikanstaten är världens största land.",
+    "answer": false
+  },
+  {
+    "id": 336,
+    "question": "Carl von Linné skapade systemet för att namnge växter och djur.",
+    "answer": true
+  },
+  {
+    "id": 337,
+    "question": "Den kinesiska muren syns tydligt från månen med blotta ögat.",
+    "answer": false
+  },
+  {
+    "id": 338,
+    "question": "En 'metafor' är ett bildligt uttryck.",
+    "answer": true
+  },
+  {
+    "id": 339,
+    "question": "Tystnadens torn är en begravningsplats inom Zoroastrism.",
+    "answer": true
+  },
+  {
+    "id": 340,
+    "question": "Hamlet håller en dödskalle i handen i en känd scen.",
+    "answer": true
+  },
+  {
+    "id": 341,
+    "question": "En 'tablå' är en målning på träpannå.",
+    "answer": false
+  },
+  {
+    "id": 342,
+    "question": "Eiffeltornet var tänkt att vara en tillfällig byggnad.",
+    "answer": true
+  },
+  {
+    "id": 343,
+    "question": "Marilyn Monroe hette egentligen Norma Jeane.",
+    "answer": true
+  },
+  {
+    "id": 344,
+    "question": "Sagan om ringen-trilogin skrevs av C.S. Lewis.",
+    "answer": false
+  },
+  {
+    "id": 345,
+    "question": "En 'installation' kan vara ett konstverk.",
+    "answer": true
+  },
+  {
+    "id": 346,
+    "question": "Bob Dylan är känd för sin elektroniska dansmusik.",
+    "answer": false
+  },
+  {
+    "id": 347,
+    "question": "Homeros tros ha varit blind.",
+    "answer": true
+  },
+  {
+    "id": 348,
+    "question": "En 'pseudonym' är ett påhittat författarnamn.",
+    "answer": true
+  },
+  {
+    "id": 349,
+    "question": "Taj Mahal ligger i Pakistan.",
+    "answer": false
+  },
+  {
+    "id": 350,
+    "question": "En 'symfoni' har vanligtvis fyra satser.",
+    "answer": true
+  },
+  {
+    "id": 351,
+    "question": "Karl Marx skrev 'Kapitalet'.",
+    "answer": true
+  },
+  {
+    "id": 352,
+    "question": "En 'novis' är en expert inom ett område.",
+    "answer": false
+  },
+  {
+    "id": 353,
+    "question": "Klädkoden 'Smoking' innebär alltid svart fluga.",
+    "answer": true
+  },
+  {
+    "id": 354,
+    "question": "Ordet 'demokrati' kommer från grekiskan.",
+    "answer": true
+  },
+  {
+    "id": 355,
+    "question": "En 'karikatyr' överdriver en persons drag.",
+    "answer": true
+  },
+  {
+    "id": 356,
+    "question": "Huvudstaden i Australien är Sydney.",
+    "answer": false
+  },
+  {
+    "id": 357,
+    "question": "En 'absid' är en del av en kyrka.",
+    "answer": true
+  },
+  {
+    "id": 358,
+    "question": "Salvador Dalí är känd för sina smältande klockor.",
+    "answer": true
+  },
+  {
+    "id": 359,
+    "question": "En 'sonett' har 14 rader.",
+    "answer": true
+  },
+  {
+    "id": 360,
+    "question": "Beyoncé var medlem i gruppen Spice Girls.",
+    "answer": false
+  },
+  {
+    "id": 361,
+    "question": "Den första Star Wars-filmen hade premiär 1977.",
+    "answer": true
+  },
+  {
+    "id": 362,
+    "question": "Fjodor Dostojevskij var en rysk författare.",
+    "answer": true
+  },
+  {
+    "id": 363,
+    "question": "En 'pamflett' är en tjock bok.",
+    "answer": false
+  },
+  {
+    "id": 364,
+    "question": "Törnrosa sov i hundra år.",
+    "answer": true
+  },
+  {
+    "id": 365,
+    "question": "En 'relief' är en skulptur som sitter fast i en bakgrund.",
+    "answer": true
+  },
+  {
+    "id": 366,
+    "question": "Don Quijote slogs mot väderkvarnar.",
+    "answer": true
+  },
+  {
+    "id": 367,
+    "question": "ABBA består av Agnetha, Björn, Benny och Anne-Frid.",
+    "answer": false
+  },
+  {
+    "id": 368,
+    "question": "En 'trilogi' består av tre verk.",
+    "answer": true
+  },
+  {
+    "id": 369,
+    "question": "Pompeji förstördes av en översvämning.",
+    "answer": false
+  },
+  {
+    "id": 370,
+    "question": "En 'fabel' handlar ofta om djur med mänskliga egenskaper.",
+    "answer": true
+  },
+  {
+    "id": 371,
+    "question": "Greta Thunberg nominerades till Nobels fredspris.",
+    "answer": true
+  },
+  {
+    "id": 372,
+    "question": "En 'akilleshäl' är en persons starkaste sida.",
+    "answer": false
+  },
+  {
+    "id": 373,
+    "question": "En 'epilog' avslutar en berättelse.",
+    "answer": true
+  },
+  {
+    "id": 374,
+    "question": "Mount Everest ligger i Anderna.",
+    "answer": false
+  },
+  {
+    "id": 375,
+    "question": "En 'pastisch' är en efterbildning av en konstnärlig stil.",
+    "answer": true
+  },
+  {
+    "id": 376,
+    "question": "En 'koreograf' skapar danser.",
+    "answer": true
+  },
+  {
+    "id": 377,
+    "question": "Berlin är Tysklands huvudstad.",
+    "answer": true
+  },
+  {
+    "id": 378,
+    "question": "En 'bestseller' är en bok som säljer dåligt.",
+    "answer": false
+  },
+  {
+    "id": 379,
+    "question": "Ordet 'filosofi' betyder kärlek till visdom.",
+    "answer": true
+  },
+  {
+    "id": 380,
+    "question": "En 'orkester' leds av en trummis.",
+    "answer": false
+  },
+  {
+    "id": 381,
+    "question": "Louvren är världens mest besökta konstmuseum.",
+    "answer": true
+  },
+  {
+    "id": 382,
+    "question": "En 'prolog' är inledningen till ett verk.",
+    "answer": true
+  },
+  {
+    "id": 383,
+    "question": "En 'biografi' handlar om en påhittad person.",
+    "answer": false
+  },
+  {
+    "id": 384,
+    "question": "En 'monarki' har en kung eller drottning som statschef.",
+    "answer": true
+  },
+  {
+    "id": 385,
+    "question": "En 'diktator' väljs alltid av folket.",
+    "answer": false
+  },
+  {
+    "id": 386,
+    "question": "En 'komedi' ska vara rolig.",
+    "answer": true
+  },
+  {
+    "id": 387,
+    "question": "En 'tragedi' slutar oftast lyckligt.",
+    "answer": false
+  },
+  {
+    "id": 388,
+    "question": "En 'recension' är en bedömning av ett verk.",
+    "answer": true
+  },
+  {
+    "id": 389,
+    "question": "En 'premiär' är den sista föreställningen.",
+    "answer": false
+  },
+  {
+    "id": 390,
+    "question": "En 'kuliss' är en del av scenografin på en teater.",
+    "answer": true
+  },
+  {
+    "id": 391,
+    "question": "En 'replik' är något en skådespelare säger.",
+    "answer": true
+  },
+  {
+    "id": 392,
+    "question": "En 'sufflör' viskar repliker till skådespelare som glömt dem.",
+    "answer": true
+  },
+  {
+    "id": 393,
+    "question": "En 'akt' är en del av en pjäs.",
+    "answer": true
+  },
+  {
+    "id": 394,
+    "question": "En 'paus' är den viktigaste delen av en pjäs.",
+    "answer": false
+  },
+  {
+    "id": 395,
+    "question": "En 'log' är ett omklädningsrum för skådespelare.",
+    "answer": true
+  },
+  {
+    "id": 396,
+    "question": "En 'orkesterdike' är där publiken sitter.",
+    "answer": false
+  },
+  {
+    "id": 397,
+    "question": "En 'balkong' finns ofta i en teatersalong.",
+    "answer": true
+  },
+  {
+    "id": 398,
+    "question": "En 'foajé' är entréhallen till en teater.",
+    "answer": true
+  },
+  {
+    "id": 399,
+    "question": "En 'garderobiär' tar hand om ytterkläder.",
+    "answer": true
+  },
+  {
+    "id": 400,
+    "question": "En 'biljett' är gratis.",
+    "answer": false
   }
+
 
 
 
