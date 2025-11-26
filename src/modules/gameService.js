@@ -104,35 +104,35 @@ function createGameService() {
         if (answeredQuestion.answer === answer) {
             state.score++;
 
-              state.currentQuestion = state.questions[state.nextIndex].question;
-        state.currentQuestionID = state.questions[state.nextIndex].id;
+            state.currentQuestion = state.questions[state.nextIndex].question;
+            state.currentQuestionID = state.questions[state.nextIndex].id;
 
-        state.nextIndex++
+            state.nextIndex++
 
         } else {
-            
+
             setTimeout(() => {
                 state.gamePhase = GAME_PHASES.finished;
-            publishState();
+                publishState();
 
 
-            },1000);
+            }, 1000);
 
-           
-            
+
+
             return;
         }
 
-            
 
-      
 
-        
+
+
+
 
         console.log(state.currentQuestion)
         publishState();
 
-        
+
     }
 
     function publishState() {
