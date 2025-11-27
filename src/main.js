@@ -103,11 +103,11 @@ quizQuake.init();
 // === MOUNT COOKIE POPUP MANUELLT append till => document.body===
 
 // const cookie = cookiePopup();
-if (cookie && cookie.banner && cookie.overlay) {
-    document.body.appendChild(cookie.overlay);
-    document.body.appendChild(cookie.banner);
-    // console.log("cookie popup mounted with overlay");
-}
+// if (cookie && cookie.banner && cookie.overlay) {
+//     document.body.appendChild(cookie.overlay);
+//     document.body.appendChild(cookie.banner);
+//     // console.log("cookie popup mounted with overlay");
+// }
 
 audioEngine.load('/assets/Neon_Nightsong.mp3', 'background-track', true)
 audioEngine.load('/assets/game_over.mp3','game-over-sound', false)
