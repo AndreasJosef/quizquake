@@ -16,8 +16,6 @@
     padding: 10px 15px;
 }
 
-
-
 .cookie-banner {
     position: fixed;
     bottom: var(--space-5);
@@ -90,8 +88,6 @@
 .cookie-btn:active {
     transform: scale(0.95);
 }
-
-
 
 /* OVERLAY */
 .cookie-overlay {
