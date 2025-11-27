@@ -1,0 +1,109 @@
+.cookie-banner {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-size: 16px;
+    z-index: 9999;
+}
+
+.cookie-banner button {
+    margin-right: 10px;
+    padding: 10px 15px;
+}
+
+.cookie-banner {
+    position: fixed;
+    bottom: var(--space-5);
+    left: 50%;
+    transform: translateX(-50%);
+    width: min(90%, 380px);
+    background: #291c2d;
+    border-radius: var(--radius-md);
+    padding: var(--space-4);
+    border: 3px solid #2B2B2B;
+    box-shadow:
+        0 0 20px 3px var(--primary-accent),
+        inset 0 0 15px rgba(0, 0, 0, 0.6),
+        0 0 35px -15px var(--primary-accent);
+    z-index: 9999;
+    font-family: 'Press Start 2P', monospace;
+    color: var(--primary-accent);
+    text-shadow:
+        0 0 4px var(--primary-accent),
+        0 0 8px rgba(0, 255, 255, 0.4);
+    display: grid;
+    gap: var(--space-3);
+    margin-bottom: 200px;
+}
+
+.cookie-banner.hidden {
+    display: none;
+}
+
+.cookie-content p {
+    font-size: 0.65rem;
+    line-height: 1.4;
+    color: var(--primary-accent);
+}
+
+.cookie-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--space-3);
+}
+
+.cookie-btn {
+    flex: 1;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 0.7rem;
+    padding: 0.6rem 0.5rem;
+    border-radius: var(--radius-md);
+    border: 2px solid #2B2B2B;
+    background: #fff;
+    color: #000;
+    cursor: pointer;
+    text-shadow: none;
+    transition: transform 0.2s ease, background 0.3s ease;
+}
+
+.cookie-btn.accept {
+    background: #ff4d4d;
+    color: black;
+}
+
+.cookie-btn.reject {
+    background: var(--primary-accent);
+    color: black;
+}
+
+.cookie-btn:hover {
+    transform: scale(1.05);
+}
+
+.cookie-btn:active {
+    transform: scale(0.95);
+}
+
+/* OVERLAY */
+.cookie-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    backdrop-filter: blur(4px); /* soft blur */
+    background: rgba(0,0,0,0.2); /* slightly dark tint */
+    z-index: 900; /* behind banner */
+    pointer-events: auto; /* blocks clicks */
+}
+
+
+/* Hidden by default */
+.hidden {
+    display: none;
+}
