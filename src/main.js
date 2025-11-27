@@ -18,6 +18,7 @@ import { HighscoresList } from "./components/HighscoresList.js";
 import { saveHighscore } from "./modules/highscoreAdapter.js";
 import { audioEngine } from "./modules/audioEngine.js"
 import { SoundControl } from "./components/SoundControl.js";
+import { cookiePopup } from "./components/consent.js";
 
 // Create components
 const app = App();
@@ -98,6 +99,16 @@ const renderer = createRenderer({
 // Mount the app
 renderer.mount('#gameContainer');
 quizQuake.init();
+
+// === MOUNT COOKIE POPUP MANUELLT append till => document.body===
+
+const cookie = cookiePopup();
+if (cookie && cookie.banner && cookie.overlay) {
+    document.body.appendChild(cookie.overlay);
+    document.body.appendChild(cookie.banner);
+    // console.log("cookie popup mounted with overlay");
+}
+
 audioEngine.load('/assets/Neon_Nightsong.mp3', 'background-track', true)
 audioEngine.load('/assets/game_over.mp3','game-over-sound', false)
 audioEngine.load('/assets/level-up.mp3', 'level-up-sound', false)
