@@ -1,0 +1,13 @@
+.input__highscore {
+    font-family: var(--arcade-font);
+    background-color: var(--accent);
+    padding: var(--space-3) var(--space-4);
+    border: none;
+    border-radius: var(--radius-md);
+    box-shadow: 0 0 8px 2px var(--accent); 
+    text-transform: uppercase;
+}
+
+.input__highscore::placeholder {
+    color: var(--neutral-600);
+}

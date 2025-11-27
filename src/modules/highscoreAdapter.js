@@ -23,7 +23,7 @@ export function saveHighscore(score, name) {
   highscores.sort((a, b) => b.score - a.score);
 
   // only save top ten
-  const topTen = highscores.slice(0, 10);
+  const topTen = highscores.slice(0, 5);
 
   localStorage.setItem(STORAGE_KEY, JSON.stringify(topTen));
 

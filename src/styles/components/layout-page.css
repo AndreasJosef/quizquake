@@ -10,7 +10,7 @@
     --layout-max: var(--content);
     --layout-narrow: var(--content-narrow);
 
-    /* Layout */
+/*  Layout */
     display: grid;
     gap: var(--layout-gap);
     padding-block-start: var(--space-6);
@@ -20,7 +20,6 @@
     /* Enable Container Queries */
     container-type: inline-size;
     padding-inline: var(--gutter);
-
 }
 
 

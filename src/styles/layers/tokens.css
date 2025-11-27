@@ -17,7 +17,9 @@
 
     /* Brand */
     --brand: #291c2d;
-    --accent: #fcb922;
+    --accent: #00FFFF;
+
+    --arcade-font: 'Press Start 2P', monospace;
 
     /* Links */
     --link: var(--brand-600);

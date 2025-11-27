@@ -6,12 +6,18 @@ export function GameControls({ onClick }) {
     const trueButton = document.createElement('button');
     const falseButton = document.createElement('button');
 
-    trueButton.textContent = 'True';
-    falseButton.textContent = 'False';
+    root.className = "btn-bar";
+
+    trueButton.textContent = 'true';
+    trueButton.className = "btn btn-true";
+
+    falseButton.textContent = 'false';
+    falseButton.className = "btn btn-false";
+
 
     root.append(falseButton, trueButton)
 
-    function onKey(e){
+    function onKey(e) {
 
         if (e.key === 'f') {
             onClick(false);
@@ -23,32 +29,29 @@ export function GameControls({ onClick }) {
 
     }
 
-    function mount() {
-        
-        window.addEventListener('keydown', onKey);
+    function onBtnClick(e) {
+        const btn = e.target.closest('button');
+      
+        console.log(toBool(btn.textContent));
 
+        // only trigger on buttons in this container
+        if (btn && root.contains(btn)) {
+            onClick(toBool(btn.textContent));
+        }
     }
 
-    function init() {
-
-        root.addEventListener('click', (e) => {
-            
-
-            if (e.target.tagName === 'BUTTON'){
-                onClick(toBool(e.target.textContent));
-            }
-
-        })
+    function mount() {
+        root.addEventListener('click', onBtnClick);
+        window.addEventListener('keydown', onKey);
     }
 
     function destroy() {
-
+        root.removeEventListener('click', onBtnClick);
         window.removeEventListener('keydown', onKey);
     }
 
     return {
         el: root,
-        init,
         mount,
         destroy
     }
