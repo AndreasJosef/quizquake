@@ -78,8 +78,9 @@ export function createRenderer({ rootComponent, children }) {
       } catch (e) {
         console.error('Error during destruction:', e);
       }
-      
+
       child._mounted = false;
+      child._initialized = false;
     }
 
     // finally update mounted components
