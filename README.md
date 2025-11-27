@@ -2,13 +2,13 @@
 
 **QuizQuake** är ett intensivt och snabbt frågespel där spelaren utmanas att svara rätt på så många frågor som möjligt under tidspress. Projektet är utvecklat som en inlämningsuppgift i kursen [Ange kursnamn om relevant] med fokus på Vanilla JavaScript, prestanda och SEO.
 
-🔗 **Länk till spelet:** [Lägg in länk till Netlify/Github Pages här]
+🔗 **Länk till spelet:** https://quizquake.netlify.app/
 
 ## 👥 Gruppmedlemmar
-
+  * Joakim
+  * Christian
   * Ernest
-  * Ernest
-  * Ozz 
+  * Osman 
   * Andreas
 
 -----
