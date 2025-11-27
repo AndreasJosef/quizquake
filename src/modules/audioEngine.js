@@ -29,21 +29,24 @@ class AudioEngine {
   play(title) {
     let track = this.audio.find(t => t.title === title)
 
-    if (track) {
-      track.audio.play();
-    } else {
-      console.error(`Track with title: ${title} not found!`)
-    }
+    console.log('Playing', title)
+
+    // if (track) {
+    //   track.audio.play();
+    // } else {
+    //   console.error(`Track with title: ${title} not found!`)
+    // }
 
   }
 
   stop() {
-    if (this.audio && this.audio.length > 0) {
-      this.audio.forEach(track => {
-        track.audio.pause();
-        track.audio.currentTime = 0;
-      });
-    }
+    console.log("Music stopped")
+    // if (this.audio && this.audio.length > 0) {
+    //   this.audio.forEach(track => {
+    //     track.audio.pause();
+    //     track.audio.currentTime = 0;
+    //   });
+    // }
   }
 
 }

@@ -5,6 +5,7 @@ body:has(.about-container) {
 }
 
 .about-container {
+  background-color: var(--neutral-700);
   min-height: 100vh;
   display: grid;
   place-items: center;
