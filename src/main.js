@@ -102,7 +102,7 @@ quizQuake.init();
 
 // === MOUNT COOKIE POPUP MANUELLT append till => document.body===
 
-const cookie = cookiePopup();
+// const cookie = cookiePopup();
 if (cookie && cookie.banner && cookie.overlay) {
     document.body.appendChild(cookie.overlay);
     document.body.appendChild(cookie.banner);
