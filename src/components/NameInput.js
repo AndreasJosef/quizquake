@@ -16,7 +16,6 @@ export function NameInput({ onSubmit }) {
 
     function submitHighscore(playerName) {
 
-
         if (
             nameInput.value === '' ||
             nameInput.value.length < 3 ||
@@ -26,6 +25,7 @@ export function NameInput({ onSubmit }) {
         onSubmit(playerScore, playerName);
 
         nameInput.value = '';
+        root.style.display = 'none';
     }
 
     // handle button click and enter in destroy friendly way
@@ -42,18 +42,26 @@ export function NameInput({ onSubmit }) {
 
         window.addEventListener('keypress', enterPress);
 
-        if (!currentHighscores.length) return;
+        if (!currentHighscores || currentHighscores.length === 0) {
+            root.style.display = 'block';
+            audioEngine.play('level-up-sound');
+            return;
+        }
 
-        const inputVisible =
-            playerScore > currentHighscores[currentHighscores.length - 1].score &&
-            !currentHighscores.find(highscore => highscore.score === playerScore);
+        const isUnique = !currentHighscores.some(h => h.score === playerScore);
+        const lowestScore = currentHighscores[currentHighscores.length - 1].score;
+        const beatsLowest = playerScore > currentHighscores[currentHighscores.length - 1]?.score;
 
+        const inputVisible = isUnique && (playerScore > lowestScore || beatsLowest);
 
-        inputVisible ? root.style.display = 'block' : root.style.display = 'none';
-
-        // Play game over sounds
-        inputVisible ? audioEngine.play('level-up-sound') : audioEngine.play('game-over-sound');
-
+        // Update DOM and Audio
+        if (inputVisible) {
+            root.style.display = 'block';
+            audioEngine.play('level-up-sound');
+        } else {
+            root.style.display = 'none';
+            audioEngine.play('game-over-sound');
+        }
     }
 
     function update({ score, highscores }) {
@@ -62,19 +70,21 @@ export function NameInput({ onSubmit }) {
     }
 
     function init({ score, highscores }) {
-        currentHighscores = highscores
         playerScore = score
+        currentHighscores = highscores
     }
 
     function destroy() {
-        window.removeEventListener('click', enterPress);
+        window.removeEventListener('keypress', enterPress);
+        playerScore = null;
+        currentHighscores = null;
     }
 
     return {
         el: root,
         mount,
-        update,
         init,
+        update,
         destroy
     }
 }

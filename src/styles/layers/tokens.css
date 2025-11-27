@@ -26,9 +26,14 @@
     --link-hover: var(--brand-500);
 
     /* Type scale (just enough) */
-    --step-0: clamp(1rem, .9rem + .5vw, 1.125rem);
+    /* --step-0: clamp(1rem, .9rem + .5vw, 1.125rem);
     --step-1: clamp(1.25rem, 1.1rem + .8vw, 1.5rem);
-    --step-3: clamp(2rem, 1.6rem + 1.5vw, 2.8rem);
+    --step-3: clamp(2rem, 1.6rem + 1.5vw, 2.8rem); */
+
+    --step-0: 1rem;
+    --step-1: 1.25rem;
+    --step-2: 1.56rem;
+    --step-3: 1.95rem;
 
     /* Radius */
     --radius-md: .75rem;

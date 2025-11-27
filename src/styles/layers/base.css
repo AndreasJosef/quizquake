@@ -31,6 +31,14 @@
     background-size: cover;
   }
 
+  @media (max-width: 900px) {
+
+    :where(body) {
+      background-image: url('../../../assets/bg-mobile.png');
+      background-size: auto;
+    }
+  }
+
   /* Make media elements behave predictably */
   :where(img, svg, video) {
     display: block;
@@ -44,6 +52,7 @@
     padding: 0;
     font-weight: inherit;
   }
+
 
   :where(ul, ol) {
     list-style-type: none;

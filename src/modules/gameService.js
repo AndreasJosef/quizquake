@@ -31,6 +31,7 @@ function createGameService() {
         timeRemaining: GAME_SECONDS,
         nextIndex: 0,
         highscores: null,
+        soundPlaying: false
     };
 
     bus.on('tick', (seconds) => {
@@ -64,7 +65,7 @@ function createGameService() {
 
     function init() {
 
-        clearStorage()
+        // clearStorage()
 
         // saveHighscore(20, 'Leon');
         // saveHighscore(40, 'Leon');
@@ -78,6 +79,7 @@ function createGameService() {
         state.gamePhase = GAME_PHASES.settings;
         state.highscores = getHighscores();
         audioEngine.play('background-track');
+        state.soundPlaying = true;
 
         publishState();
     }
@@ -116,6 +118,20 @@ function createGameService() {
         publishState();
     }
 
+    function toggleSound(shouldPlay) {
+        state.soundPlaying = shouldPlay;
+
+        if (shouldPlay) {
+            if (state.gamePhase !== GAME_PHASES.start) {
+                audioEngine.play('background-track');
+            }
+        } else {
+            audioEngine.stop(); 
+        }
+
+        publishState();
+    }
+
     function publishState() {
 
         const safeState = {
@@ -131,7 +147,7 @@ function createGameService() {
         bus.emit('state', { ...safeState });
     }
 
-    return { setState, init, ready, start, makeMove }
+    return { setState, init, ready, start, makeMove, toggleSound }
 }
 
 export const quizQuake = createGameService();

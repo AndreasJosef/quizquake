@@ -23,7 +23,6 @@ export function RulesComponent({ onClick }) {
 
     }
 
-
     // API
     return {
         el: root,

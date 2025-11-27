@@ -1,4 +1,4 @@
-export const  AUDIO_TRACKS = [
+export const AUDIO_TRACKS = [
   'background-track',
   'game-over-sound',
   'level-up-sound'
@@ -27,7 +27,7 @@ class AudioEngine {
   }
 
   play(title) {
-    let track = this.audio.find(t => t.title === title) 
+    let track = this.audio.find(t => t.title === title)
 
     if (track) {
       track.audio.play();
@@ -38,11 +38,14 @@ class AudioEngine {
   }
 
   stop() {
-    if (this.audio) {
-      this.audio.pause();
-      this.audio.currentTime = 0;
+    if (this.audio && this.audio.length > 0) {
+      this.audio.forEach(track => {
+        track.audio.pause();
+        track.audio.currentTime = 0;
+      });
     }
   }
+
 }
 
 // Export a singleton 

@@ -9,8 +9,21 @@
   --hero-font: 'Honk';
 
   /* Layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 
   /* Styles */
+}
+
+
+:where(.hero img) {
+  width: 24px;
+  height: 24px;
+}
+
+:where(.hero a) {
+  color: var(--accent);
 }
 
 :where(.hero__title) {
@@ -21,7 +34,6 @@
   font-weight: 700;
   margin-block-end: var(--space-3);
 }
-
 
 @container (min-width: 600px) {
 
